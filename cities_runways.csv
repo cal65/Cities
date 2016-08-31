@@ -1,0 +1,523 @@
+"municipality","iso_country","iso_region","total_runways"
+"Aalborg","DK","DK-81",2
+"Aberdeen","GB","GB-SCT",4
+"Abilene","US","US-TX",3
+"Abu Dhabi","AE","AE-AZ",2
+"Abuja","NG","NG-FC",1
+"Acapulco","MX","MX-GRO",2
+"Accra","GH","GH-AA",1
+"Ad Dammam","SA","SA-04",2
+"Adana","TR","TR-01",1
+"Addis Ababa","ET","ET-AA",2
+"Akrotiri","GB","GB-U-A",1
+"Alamogordo","US","US-NM",3
+"Albuquerque","US","US-NM",4
+"Aleppo","SY","SY-HL",1
+"Algiers","DZ","DZ-35",2
+"Alicante","ES","ES-V",1
+"Almaty","KZ","KZ-ALM",1
+"Altus","US","US-OK",4
+"Amarillo","US","US-TX",2
+"Amman","JO","JO-AM",2
+"Amritsar","IN","IN-PB",1
+"Amsterdam","NL","NL-NH",6
+"Anchorage","US","US-AK",3
+"Angeles City","PH","PH-PAM",2
+"Ankara","TR","TR-06",2
+"Antalya","TR","TR-07",3
+"Asheville","US","US-NC",1
+"Astana","KZ","KZ-AKM",1
+"Athens","GR","GR-A1",2
+"Atlanta","US","US-GA",5
+"Auckland","NZ","NZ-AUK",2
+"Augusta","US","US-GA",2
+"Austin","US","US-TX",2
+"Avarua","CK","CK-U-A",1
+"Avord","FR","FR-F",1
+"Baden-Baden","DE","DE-BW",1
+"Baghdad","IQ","IQ-BG",2
+"Baku","AZ","AZ-BA",2
+"Bâle/Mulhouse","FR","FR-A",2
+"Baltimore","US","US-MD",4
+"Bandar Seri Begawan","BN","BN-BM",1
+"Bangalore","IN","IN-KA",1
+"Bangkok","TH","TH-10",4
+"Bangor","US","US-ME",1
+"Barcelona","ES","ES-CT",3
+"Bari","IT","IT-75",2
+"Basrah","IQ","IQ-BA",1
+"Baton Rouge","US","US-LA",3
+"Beijing","CN","CN-11",4
+"Beirut","LB","LB-JL",3
+"Belém","BR","BR-PA",2
+"Belfast","GB","GB-NIR",3
+"Belgrade","RS","RS-00",1
+"Belize City","BZ","BZ-BZ",1
+"Belleville","US","US-IL",2
+"Belo Horizonte","BR","BR-MG",1
+"Bergamo","IT","IT-25",2
+"Bergen","NO","NO-12",1
+"Berlin","DE","DE-BE",2
+"Berlin","DE","DE-BR",2
+"Billings","US","US-MT",3
+"Billund","DK","DK-83",1
+"Birmingham","GB","GB-ENG",1
+"Birmingham","US","US-AL",2
+"Bishkek","KG","KG-C",1
+"Bloomington/Normal","US","US-IL",3
+"Bodø","NO","NO-18",1
+"Bodrum","TR","TR-48",1
+"Bogota","CO","CO-CUN",2
+"Boise","US","US-ID",3
+"Bologna","IT","IT-45",1
+"Bordeaux/Mérignac","FR","FR-B",2
+"Bossier City","US","US-LA",1
+"Boston","US","US-MA",6
+"Bournemouth","GB","GB-ENG",1
+"Brasília","BR","BR-DF",2
+"Bratislava","SK","SK-BL",2
+"Bremen","DE","DE-HB",2
+"Brisbane","AU","AU-QLD",2
+"Bristol","GB","GB-ENG",1
+"Bristol/Johnson/Kingsport","US","US-TN",2
+"Brize Norton","GB","GB-ENG",1
+"Brussels","BE","BE-BRU",3
+"Brussels","BE","BE-WHT",1
+"Bucharest","RO","RO-B",2
+"Budapest","HU","HU-PE",2
+"Buenos Aires","AR","AR-B",2
+"Buffalo","US","US-NY",2
+"Burgas","BG","BG-02",1
+"Busan","KR","KR-26",2
+"Cagayan de Oro City","PH","PH-MSR",1
+"Cagliari","IT","IT-88",1
+"Cairo","EG","EG-C",3
+"Calgary","CA","CA-AB",4
+"Calicut","IN","IN-KL",1
+"Camp Springs","US","US-MD",2
+"Canberra","AU","AU-ACT",2
+"Cancún","MX","MX-ROO",2
+"Cape Town","ZA","ZA-WC",2
+"Cardiff","GB","GB-WLS",1
+"Casablanca","MA","MA-CAS",2
+"Casper","US","US-WY",4
+"Catania","IT","IT-82",1
+"Cedar Rapids","US","US-IA",2
+"Changsha","CN","CN-43",1
+"Charleston","US","US-SC",2
+"Charleston","US","US-WV",2
+"Charlotte","US","US-NC",4
+"Chattanooga","US","US-TN",2
+"Chengdu","CN","CN-51",1
+"Chennai","IN","IN-TN",2
+"Cheongju","KR","KR-43",2
+"Chiang Mai","TH","TH-50",1
+"Chicago","US","US-IL",14
+"Chicago/Rockford","US","US-IL",2
+"Chitose / Tomakomai","JP","JP-01",2
+"Chongqing","CN","CN-50",1
+"Christchurch","NZ","NZ-CAN",3
+"Cincinnati","US","US-KY",4
+"Cleveland","US","US-OH",4
+"Clovis","US","US-NM",2
+"Cochin","IN","IN-KL",1
+"Cologne","DE","DE-NW",3
+"Colombo","LK","LK-1",1
+"Colorado Springs","US","US-CO",3
+"Columbia","US","US-SC",2
+"Columbus","US","US-MS",3
+"Columbus","US","US-OH",5
+"Copenhagen","DK","DK-84",3
+"Cork","IE","IE-C",2
+"Corpus Christi","US","US-TX",2
+"Curitiba","BR","BR-PR",2
+"Cusco","PE","PE-CUS",1
+"Da Nang","VN","VN-60",2
+"Dakar","SN","SN-DK",2
+"Dalaman","TR","TR-48",1
+"Dalian","CN","CN-21",1
+"Dallas","US","US-TX",3
+"Dallas-Fort Worth","US","US-TX",7
+"Damascus","SY","SY-DI",2
+"Davao City","PH","PH-DAV",1
+"Dayton","US","US-OH",5
+"Daytona Beach","US","US-FL",3
+"Del Rio","US","US-TX",3
+"Denpasar-Bali Island","ID","ID-BA",1
+"Denver","US","US-CO",6
+"Des Moines","US","US-IA",2
+"Detroit","US","US-MI",6
+"Doha","QA","QA-DA",2
+"Doncaster","GB","GB-ENG",1
+"Donetsk","UA","UA-14",1
+"Dortmund","DE","DE-NW",1
+"Dover","US","US-DE",2
+"Dresden","DE","DE-SN",1
+"Dubai","AE","AE-DU",2
+"Dublin","IE","IE-D",3
+"Dubuque","US","US-IA",2
+"Duluth","US","US-MN",2
+"Duqm","OM","OM-WU",1
+"Durban","ZA","ZA-NL",1
+"Düsseldorf","DE","DE-NW",2
+"Edinburgh","GB","GB-SCT",3
+"Edmonton","CA","CA-AB",2
+"Edwards","US","US-CA",3
+"Eilat","IL","IL-D",2
+"Eindhoven","NL","NL-NB",1
+"Enfidha","TN","TN-51",1
+"Enid","US","US-OK",4
+"Erie","US","US-PA",2
+"Erzurum","TR","TR-25",3
+"Exeter","GB","GB-ENG",2
+"Fairbanks","US","US-AK",4
+"Fairfield","US","US-CA",2
+"Fairford","GB","GB-ENG",1
+"Faro","PT","PT-08",1
+"Florianópolis","BR","BR-SC",2
+"Fort Lauderdale","US","US-FL",3
+"Fort Myers","US","US-FL",1
+"Fort Smith","US","US-AR",2
+"Fort Wayne","US","US-IN",3
+"Fort Worth","US","US-TX",5
+"Frankfurt-am-Main","DE","DE-HE",4
+"Fukuoka","JP","JP-40",1
+"Fussa","JP","JP-13",1
+"Fuzhou","CN","CN-35",1
+"Gaziantep","TR","TR-27",2
+"Gdańsk","PL","PL-PM",1
+"Geneva","CH","CH-GE",2
+"Genova","IT","IT-42",1
+"George","ZA","ZA-WC",1
+"Georgetown","KY","KY-U-A",1
+"Glasgow","GB","GB-SCT",2
+"Glendale","US","US-AZ",2
+"Goldsboro","US","US-NC",1
+"Gothenburg","SE","SE-Q",1
+"Gran Canaria Island","ES","ES-CN",2
+"Green Bay","US","US-WI",3
+"Greensboro","US","US-NC",3
+"Greenville","US","US-SC",1
+"Grozny","RU","RU-CE",1
+"Guadalajara","MX","MX-JAL",2
+"Guangzhou","CN","CN-44",2
+"Guilin City","CN","CN-45",1
+"Guiyang","CN","CN-52",1
+"Gulfport","US","US-MS",3
+"Hagåtña, Guam International Airport","GU","GU-U-A",2
+"Haikou","CN","CN-46",1
+"Halifax","CA","CA-NS",2
+"Hamburg","DE","DE-HH",2
+"Hampton","US","US-VA",1
+"Hangzhou","CN","CN-33",2
+"Hannover","DE","DE-NI",3
+"Hanoi","VN","VN-15",2
+"Harbin","CN","CN-23",1
+"Hartford","US","US-CT",3
+"Havana","CU","CU-03",1
+"Helsinki","FI","FI-ES",3
+"Heraklion","GR","GR-91",3
+"Hermosillo","MX","MX-SON",2
+"Hibbing","US","US-MN",2
+"Ho Chi Minh City","VN","VN-23",2
+"Hong Kong","HK","HK-U-A",2
+"Honolulu","US","US-HI",6
+"Houston","US","US-TX",9
+"Huntington","US","US-WV",2
+"Huntsville","US","US-AL",2
+"Hurghada","EG","EG-BA",1
+"Hyderabad","IN","IN-TG",1
+"Indianapolis","US","US-IN",3
+"Islamabad","PK","PK-IS",1
+"Isparta","TR","TR-32",1
+"Istanbul","TR","TR-34",4
+"İzmir","TR","TR-35",2
+"Jackson","US","US-MS",2
+"Jacksonville","US","US-FL",2
+"Jakarta","ID","ID-BT",2
+"Jebel Ali","AE","AE-DU",1
+"Jeddah","SA","SA-02",3
+"Jeju City","KR","KR-49",2
+"Jinan","CN","CN-37",1
+"Johannesburg","ZA","ZA-GT",2
+"Joplin","US","US-MO",3
+"Juba","SS","SS-17",1
+"Kagoshima","JP","JP-46",1
+"Kansas City","US","US-MO",3
+"Kaohsiung City","TW","TW-KHH",1
+"Karaganda","KZ","KZ-KAR",1
+"Katowice","PL","PL-SL",1
+"Kazan","RU","RU-TA",2
+"Khabarovsk","RU","RU-KHA",2
+"Kharkiv","UA","UA-63",1
+"Khartoum","SD","SD-03",1
+"Kiev","UA","UA-32",2
+"Kingston","JM","JM-01",1
+"Knob Noster","US","US-MO",1
+"Knoxville","US","US-TN",2
+"Kolkata","IN","IN-WB",2
+"Kraków","PL","PL-MA",1
+"Krasnoyarsk","RU","RU-KYA",1
+"Kuala Lumpur","MY","MY-14",3
+"Kunming","CN","CN-53",2
+"Kunsan","KR","KR-45",1
+"Kuwait City","KW","KW-FA",2
+"Lafayette","US","US-LA",3
+"Lagos","NG","NG-LA",2
+"Lajes","PT","PT-20",1
+"Lakenheath","GB","GB-ENG",1
+"Lapu-Lapu City","PH","PH-CEB",1
+"Larnarca","CY","CY-04",1
+"Las Vegas","US","US-NV",4
+"Latacunga","EC","EC-X",1
+"Latakia","SY","SY-LA",1
+"Leeds","GB","GB-ENG",1
+"Leipzig","DE","DE-SN",2
+"Lexington","US","US-KY",1
+"Liège","BE","BE-WLG",2
+"Lima","PE","PE-LIM",1
+"Limerick","IE","IE-CE",5
+"Lisbon","PT","PT-11",2
+"Little Rock","US","US-AR",3
+"Liverpool","GB","GB-ENG",1
+"Ljubljana","SI","SI-061",1
+"Lompoc","US","US-CA",1
+"London","GB","GB-ENG",6
+"Los Angeles","US","US-CA",4
+"Louisville","US","US-KY",3
+"Lubbock","US","US-TX",3
+"Luleå","SE","SE-BD",1
+"Luqa","MT","MT-25",2
+"Lusaka","ZM","ZM-09",2
+"Luxembourg","LU","LU-L",1
+"Maastricht","NL","NL-LI",1
+"Madison","US","US-WI",3
+"Madrid","ES","ES-M",4
+"Málaga","ES","ES-AN",2
+"Malé","MV","MV-MLE",1
+"Malmö","SE","SE-M",2
+"Manama","BH","BH-15",2
+"Manchester","GB","GB-ENG",2
+"Manchester","US","US-NH",2
+"Mandalay","MM","MM-04",1
+"Manila","PH","PH-U-A",2
+"Marietta","US","US-GA",2
+"Marseille","FR","FR-U",2
+"Marysville","US","US-CA",1
+"Mashhad","IR","IR-30",2
+"Medina","SA","SA-03",2
+"Melbourne","AU","AU-VIC",2
+"Memphis","US","US-TN",4
+"Mexico City","MX","MX-DIF",2
+"Miami","US","US-FL",4
+"Milan","IT","IT-25",4
+"Mildenhall","GB","GB-ENG",1
+"Milwaukee","US","US-WI",5
+"Minneapolis","US","US-MN",4
+"Minsk","BY","BY-MI",1
+"Mobile","US","US-AL",2
+"Moline","US","US-IL",3
+"Mombasa","KE","KE-300",2
+"Monroe","US","US-LA",3
+"Monterrey","MX","MX-NLE",2
+"Montevideo","UY","UY-MO",3
+"Montgomery","US","US-AL",2
+"Montréal","CA","CA-QC",3
+"Moscow","RU","RU-MOS",7
+"Mountain Home","US","US-ID",2
+"Muan","KR","KR-46",1
+"Mumbai","IN","IN-MM",2
+"Munich","DE","DE-BY",2
+"Münster","DE","DE-NW",1
+"Muscat","OM","OM-MA",2
+"Naha","JP","JP-47",1
+"Nairobi","KE","KE-110",1
+"Nanjing","CN","CN-32",2
+"Nanning","CN","CN-45",1
+"Nápoli","IT","IT-72",1
+"Nashville","US","US-TN",4
+"Nassau","BS","BS-NP",2
+"Natal","BR","BR-RN",1
+"New Delhi","IN","IN-DL",3
+"New Orleans","US","US-LA",3
+"New York","US","US-NY",6
+"Newark","US","US-NJ",3
+"Newcastle","GB","GB-ENG",1
+"Newport News","US","US-VA",2
+"Nice","FR","FR-U",2
+"Ningbo","CN","CN-33",1
+"Norfolk","US","US-VA",2
+"Norwich","GB","GB-ENG",2
+"Nottingham","GB","GB-ENG",1
+"Novosibirsk","RU","RU-NVS",2
+"Nuremberg","DE","DE-BY",1
+"Oakland","US","US-CA",4
+"Odessa","UA","UA-51",3
+"Oklahoma City","US","US-OK",6
+"Ontario","US","US-CA",2
+"Orlando","US","US-FL",8
+"Osaka","JP","JP-27",4
+"Oslo","NO","NO-02",2
+"Ottawa","CA","CA-ON",3
+"Palermo","IT","IT-82",2
+"Palma De Mallorca","ES","ES-PM",2
+"Panama City","US","US-FL",2
+"Paphos","CY","CY-06",1
+"Paris","FR","FR-J",7
+"Peoria","US","US-IL",2
+"Perth","AU","AU-WA",2
+"Peru","US","US-IN",1
+"Philadelphia","US","US-PA",4
+"Phnom Penh","KH","KH-8",1
+"Phoenix","US","US-AZ",3
+"Pisa","IT","IT-52",2
+"Pittsburgh","US","US-PA",4
+"Podgorica","ME","ME-16",2
+"Ponta Delgada","PT","PT-20",1
+"Port Moresby","PG","PG-NCD",2
+"Portland","US","US-ME",2
+"Portland","US","US-OR",3
+"Porto","PT","PT-13",1
+"Poznań","PL","PL-WP",2
+"Prague","CZ","CZ-PR",3
+"Prishtina","XK","XK-01",1
+"Puerto Peñasco","MX","MX-SON",1
+"Puerto Vallarta","MX","MX-JAL",1
+"Punta Cana","DO","DO-11",2
+"Quito","EC","EC-P",1
+"Raleigh/Durham","US","US-NC",3
+"Ramstein","DE","DE-RP",2
+"Reno","US","US-NV",3
+"Reykjavík","IS","IS-2",2
+"Richmond","US","US-VA",3
+"Riga","LV","LV-RIX",1
+"Rio De Janeiro","BR","BR-RJ",2
+"Riyadh","SA","SA-01",2
+"Roanoke","US","US-VA",2
+"Rochester","US","US-MN",2
+"Rochester","US","US-NY",3
+"Roma","IT","IT-62",1
+"Rome","IT","IT-62",4
+"Rostov-on-Don","RU","RU-ROS",3
+"Sacramento","US","US-CA",2
+"Saginaw","US","US-MI",2
+"Saint Martin","SX","SX-U-A",2
+"Salt Lake City","US","US-UT",4
+"Salvador","BR","BR-BA",2
+"Samara","RU","RU-SAM",2
+"Samarinda","ID","ID-KI",1
+"San Antonio","US","US-TX",3
+"San Diego","US","US-CA",1
+"San Francisco","US","US-CA",4
+"San Jose","US","US-CA",3
+"San José del Cabo","MX","MX-BCS",1
+"San Juan","PR","PR-U-A",2
+"Santa Ana","US","US-CA",2
+"Santa Clara","SV","SV-PA",2
+"Santiago","CL","CL-RM",2
+"Santiago de Compostela","ES","ES-GA",1
+"Santo Domingo","DO","DO-01",1
+"Sanya","CN","CN-46",1
+"São Paulo","BR","BR-SP",4
+"Sarajevo","BA","BA-BIH",1
+"Sarasota/Bradenton","US","US-FL",2
+"Savannah","US","US-GA",2
+"Seattle","US","US-WA",6
+"Seoul","KR","KR-11",2
+"Seoul","KR","KR-28",3
+"Shang-I","TW","TW-X-KM",1
+"Shanghai","CN","CN-31",6
+"Sharjah","AE","AE-SH",1
+"Shenyang","CN","CN-21",1
+"Shenzhen","CN","CN-44",1
+"Shiraz","IR","IR-14",2
+"Shreveport","US","US-LA",2
+"Sialkot","PK","PK-PB",1
+"Siem Reap","KH","KH-17",1
+"Simferopol","UA","UA-43",2
+"Singapore","SG","SG-04",3
+"Sioux City","US","US-IA",2
+"Sochi","RU","RU-KDA",2
+"Sofia","BG","BG-23",1
+"Sorong-Papua Island","ID","ID-PB",1
+"South Bend","US","US-IN",3
+"Southampton","GB","GB-ENG",1
+"Spokane","US","US-WA",3
+"Springfield","US","US-IL",3
+"Springfield","US","US-MO",2
+"St Louis","US","US-MO",6
+"St. John's","CA","CA-NL",3
+"St. Petersburg","RU","RU-SPE",2
+"Stavanger","NO","NO-11",2
+"Stockholm","SE","SE-AB",3
+"Stuttgart","DE","DE-BW",1
+"Sumter","US","US-SC",2
+"Surabaya","ID","ID-JI",1
+"Sydney","AU","AU-NSW",3
+"Syracuse","US","US-NY",3
+"Tabriz","IR","IR-01",2
+"Tacoma","US","US-WA",2
+"Taipa","MO","MO-U-A",1
+"Taipei","TW","TW-TAO",2
+"Taiyuan","CN","CN-14",1
+"Tallahassee","US","US-FL",2
+"Tallinn","EE","EE-37",1
+"Tampa","US","US-FL",4
+"Tashkent","UZ","UZ-TO",2
+"Tbilisi","GE","GE-TB",2
+"Tehran","IR","IR-07",5
+"Tel Aviv","IL","IL-M",3
+"Tenerife Island","ES","ES-CN",2
+"Thessaloniki","GR","GR-54",2
+"Thiruvananthapuram","IN","IN-KL",1
+"Tianjin","CN","CN-12",1
+"Tijuana","MX","MX-BCN",1
+"Tirana","AL","AL-11",1
+"Tocumen","PA","PA-8",2
+"Tokoname","JP","JP-23",1
+"Tokyo","JP","JP-12",2
+"Tokyo","JP","JP-13",4
+"Toledo","US","US-OH",2
+"Torino","IT","IT-21",1
+"Toronto","CA","CA-ON",5
+"Toulouse/Blagnac","FR","FR-N",2
+"Trabzon","TR","TR-61",1
+"Treviso","IT","IT-34",1
+"Tripoli","LY","LY-TB",2
+"Tromsø","NO","NO-19",1
+"Trondheim","NO","NO-17",3
+"Tucson","US","US-AZ",3
+"Tulsa","US","US-OK",3
+"Tunis","TN","TN-11",2
+"Ufa","RU","RU-BA",5
+"Ujung Pandang-Celebes Island","ID","ID-SN",2
+"Universal City","US","US-TX",2
+"Ürümqi","CN","CN-65",1
+"Valparaiso","US","US-FL",2
+"Vancouver","CA","CA-BC",4
+"Varadero","CU","CU-04",1
+"Varna","BG","BG-03",1
+"Vasco da Gama","IN","IN-GA",1
+"Venice","IT","IT-34",2
+"Verona","IT","IT-34",1
+"Victoria","CA","CA-BC",3
+"Vienna","AT","AT-9",2
+"Vilnius","LT","LT-VL",1
+"Warner Robins","US","US-GA",1
+"Warsaw","PL","PL-MZ",3
+"Washington","US","US-DC",7
+"Wellington","NZ","NZ-WGN",1
+"West Palm Beach","US","US-FL",3
+"Wichita","US","US-KS",3
+"Wichita Falls","US","US-TX",4
+"Winnipeg","CA","CA-MB",3
+"Wrocław","PL","PL-DS",1
+"Wuhan","CN","CN-42",1
+"Xiamen","CN","CN-35",1
+"Xianyang","CN","CN-61",1
+"Yangon","MM","MM-06",1
+"Yekaterinburg","RU","RU-SVE",2
+"Yerevan","AM","AM-ER",1
+"Zagreb","HR","HR-21",1
+"Zhengzhou","CN","CN-41",1
+"Zurich","CH","CH-ZH",3

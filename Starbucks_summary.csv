@@ -1,0 +1,4604 @@
+"City","Country.Subdivision","Country","Starbucks"
+"上海市","31","CN",198
+"New York","NY","US",187
+"London","ENG","GB",179
+"Chicago","IL","US",153
+"Mexico City","DIF","MX",150
+"Seattle","WA","US",135
+"서울","11","KR",135
+"Toronto","ON","CA",133
+"Las Vegas","NV","US",125
+"Houston","TX","US",119
+"Calgary","AB","CA",109
+"San Diego","CA","US",105
+"北京市","11","CN",104
+"Vancouver","BC","CA",100
+"Portland","OR","US",94
+"Taipei City","TPE","TW",93
+"Los Angeles","CA","US",90
+"Seoul","11","KR",85
+"Phoenix","AZ","US",83
+"Istanbul","34","TR",81
+"San Francisco","CA","US",77
+"Washington","DC","US",72
+"Dallas","TX","US",71
+"San Jose","CA","US",68
+"Denver","CO","US",66
+"San Antonio","TX","US",66
+"Edmonton","AB","CA",64
+"Jakarta","JK","ID",60
+"Hong Kong","91","CN",58
+"广州市","44","CN",57
+"Sacramento","CA","US",57
+"深圳市","44","CN",52
+"Dubai","DU","AE",52
+"Moscow","MOW","RU",52
+"Austin","TX","US",51
+"Paris","J","FR",51
+"Atlanta","GA","US",49
+"Buenos Aires","C","AR",46
+"Charlotte","NC","US",46
+"Tucson","AZ","US",46
+"Boston","MA","US",45
+"Lima","LIM","PE",45
+"Indianapolis","IN","US",43
+"Santiago","RM","CL",41
+"Miami","FL","US",40
+"Singapore","01","SG",40
+"Madrid","MD","ES",39
+"Winnipeg","MB","CA",39
+"Osaka","27","JP",37
+"Yokohama","14","JP",37
+"成都市","51","CN",36
+"Chiyoda","13","JP",36
+"Colorado Springs","CO","US",36
+"Kuala Lumpur","14","MY",36
+"Minato","13","JP",36
+"Nagoya","23","JP",36
+"Orlando","FL","US",36
+"Saitama","11","JP",36
+"مدينة الكويت","KU","KW",36
+"Philadelphia","PA","US",35
+"Fukuoka","40","JP",34
+"New Taipei City","TPQ","TW",34
+"Pittsburgh","PA","US",34
+"Montreal","QC","CA",33
+"Ottawa","ON","CA",33
+"Tampa","FL","US",33
+"Cincinnati","OH","US",32
+"Honolulu","HI","US",32
+"Taichung City","TXG","TW",32
+"Fresno","CA","US",31
+"Scottsdale","AZ","US",31
+"杭州市","33","CN",30
+"Jacksonville","FL","US",30
+"Spokane","WA","US",30
+"Richmond","VA","US",29
+"Bakersfield","CA","US",28
+"Columbus","OH","US",28
+"Guadalajara","JAL","MX",28
+"Sao Paulo","SP","BR",28
+"Mississauga","ON","CA",27
+"Quezon City","41","PH",27
+"Albuquerque","NM","US",26
+"Ankara","06","TR",26
+"Bellevue","WA","US",26
+"Mesa","AZ","US",26
+"Monterrey","NLE","MX",26
+"武汉市","42","CN",25
+"Makati City","41","PH",25
+"Shibuya","13","JP",25
+"Vancouver","WA","US",25
+"Virginia Beach","VA","US",25
+"Baltimore","MD","US",24
+"Brooklyn","NY","US",24
+"Reno","NV","US",24
+"Surrey","BC","CA",24
+"Tacoma","WA","US",24
+"Victoria","BC","CA",24
+"경기도","41","KR",24
+"Fort Worth","TX","US",23
+"Long Beach","CA","US",23
+"Louisville","KY","US",23
+"Shinjuku","13","JP",23
+"南京市","32","CN",22
+"Abu Dhabi","AZ","AE",22
+"Busan","26","KR",22
+"Dublin","L","IE",22
+"Raleigh","NC","US",22
+"重庆市","50","CN",21
+"天津市","12","CN",21
+"Aurora","CO","US",21
+"Kaohsiung City","KHH","TW",21
+"Nashville","TN","US",21
+"Plano","TX","US",21
+"Alexandria","VA","US",20
+"Barcelona","CT","ES",20
+"Chiba","12","JP",20
+"Grand Rapids","MI","US",20
+"Irvine","CA","US",20
+"Kansas City","MO","US",20
+"Littleton","CO","US",20
+"Riverside","CA","US",20
+"Roseville","CA","US",20
+"Salt Lake City","UT","US",20
+"Tempe","AZ","US",20
+"Arlington","VA","US",19
+"Memphis","TN","US",19
+"Minneapolis","MN","US",19
+"Omaha","NE","US",19
+"Richmond","BC","CA",19
+"Zurich","ZH","CH",19
+"مدينة الكويت","HA","KW",19
+"Anchorage","AK","US",18
+"Burnaby","BC","CA",18
+"Chandler","AZ","US",18
+"El Paso","TX","US",18
+"Henderson","NV","US",18
+"Huntington Beach","CA","US",18
+"Lynnwood","WA","US",18
+"Manchester","ENG","GB",18
+"Pasadena","CA","US",18
+"Santa Rosa","CA","US",18
+"الرياض","01","SA",18
+"Daegu","27","KR",17
+"Knoxville","TN","US",17
+"Kobe","28","JP",17
+"London","ON","CA",17
+"Petaling Jaya","10","MY",17
+"Tainan City","TNN","TW",17
+"BERLIN","BE","DE",16
+"Chuo","13","JP",16
+"Eugene","OR","US",16
+"Kyoto","26","JP",16
+"Oakland","CA","US",16
+"Tulsa","OK","US",16
+"Wichita","KS","US",16
+"부산","26","KR",16
+"苏州市","32","CN",15
+"西安市","61","CN",15
+"Boise","ID","US",15
+"Lexington","KY","US",15
+"Milwaukee","WI","US",15
+"Oklahoma City","OK","US",15
+"Redmond","WA","US",15
+"Santa Ana","CA","US",15
+"Santa Monica","CA","US",15
+"Stockton","CA","US",15
+"Torrance","CA","US",15
+"宁波市","33","CN",14
+"青岛市","37","CN",14
+"Anaheim","CA","US",14
+"Arlington","TX","US",14
+"Athens","A1","GR",14
+"Burbank","CA","US",14
+"Costa Mesa","CA","US",14
+"Edinburgh","SCT","GB",14
+"Escondido","CA","US",14
+"Everett","WA","US",14
+"Fort Collins","CO","US",14
+"Fort Wayne","IN","US",14
+"Fremont","CA","US",14
+"Glendale","AZ","US",14
+"Kent","WA","US",14
+"Modesto","CA","US",14
+"Norfolk","VA","US",14
+"North Vancouver","BC","CA",14
+"Praha","PR","CZ",14
+"东莞市","44","CN",13
+"沈阳市","21","CN",13
+"Alpharetta","GA","US",13
+"Beaverton","OR","US",13
+"Fairfax","VA","US",13
+"Fort Myers","FL","US",13
+"Greensboro","NC","US",13
+"Kirkland","WA","US",13
+"Kowloon","91","CN",13
+"Marietta","GA","US",13
+"Puyallup","WA","US",13
+"Sapporo","01","JP",13
+"Sarasota","FL","US",13
+"Shizuoka","22","JP",13
+"Singapore","05","SG",13
+"Spring","TX","US",13
+"Westminster","CO","US",13
+"","C","EG",12
+"厦门市","35","CN",12
+"Auckland","N","NZ",12
+"Birmingham","AL","US",12
+"Birmingham","ENG","GB",12
+"Boca Raton","FL","US",12
+"Cancun","ROO","MX",12
+"Falls Church","VA","US",12
+"Grand Junction","CO","US",12
+"Hsinchu City","HSZ","TW",12
+"Kelowna","BC","CA",12
+"Longmont","CO","US",12
+"Myrtle Beach","SC","US",12
+"Okinawa","47","JP",12
+"Orange","CA","US",12
+"Overland Park","KS","US",12
+"Quezon City","00","PH",12
+"Salem","OR","US",12
+"Santa Clara","CA","US",12
+"Sendai","04","JP",12
+"Springfield","MO","US",12
+"St. Louis","MO","US",12
+"Ventura","CA","US",12
+"Warszawa","MZ","PL",12
+"Wattana","10","TH",12
+"长沙市","43","CN",11
+"Ann Arbor","MI","US",11
+"Boulder","CO","US",11
+"Burlington","ON","CA",11
+"Cambridge","MA","US",11
+"Chula Vista","CA","US",11
+"Concord","CA","US",11
+"Elk Grove","CA","US",11
+"Fort Lauderdale","FL","US",11
+"Gilbert","AZ","US",11
+"Glasgow","SCT","GB",11
+"Hillsboro","OR","US",11
+"Katy","TX","US",11
+"Lakewood","CO","US",11
+"Langley","BC","CA",11
+"Little Rock","AR","US",11
+"Livermore","CA","US",11
+"Naples","FL","US",11
+"Newport Beach","CA","US",11
+"Niagara Falls","ON","CA",11
+"Rio de Janeiro","RJ","BR",11
+"Rockville","MD","US",11
+"San Mateo","CA","US",11
+"Santa Clarita","CA","US",11
+"Saskatoon","SK","CA",11
+"Savannah","GA","US",11
+"Seongnam","41","KR",11
+"Troy","MI","US",11
+"Wien","9","AT",11
+"昆明市","53","CN",10
+"Albany","NY","US",10
+"Cardiff","WLS","GB",10
+"Cary","NC","US",10
+"Cleveland","OH","US",10
+"Clovis","CA","US",10
+"Corona","CA","US",10
+"Durham","NC","US",10
+"Frisco","TX","US",10
+"Gainesville","FL","US",10
+"Glendale","CA","US",10
+"Gwangju","29","KR",10
+"Hayward","CA","US",10
+"Hiroshima","34","JP",10
+"Issaquah","WA","US",10
+"Koto","13","JP",10
+"Lake Oswego","OR","US",10
+"Makati City","00","PH",10
+"Manila","41","PH",10
+"Mountain View","CA","US",10
+"MUENCHEN","BY","DE",10
+"Naperville","IL","US",10
+"New Orleans","LA","US",10
+"New Westminster","BC","CA",10
+"Oceanside","CA","US",10
+"Olympia","WA","US",10
+"Patumwan","10","TH",10
+"Rancho Cucamonga","CA","US",10
+"Renton","WA","US",10
+"Salinas","CA","US",10
+"Silver Spring","MD","US",10
+"Sterling","VA","US",10
+"Sunnyvale","CA","US",10
+"Surabaya","JI","ID",10
+"Tallahassee","FL","US",10
+"Thornton","CO","US",10
+"Thousand Oaks","CA","US",10
+"Walnut Creek","CA","US",10
+"جدة","02","SA",10
+"大连市","21","CN",9
+"合肥市","34","CN",9
+"Amsterdam","NH","NL",9
+"Annapolis","MD","US",9
+"Arvada","CO","US",9
+"Asheville","NC","US",9
+"Bellingham","WA","US",9
+"Bend","OR","US",9
+"Bothell","WA","US",9
+"Charleston","SC","US",9
+"Chesapeake","VA","US",9
+"Coquitlam","BC","CA",9
+"Daejeon","30","KR",9
+"El Cajon","CA","US",9
+"Folsom","CA","US",9
+"FRANKFURT AM MAIN","HE","DE",9
+"Fullerton","CA","US",9
+"Gaithersburg","MD","US",9
+"Greenville","SC","US",9
+"Halifax","NS","CA",9
+"Highlands Ranch","CO","US",9
+"Izmir","35","TR",9
+"Kamloops","BC","CA",9
+"Kawasaki","14","JP",9
+"Mission Viejo","CA","US",9
+"Napa","CA","US",9
+"Oakville","ON","CA",9
+"Palm Desert","CA","US",9
+"Palo Alto","CA","US",9
+"Pasig City","41","PH",9
+"Redding","CA","US",9
+"Redwood City","CA","US",9
+"Saint Petersburg","FL","US",9
+"San Luis Obispo","CA","US",9
+"Setagaya","13","JP",9
+"Singapore","02","SG",9
+"Sioux Falls","SD","US",9
+"St Louis","MO","US",9
+"Surprise","AZ","US",9
+"Taguig City","41","PH",9
+"Temecula","CA","US",9
+"The Woodlands","TX","US",9
+"Tigard","OR","US",9
+"Toshima","13","JP",9
+"Vaughan","ON","CA",9
+"Winston-Salem","NC","US",9
+"Woodland Hills","CA","US",9
+"인천","28","KR",9
+"常州市","32","CN",8
+"南宁市","45","CN",8
+"Abbotsford","BC","CA",8
+"Akron","OH","US",8
+"Antalya","07","TR",8
+"Auburn","WA","US",8
+"Bristol","ENG","GB",8
+"Budapest","BU","HU",8
+"Carmel","IN","US",8
+"Carson","CA","US",8
+"Charlottesville","VA","US",8
+"Columbia","SC","US",8
+"Davis","CA","US",8
+"Encinitas","CA","US",8
+"Fairfield","CA","US",8
+"Federal Way","WA","US",8
+"Flower Mound","TX","US",8
+"Fredericksburg","VA","US",8
+"Garden Grove","CA","US",8
+"Greeley","CO","US",8
+"HAMBURG","HH","DE",8
+"Incheon","28","KR",8
+"Madison","WI","US",8
+"Mandaluyong City","41","PH",8
+"Markham","ON","CA",8
+"McLean","VA","US",8
+"Miami Beach","FL","US",8
+"Milpitas","CA","US",8
+"Mobile","AL","US",8
+"Mumbai","MH","IN",8
+"Nagano","20","JP",8
+"Ontario","CA","US",8
+"Pensacola","FL","US",8
+"Peoria","AZ","US",8
+"Puebla","PUE","MX",8
+"Santa Barbara","CA","US",8
+"Santa Fe","NM","US",8
+"Schaumburg","IL","US",8
+"Shinagawa","13","JP",8
+"Simi Valley","CA","US",8
+"Sparks","NV","US",8
+"Staten Island","NY","US",8
+"Tangerang","BT","ID",8
+"Tochigi","09","JP",8
+"Tsukuba","08","JP",8
+"Visalia","CA","US",8
+"Vista","CA","US",8
+"West Palm Beach","FL","US",8
+"Williamsburg","VA","US",8
+"Yakima","WA","US",8
+"Yuma","AZ","US",8
+"济南市","37","CN",7
+"昆山市","32","CN",7
+"无锡市","32","CN",7
+"Allen","TX","US",7
+"Atlantic City","NJ","US",7
+"Bethesda","MD","US",7
+"Brea","CA","US",7
+"Campbell","CA","US",7
+"Carlsbad","CA","US",7
+"Chapel Hill","NC","US",7
+"Cherry Hill","NJ","US",7
+"Clearwater","FL","US",7
+"Columbia","MD","US",7
+"Denton","TX","US",7
+"Dublin","OH","US",7
+"Duluth","GA","US",7
+"Elkhart","IN","US",7
+"Englewood","CO","US",7
+"Evanston","IL","US",7
+"Flagstaff","AZ","US",7
+"Fontana","CA","US",7
+"Garland","TX","US",7
+"Herndon","VA","US",7
+"Holland","MI","US",7
+"Humble","TX","US",7
+"Huntsville","AL","US",7
+"Hyogo","28","JP",7
+"Kennesaw","GA","US",7
+"Kota Kinabalu","12","MY",7
+"La Jolla","CA","US",7
+"La Mesa","CA","US",7
+"Lawrence","KS","US",7
+"Leon","GUA","MX",7
+"Lubbock","TX","US",7
+"McKinney","TX","US",7
+"Morgan Hill","CA","US",7
+"Murrieta","CA","US",7
+"Nanaimo","BC","CA",7
+"Nassau","NS","BS",7
+"Naucalpan","MX","MX",7
+"North Las Vegas","NV","US",7
+"Okayama","33","JP",7
+"Olathe","KS","US",7
+"Oxnard","CA","US",7
+"Palmdale","CA","US",7
+"Parker","CO","US",7
+"Pasay City","41","PH",7
+"Penang","07","MY",7
+"Petaluma","CA","US",7
+"Pleasanton","CA","US",7
+"Prescott","AZ","US",7
+"Providence","RI","US",7
+"Rancho Cordova","CA","US",7
+"Rancho Santa Margarita","CA","US",7
+"Red Deer","AB","CA",7
+"Reston","VA","US",7
+"San Bernardino","CA","US",7
+"San Marcos","CA","US",7
+"San Ramon","CA","US",7
+"St. Paul","MN","US",7
+"Towson","MD","US",7
+"Tukwila","WA","US",7
+"Turlock","CA","US",7
+"Van Nuys","CA","US",7
+"West Vancouver","BC","CA",7
+"Windsor","ON","CA",7
+"عمان","AM","JO",7
+"佛山市","44","CN",6
+"福州市","35","CN",6
+"郑州市","41","CN",6
+"Adana","01","TR",6
+"Allentown","PA","US",6
+"Antioch","CA","US",6
+"Auburn","CA","US",6
+"Augusta","GA","US",6
+"Aurora","IL","US",6
+"Bali","BA","ID",6
+"Bangrak","10","TH",6
+"Baton Rouge","LA","US",6
+"Billings","MT","US",6
+"Bloomington","IN","US",6
+"Bowie","MD","US",6
+"Brampton","ON","CA",6
+"Bronx","NY","US",6
+"Broomfield","CO","US",6
+"Buena Park","CA","US",6
+"Bunkyo","13","JP",6
+"Carrollton","TX","US",6
+"Carson City","NV","US",6
+"Cebu City","07","PH",6
+"Cedar Rapids","IA","US",6
+"Chilliwack","BC","CA",6
+"Concord","NC","US",6
+"Corvallis","OR","US",6
+"Cypress","TX","US",6
+"Danville","CA","US",6
+"Dayton","OH","US",6
+"Delta","BC","CA",6
+"Des Moines","IA","US",6
+"Dublin","CA","US",6
+"Edmond","OK","US",6
+"El Segundo","CA","US",6
+"Franklin","TN","US",6
+"Frederick","MD","US",6
+"Goodyear","AZ","US",6
+"Grand Prairie","TX","US",6
+"Greenville","NC","US",6
+"Greenwood Village","CO","US",6
+"Irving","TX","US",6
+"Istanbul - Avrupa","34","TR",6
+"Kingston","ON","CA",6
+"Lafayette","LA","US",6
+"Lakeland","FL","US",6
+"Lakewood","CA","US",6
+"Lakewood","WA","US",6
+"Lincoln","NE","US",6
+"Longview","WA","US",6
+"Loveland","CO","US",6
+"Macau","92","CN",6
+"Machida","13","JP",6
+"Manassas","VA","US",6
+"Mansfield","TX","US",6
+"Medford","OR","US",6
+"Meguro","13","JP",6
+"Menlo Park","CA","US",6
+"Milton","ON","CA",6
+"Moreno Valley","CA","US",6
+"New Delhi","DL","IN",6
+"New Territories","91","CN",6
+"Newark","DE","US",6
+"Norman","OK","US",6
+"Northbrook","IL","US",6
+"Northridge","CA","US",6
+"Novato","CA","US",6
+"Oita","44","JP",6
+"Palm Springs","CA","US",6
+"Pearland","TX","US",6
+"Pembroke Pines","FL","US",6
+"Peoria","IL","US",6
+"Pleasant Hill","CA","US",6
+"Portland","ME","US",6
+"Puerto Vallarta","JAL","MX",6
+"Quebec","QC","CA",6
+"Queen Creek","AZ","US",6
+"Redlands","CA","US",6
+"Redondo Beach","CA","US",6
+"Richland","WA","US",6
+"Richmond Hill","ON","CA",6
+"Rochester","NY","US",6
+"Rocklin","CA","US",6
+"Rohnert Park","CA","US",6
+"Round Rock","TX","US",6
+"San Clemente","CA","US",6
+"San Leandro","CA","US",6
+"San Pedro","CA","US",6
+"San Rafael","CA","US",6
+"Sharjah","SH","AE",6
+"Sherwood Park","AB","CA",6
+"Shreveport","LA","US",6
+"South Bend","IN","US",6
+"Springfield","IL","US",6
+"Stamford","CT","US",6
+"Subang Jaya","10","MY",6
+"Taito","13","JP",6
+"Taoyuan City","TAO","TW",6
+"Tijuana","BCN","MX",6
+"Tracy","CA","US",6
+"Tustin","CA","US",6
+"Vacaville","CA","US",6
+"Victorville","CA","US",6
+"Waterloo","ON","CA",6
+"Wauwatosa","WI","US",6
+"West Hollywood","CA","US",6
+"Westminster","CA","US",6
+"Zhongli City","TAO","TW",6
+"الدوحة","DA","QA",6
+"مسقط","MA","OM",6
+"경상남도","48","KR",6
+"哈尔滨","23","CN",5
+"南通市","32","CN",5
+"石家庄","13","CN",5
+"中山市","44","CN",5
+"珠海市","44","CN",5
+"Aberdeen","SCT","GB",5
+"Aiea","HI","US",5
+"Airdrie","AB","CA",5
+"Al Ain","AZ","AE",5
+"Alameda","CA","US",5
+"Ashburn","VA","US",5
+"Atsugi","14","JP",5
+"Bandung","JB","ID",5
+"Bangkapi","10","TH",5
+"Barrie","ON","CA",5
+"Basel","BS","CH",5
+"Beverly Hills","CA","US",5
+"Bloomington","MN","US",5
+"Bolingbrook","IL","US",5
+"Boynton Beach","FL","US",5
+"Bradenton","FL","US",5
+"Bremerton","WA","US",5
+"Brookline","MA","US",5
+"Bucharest","B","RO",5
+"Burlingame","CA","US",5
+"Bursa","16","TR",5
+"Cairo","C","EG",5
+"Camarillo","CA","US",5
+"Canton","GA","US",5
+"Castle Rock","CO","US",5
+"Cedar Park","TX","US",5
+"Chattanooga","TN","US",5
+"Cheyenne","WY","US",5
+"Chiayi City","CYI","TW",5
+"Chico","CA","US",5
+"Chino","CA","US",5
+"Chino Hills","CA","US",5
+"Coeur d'Alene","ID","US",5
+"College Station","TX","US",5
+"Columbia","MO","US",5
+"Coral Springs","FL","US",5
+"Coventry","ENG","GB",5
+"Culver City","CA","US",5
+"Cumming","GA","US",5
+"Cupertino","CA","US",5
+"Daly City","CA","US",5
+"East Lansing","MI","US",5
+"Edina","MN","US",5
+"Evansville","IN","US",5
+"Fayetteville","NC","US",5
+"Fountain Valley","CA","US",5
+"Fujisawa","14","JP",5
+"Germantown","MD","US",5
+"Glen Allen","VA","US",5
+"Golden","CO","US",5
+"Greenwood","IN","US",5
+"Gresham","OR","US",5
+"Hachioji","13","JP",5
+"Hamamatsu","22","JP",5
+"Hawthorne","CA","US",5
+"Hollywood","CA","US",5
+"Huntersville","NC","US",5
+"Johor Bahru","01","MY",5
+"Kagawa","37","JP",5
+"Kalamazoo","MI","US",5
+"Kanazawa","17","JP",5
+"Koshigaya","11","JP",5
+"Kumamoto","43","JP",5
+"La Habra","CA","US",5
+"Lacey","WA","US",5
+"Laguna Niguel","CA","US",5
+"Lake Elsinore","CA","US",5
+"Lake Forest","CA","US",5
+"Lancaster","PA","US",5
+"Laredo","TX","US",5
+"Las Cruces","NM","US",5
+"Lawrenceville","GA","US",5
+"League City","TX","US",5
+"Leeds","ENG","GB",5
+"Leicester","ENG","GB",5
+"Lethbridge","AB","CA",5
+"Lewisville","TX","US",5
+"Lodi","CA","US",5
+"Manteca","CA","US",5
+"Maple Ridge","BC","CA",5
+"Marina Del Rey","CA","US",5
+"Martinez","CA","US",5
+"Marysville","WA","US",5
+"McAllen","TX","US",5
+"Mercer Island","WA","US",5
+"Merida","YUC","MX",5
+"Meridian","ID","US",5
+"Midlothian","VA","US",5
+"Muntinlupa City","41","PH",5
+"Murfreesboro","TN","US",5
+"Nagasaki","42","JP",5
+"Nara","29","JP",5
+"Newark","CA","US",5
+"Newcastle","ENG","GB",5
+"Newport News","VA","US",5
+"Niigata","15","JP",5
+"North Hollywood","CA","US",5
+"Norwalk","CA","US",5
+"Novi","MI","US",5
+"Orland Park","IL","US",5
+"Palm Beach Gardens","FL","US",5
+"Park City","UT","US",5
+"Paso Robles","CA","US",5
+"Pathumwan","10","TH",5
+"Pomona","CA","US",5
+"Port Coquitlam","BC","CA",5
+"Prince George","BC","CA",5
+"Rapid City","SD","US",5
+"Regina","SK","CA",5
+"Richardson","TX","US",5
+"Rockwall","TX","US",5
+"Roswell","GA","US",5
+"Sagamihara","14","JP",5
+"San Bruno","CA","US",5
+"Sherman Oaks","CA","US",5
+"Shiga","25","JP",5
+"Springfield","VA","US",5
+"St. Catharines","ON","CA",5
+"Sugar Land","TX","US",5
+"Syracuse","NY","US",5
+"Thunder Bay","ON","CA",5
+"Toyama","16","JP",5
+"Union City","CA","US",5
+"Valencia","CA","US",5
+"Vallejo","CA","US",5
+"Vernon","BC","CA",5
+"Warwick","RI","US",5
+"West Des Moines","IA","US",5
+"Wheat Ridge","CO","US",5
+"Whittier","CA","US",5
+"Woodbridge","VA","US",5
+"Yamanashi","19","JP",5
+"York","PA","US",5
+"Yuba City","CA","US",5
+"المنامة","13","BH",5
+"مدينة الكويت","AH","KW",5
+"광주","29","KR",5
+"대전","30","KR",5
+"泉州市","35","CN",4
+"Acapulco","GRO","MX",4
+"Aguascalientes","AGU","MX",4
+"Alhambra","CA","US",4
+"Ames","IA","US",4
+"Amherst","NY","US",4
+"Anaheim Hills","CA","US",4
+"Apple Valley","CA","US",4
+"Arcadia","CA","US",4
+"Arequipa","ARE","PE",4
+"Astoria","NY","US",4
+"Athens","GA","US",4
+"Aurora","ON","CA",4
+"Bangkok","10","TH",4
+"Banglamung","S","TH",4
+"Battle Ground","WA","US",4
+"Bellevue","NE","US",4
+"Benicia","CA","US",4
+"Berkeley","CA","US",4
+"Bern","BE","CH",4
+"Bismarck","ND","US",4
+"Bonney Lake","WA","US",4
+"Brandon","FL","US",4
+"Brentwood","TN","US",4
+"Brighton","CO","US",4
+"Brookfield","WI","US",4
+"Brunswick","GA","US",4
+"Burke","VA","US",4
+"Burlington","NC","US",4
+"Burlington","WA","US",4
+"Casablanca","MA","MA",4
+"Castro Valley","CA","US",4
+"Causeway Bay","91","CN",4
+"Centennial","CO","US",4
+"Chatsworth","CA","US",4
+"Cheongju","43","KR",4
+"Chihuahua","CHH","MX",4
+"Citrus Heights","CA","US",4
+"Clackamas","OR","US",4
+"Claremont","CA","US",4
+"Conway","AR","US",4
+"Coral Gables","FL","US",4
+"Corpus Christi","TX","US",4
+"Cuernavaca","MOR","MX",4
+"Dana Point","CA","US",4
+"Destin","FL","US",4
+"DUESSELDORF","NW","DE",4
+"Edmonds","WA","US",4
+"El Centro","CA","US",4
+"El Dorado Hills","CA","US",4
+"El Monte","CA","US",4
+"Ellensburg","WA","US",4
+"Ellicott City","MD","US",4
+"Emeryville","CA","US",4
+"Erie","PA","US",4
+"Eureka","CA","US",4
+"Fair Oaks","CA","US",4
+"Fairbanks","AK","US",4
+"Fairfield","CT","US",4
+"Fishers","IN","US",4
+"Forest Hills","NY","US",4
+"Fort Lee","NJ","US",4
+"Funabashi","12","JP",4
+"Galveston","TX","US",4
+"Garden City","NY","US",4
+"Geneve","GE","CH",4
+"Georgetown","TX","US",4
+"Gig Harbor","WA","US",4
+"Gilroy","CA","US",4
+"Glen Burnie","MD","US",4
+"Glendora","CA","US",4
+"Glenview","IL","US",4
+"Glenwood Springs","CO","US",4
+"Gloucestershire","ENG","GB",4
+"Goyang","41","KR",4
+"Granada Hills","CA","US",4
+"Grapevine","TX","US",4
+"Grove City","OH","US",4
+"Gurnee","IL","US",4
+"Gyeongsangbuk-do","47","KR",4
+"Hamburg","HH","DE",4
+"Hamilton","ON","CA",4
+"Hampshire","ENG","GB",4
+"Hanover","MD","US",4
+"Harlingen","TX","US",4
+"Harrisburg","PA","US",4
+"Harrisonburg","VA","US",4
+"Hebron","KY","US",4
+"Hemet","CA","US",4
+"Hesperia","CA","US",4
+"Hilo","HI","US",4
+"Hokkaido","01","JP",4
+"Hollywood","FL","US",4
+"Huaykwang","10","TH",4
+"Huixquilucan","MX","MX",4
+"Huntsville","TX","US",4
+"Indio","CA","US",4
+"Inglewood","CA","US",4
+"Jakarta Utara","JK","ID",4
+"Jamaica","NY","US",4
+"Jersey City","NJ","US",4
+"Joplin","MO","US",4
+"Kanata","ON","CA",4
+"Keizer","OR","US",4
+"Kennewick","WA","US",4
+"King of Prussia","PA","US",4
+"Kissimmee","FL","US",4
+"Kitchener","ON","CA",4
+"Klongtoey","10","TH",4
+"Kuching","13","MY",4
+"La Quinta","CA","US",4
+"Lafayette","IN","US",4
+"Lancaster","CA","US",4
+"Leesburg","VA","US",4
+"Lincoln","CA","US",4
+"Liverpool","ENG","GB",4
+"Lombard","IL","US",4
+"Los Cabos","BCS","MX",4
+"Los Gatos","CA","US",4
+"Malibu","CA","US",4
+"Manila","00","PH",4
+"Maple Valley","WA","US",4
+"Marana","AZ","US",4
+"Marlborough","MA","US",4
+"Matthews","NC","US",4
+"Melaka","04","MY",4
+"Melbourne","FL","US",4
+"Merced","CA","US",4
+"Mexicali","BCN","MX",4
+"Mill Creek","WA","US",4
+"Mill Valley","CA","US",4
+"Milwaukie","OR","US",4
+"Mishawaka","IN","US",4
+"Missoula","MT","US",4
+"Miyazaki","45","JP",4
+"Monroe","WA","US",4
+"Montgomery","AL","US",4
+"Mooresville","NC","US",4
+"Mount Laurel","NJ","US",4
+"Mount Pleasant","SC","US",4
+"Muang","50","TH",4
+"Musashino","13","JP",4
+"Narita","12","JP",4
+"Newark","NJ","US",4
+"Newnan","GA","US",4
+"Niles","IL","US",4
+"Nottingham","ENG","GB",4
+"Oak Brook","IL","US",4
+"Oak Lawn","IL","US",4
+"Ocala","FL","US",4
+"Olney","MD","US",4
+"Oregon City","OR","US",4
+"Ota","13","JP",4
+"Pacifica","CA","US",4
+"Paramus","NJ","US",4
+"Pasadena","TX","US",4
+"Peachtree City","GA","US",4
+"Penticton","BC","CA",4
+"Pittsburg","CA","US",4
+"Playa del Carmen","ROO","MX",4
+"Port Orchard","WA","US",4
+"Porterville","CA","US",4
+"Poway","CA","US",4
+"Poznań","WP","PL",4
+"Pueblo","CO","US",4
+"Reynoldsburg","OH","US",4
+"Roanoke","VA","US",4
+"Rochester","MN","US",4
+"Rogers","AR","US",4
+"Rowlett","TX","US",4
+"Saga","41","JP",4
+"San Dimas","CA","US",4
+"San Luis Potosi","SLP","MX",4
+"San Marcos","TX","US",4
+"Sandy","UT","US",4
+"Santa Maria","CA","US",4
+"Santee","CA","US",4
+"Santiago de Queretaro","QUE","MX",4
+"Saratoga","CA","US",4
+"Schiphol","NH","NL",4
+"Sevilla","AN","ES",4
+"Sheffield","ENG","GB",4
+"Smyrna","GA","US",4
+"Snohomish","WA","US",4
+"Somerville","MA","US",4
+"Southfield","MI","US",4
+"Springfield","OR","US",4
+"St. Albert","AB","CA",4
+"St. Gallen","SG","CH",4
+"Stafford","VA","US",4
+"Stony Brook","NY","US",4
+"Stuart","FL","US",4
+"Studio City","CA","US",4
+"Suita","27","JP",4
+"Sumida","13","JP",4
+"Sunrise","FL","US",4
+"Suwanee","GA","US",4
+"Suwon","41","KR",4
+"Swindon","ENG","GB",4
+"Takasaki","10","JP",4
+"Toledo","OH","US",4
+"Toluca","MX","MX",4
+"Tualatin","OR","US",4
+"Tumwater","WA","US",4
+"Upland","CA","US",4
+"Valencia","AN","ES",4
+"Vernon Hills","IL","US",4
+"Vienna","VA","US",4
+"Waldorf","MD","US",4
+"Walla Walla","WA","US",4
+"Warrenton","VA","US",4
+"Wasilla","AK","US",4
+"Wayne","NJ","US",4
+"Wellington","FL","US",4
+"West Chester","PA","US",4
+"West Covina","CA","US",4
+"West Linn","OR","US",4
+"West Sacramento","CA","US",4
+"Westerville","OH","US",4
+"Wheaton","IL","US",4
+"Whistler","BC","CA",4
+"Whitby","ON","CA",4
+"Wilmette","IL","US",4
+"Wilmington","DE","US",4
+"Wilmington","NC","US",4
+"Wilsonville","OR","US",4
+"Woodstock","GA","US",4
+"Wrocław","DS","PL",4
+"Yokkaichi","24","JP",4
+"Yongin","41","KR",4
+"Yorkshire","ENG","GB",4
+"대구","27","KR",4
+"","JS","EG",3
+"常熟市","32","CN",3
+"惠州市","44","CN",3
+"江阴市","32","CN",3
+"南昌市","36","CN",3
+"绍兴市","33","CN",3
+"太原市","14","CN",3
+"泰州市","32","CN",3
+"长春市","22","CN",3
+"Akita","05","JP",3
+"Alabaster","AL","US",3
+"Albany","OR","US",3
+"Algonquin","IL","US",3
+"Aliso Viejo","CA","US",3
+"Altamonte Springs","FL","US",3
+"Amarillo","TX","US",3
+"Amherst","OH","US",3
+"Amman","AM","JO",3
+"Ankeny","IA","US",3
+"Anyang","41","KR",3
+"Apex","NC","US",3
+"Appleton","WI","US",3
+"Arlington","WA","US",3
+"Arlington Heights","IL","US",3
+"Atwater","CA","US",3
+"Aventura","FL","US",3
+"Avon","CO","US",3
+"Avondale","AZ","US",3
+"Azusa","CA","US",3
+"Baguio City","PH","PH",3
+"Baldwin Park","CA","US",3
+"Banff","AB","CA",3
+"Bangpakong","24","TH",3
+"Barboursville","WV","US",3
+"Barstow","CA","US",3
+"Baytown","TX","US",3
+"Beaumont","TX","US",3
+"Beavercreek","OH","US",3
+"Beirut","BA","LB",3
+"Bekasi","JB","ID",3
+"Bel Air","MD","US",3
+"Belmont","CA","US",3
+"Biloxi","MS","US",3
+"Bloomfield Hills","MI","US",3
+"Bluffton","SC","US",3
+"Bolton","ENG","GB",3
+"BONN","NW","DE",3
+"Bossier City","LA","US",3
+"Bowling Green","OH","US",3
+"Bozeman","MT","US",3
+"Branson","MO","US",3
+"BREMEN","HB","DE",3
+"Brentwood","CA","US",3
+"Brighton","MA","US",3
+"Brighton","MI","US",3
+"Bromley","ENG","GB",3
+"Brownsville","TX","US",3
+"Bryan","TX","US",3
+"Buffalo","NY","US",3
+"Burien","WA","US",3
+"Burleson","TX","US",3
+"Calabasas","CA","US",3
+"Caledonia","MI","US",3
+"Cameron Park","CA","US",3
+"Campinas","SP","BR",3
+"Canoga Park","CA","US",3
+"Canton","MI","US",3
+"Canton","OH","US",3
+"Cape Coral","FL","US",3
+"Cape Girardeau","MO","US",3
+"Capitola","CA","US",3
+"Carmichael","CA","US",3
+"Casa Grande","AZ","US",3
+"Casper","WY","US",3
+"Casselberry","FL","US",3
+"Cathedral City","CA","US",3
+"Centralia","WA","US",3
+"Century City","CA","US",3
+"Cerritos","CA","US",3
+"Chatuchak","10","TH",3
+"Cheonan","44","KR",3
+"Ciudad Juarez","CHH","MX",3
+"Clarksville","TN","US",3
+"Clermont","FL","US",3
+"Cleveland","TN","US",3
+"Collierville","TN","US",3
+"COLOGNE","NW","DE",3
+"Columbus","GA","US",3
+"Columbus","IN","US",3
+"Commack","NY","US",3
+"Compton","CA","US",3
+"Conifer","CO","US",3
+"Conroe","TX","US",3
+"Cordova","TN","US",3
+"Corte Madera","CA","US",3
+"Cranberry Township","PA","US",3
+"Croydon","ENG","GB",3
+"Crystal Lake","IL","US",3
+"Culiacan","SIN","MX",3
+"Cuyahoga Falls","OH","US",3
+"Dacula","GA","US",3
+"Danbury","CT","US",3
+"Dartmouth","NS","CA",3
+"Davenport","IA","US",3
+"Deerfield Beach","FL","US",3
+"Delray Beach","FL","US",3
+"Denpasar","BA","ID",3
+"Derby","ENG","GB",3
+"Downey","CA","US",3
+"Doylestown","PA","US",3
+"Duesseldorf","NW","DE",3
+"DUISBURG","NW","DE",3
+"Duluth","MN","US",3
+"Duncan","BC","CA",3
+"Dunwoody","GA","US",3
+"Durham","ENG","GB",3
+"Eagan","MN","US",3
+"Eagle River","AK","US",3
+"Eau Claire","WI","US",3
+"Eden Prairie","MN","US",3
+"Edison","NJ","US",3
+"El Cerrito","CA","US",3
+"Elmhurst","IL","US",3
+"Elmhurst","NY","US",3
+"Estero","FL","US",3
+"Euless","TX","US",3
+"Evans","GA","US",3
+"Fargo","ND","US",3
+"Farmington","NM","US",3
+"Fayetteville","AR","US",3
+"Firestone","CO","US",3
+"Flushing","NY","US",3
+"Fort McMurray","AB","CA",3
+"Fort Mill","SC","US",3
+"Fountain Hills","AZ","US",3
+"Framingham","MA","US",3
+"Frankfort","KY","US",3
+"Freehold","NJ","US",3
+"FREIBURG","BW","DE",3
+"Fukushima","07","JP",3
+"Gainesville","VA","US",3
+"Gambrills","MD","US",3
+"Gardena","CA","US",3
+"Gateshead","ENG","GB",3
+"Gdańsk","PM","PL",3
+"Geneva","IL","US",3
+"Glastonbury","CT","US",3
+"Glen Ellyn","IL","US",3
+"Goldsboro","NC","US",3
+"Grand Forks","ND","US",3
+"Grand Haven","MI","US",3
+"Grande Prairie","AB","CA",3
+"Grandville","MI","US",3
+"Green Bay","WI","US",3
+"Greenbelt","MD","US",3
+"Groton","CT","US",3
+"Gueishan Township","TAO","TW",3
+"Guelph","ON","CA",3
+"Gunsan","45","KR",3
+"Hammond","LA","US",3
+"Hampton","VA","US",3
+"Happy Valley","OR","US",3
+"Hattiesburg","MS","US",3
+"Hendersonville","TN","US",3
+"Heraklion","M","GR",3
+"Hermosa Beach","CA","US",3
+"Hialeah","FL","US",3
+"High Point","NC","US",3
+"Highland Park","IL","US",3
+"Hilton Head","SC","US",3
+"Hinsdale","IL","US",3
+"Hoboken","NJ","US",3
+"Hoffman Estates","IL","US",3
+"Holly Springs","NC","US",3
+"Homewood","IL","US",3
+"Hoover","AL","US",3
+"Hurst","TX","US",3
+"Ichinomiya","23","JP",3
+"Independence","MO","US",3
+"Ithaca","NY","US",3
+"Joliet","IL","US",3
+"Jupiter","FL","US",3
+"Kagoshima","46","JP",3
+"Kahului","HI","US",3
+"Kamakura","14","JP",3
+"Kapolei","HI","US",3
+"Kastrup","84","DK",3
+"Kasugai","23","JP",3
+"Kathu","83","TH",3
+"Kenner","LA","US",3
+"Kenosha","WI","US",3
+"Kihei","HI","US",3
+"Kita","13","JP",3
+"Kurashiki","33","JP",3
+"La Plata","MD","US",3
+"La Verne","CA","US",3
+"Lafayette","CA","US",3
+"Laguna Beach","CA","US",3
+"Laguna Hills","CA","US",3
+"Lahaina","HI","US",3
+"Lake Forest","IL","US",3
+"Lake Havasu City","AZ","US",3
+"Lake Zurich","IL","US",3
+"Lakeville","MN","US",3
+"Langford","BC","CA",3
+"Langhorne","PA","US",3
+"Langkawi","02","MY",3
+"Latham","NY","US",3
+"Laurel","MD","US",3
+"Laveen","AZ","US",3
+"Lees Summit","MO","US",3
+"Lemesos","02","CY",3
+"Lisboa","11","PT",3
+"Longview","TX","US",3
+"Los Banos","CA","US",3
+"Lynchburg","VA","US",3
+"Lyon","V","FR",3
+"Makassar","SN","ID",3
+"Manama","13","BH",3
+"Manchester","CT","US",3
+"Manhattan","KS","US",3
+"Manhattan Beach","CA","US",3
+"Mansfield","OH","US",3
+"Maple Grove","MN","US",3
+"Marquette","MI","US",3
+"Mason","OH","US",3
+"McDonough","GA","US",3
+"Medan","SU","ID",3
+"Medford","NY","US",3
+"Medicine Hat","AB","CA",3
+"Mentor","OH","US",3
+"Merrillville","IN","US",3
+"Mesquite","TX","US",3
+"Missouri City","TX","US",3
+"Mito","08","JP",3
+"Monrovia","CA","US",3
+"Montebello","CA","US",3
+"Monterey","CA","US",3
+"Montrose","CO","US",3
+"Moorpark","CA","US",3
+"Moses Lake","WA","US",3
+"Mount Pleasant","MI","US",3
+"Mountlake Terrace","WA","US",3
+"Mukilteo","WA","US",3
+"Muncie","IN","US",3
+"Nashua","NH","US",3
+"Nepean","ON","CA",3
+"New Port Richey","FL","US",3
+"Newcastle","WA","US",3
+"Newmarket","ON","CA",3
+"Newport","KY","US",3
+"Newton","MA","US",3
+"Nicosia","01","CY",3
+"Norco","CA","US",3
+"Norcross","GA","US",3
+"North Olmsted","OH","US",3
+"North Richland Hills","TX","US",3
+"Oak Creek","WI","US",3
+"Oak Harbor","WA","US",3
+"OBERHAUSEN","NW","DE",3
+"Odawara","14","JP",3
+"Orange Park","FL","US",3
+"Oro Valley","AZ","US",3
+"Osage Beach","MO","US",3
+"Oshawa","ON","CA",3
+"Oshkosh","WI","US",3
+"Owings Mills","MD","US",3
+"Oxford","ENG","GB",3
+"Pakkred","12","TH",3
+"Panama City Beach","FL","US",3
+"Papillion","NE","US",3
+"Paranaque City","41","PH",3
+"Perris","CA","US",3
+"Pflugerville","TX","US",3
+"Placerville","CA","US",3
+"Plantation","FL","US",3
+"Plymouth","MN","US",3
+"Pocatello","ID","US",3
+"Port Charlotte","FL","US",3
+"Port Moody","BC","CA",3
+"Poughkeepsie","NY","US",3
+"Quarry Bay","91","CN",3
+"Reading","ENG","GB",3
+"Redmond","OR","US",3
+"Richmond","KY","US",3
+"Rio Rancho","NM","US",3
+"Riverbank","CA","US",3
+"Riverview","FL","US",3
+"Rochester Hills","MI","US",3
+"Rock Hill","SC","US",3
+"Rockaway","NJ","US",3
+"Rockford","IL","US",3
+"Roseburg","OR","US",3
+"Rosemont","IL","US",3
+"Rosenberg","TX","US",3
+"Roseville","MN","US",3
+"Rowland Heights","CA","US",3
+"Royal Oak","MI","US",3
+"Saint Augustine","FL","US",3
+"Saint John","NB","CA",3
+"Saint Petersburg","SPE","RU",3
+"Sammamish","WA","US",3
+"San Carlos","CA","US",3
+"San Juan Capistrano","CA","US",3
+"Sano","09","JP",3
+"Santa Fe Springs","CA","US",3
+"Sathorn","10","TH",3
+"Scarsdale","NY","US",3
+"Scotts Valley","CA","US",3
+"Seal Beach","CA","US",3
+"Severna Park","MD","US",3
+"Shah Alam","10","MY",3
+"Sheboygan","WI","US",3
+"Sherwood","OR","US",3
+"Shoreline","WA","US",3
+"Shrewsbury","ENG","GB",3
+"Sidney","BC","CA",3
+"Sierra Vista","AZ","US",3
+"Silverdale","WA","US",3
+"Singapore","03","SG",3
+"Singapore","04","SG",3
+"Skokie","IL","US",3
+"Sofia","23","BG",3
+"Somerset","PA","US",3
+"Sonora","CA","US",3
+"South Lake Tahoe","CA","US",3
+"South Pasadena","CA","US",3
+"South San Francisco","CA","US",3
+"Southampton","ENG","GB",3
+"Southlake","TX","US",3
+"Spruce Grove","AB","CA",3
+"St Albert","AB","CA",3
+"St Charles","IL","US",3
+"St Paul","MN","US",3
+"St. George","UT","US",3
+"Staffordshire","ENG","GB",3
+"State College","PA","US",3
+"Sterling Heights","MI","US",3
+"Strongsville","OH","US",3
+"STUTTGART","BW","DE",3
+"Sugarland","TX","US",3
+"Superior","CO","US",3
+"Tajiri","27","JP",3
+"Tarzana","CA","US",3
+"Temple","TX","US",3
+"Terre Haute","IN","US",3
+"Tokoname","23","JP",3
+"Tokushima","36","JP",3
+"Topeka","KS","US",3
+"Torreon","COA","MX",3
+"Toyonaka","27","JP",3
+"Toyota","23","JP",3
+"Troutdale","OR","US",3
+"Truckee","CA","US",3
+"Trumbull","CT","US",3
+"Tucker","GA","US",3
+"Tuscaloosa","AL","US",3
+"Tyler","TX","US",3
+"Ukiah","CA","US",3
+"Ulsan","31","KR",3
+"Union","NJ","US",3
+"Urayasu","12","JP",3
+"Urbandale","IA","US",3
+"Vail","CO","US",3
+"Vero Beach","FL","US",3
+"Vestal","NY","US",3
+"Villahermosa","TAB","MX",3
+"Waco","TX","US",3
+"Waipahu","HI","US",3
+"Wakayama","30","JP",3
+"Wan Chai","91","CN",3
+"Waukesha","WI","US",3
+"Webster","TX","US",3
+"Wenatchee","WA","US",3
+"West Chester","OH","US",3
+"West Hartford","CT","US",3
+"West Hills","CA","US",3
+"West Lafayette","IN","US",3
+"West Valley City","UT","US",3
+"Westbury","NY","US",3
+"Weston","FL","US",3
+"Westport","CT","US",3
+"Wildomar","CA","US",3
+"Winter Park","FL","US",3
+"Woburn","MA","US",3
+"Woodbridge","ON","CA",3
+"Woodbury","MN","US",3
+"Woodinville","WA","US",3
+"Woodridge","IL","US",3
+"Yamagata","06","JP",3
+"Yannawa","10","TH",3
+"Yokosuka","14","JP",3
+"الخبر","04","SA",3
+"المدينة المنورة","03","SA",3
+"مدينة الكويت","FA","KW",3
+"강원도","42","KR",3
+"경기","41","KR",3
+"경상북도","47","KR",3
+"海口市","46","CN",2
+"淮安市","32","CN",2
+"嘉兴市","33","CN",2
+"三亚市","46","CN",2
+"太仓市","32","CN",2
+"唐山市","13","CN",2
+"潍坊市","37","CN",2
+"温州市","33","CN",2
+"徐州市","32","CN",2
+"烟台市","37","CN",2
+"扬州市","32","CN",2
+"义乌市","33","CN",2
+"舟山市","33","CN",2
+"株洲市","43","CN",2
+"Aberdeen","WA","US",2
+"Abilene","TX","US",2
+"Abingdon","MD","US",2
+"Acworth","GA","US",2
+"Adachi","13","JP",2
+"Addison","TX","US",2
+"Admiralty","91","CN",2
+"Aghia Paraskevi","A1","GR",2
+"Ajax","ON","CA",2
+"Alamo","CA","US",2
+"Albany","GA","US",2
+"Alcoa","TN","US",2
+"Alexandria","LA","US",2
+"Allen Park","MI","US",2
+"Aloha","OR","US",2
+"American Canyon","CA","US",2
+"Anacortes","WA","US",2
+"Ancaster","ON","CA",2
+"Anderson","CA","US",2
+"Angeles City","03","PH",2
+"Annandale","VA","US",2
+"Ansan","41","KR",2
+"Anthem","AZ","US",2
+"Antiguo Cuscatlan","LI","SV",2
+"Antipolo","40","PH",2
+"Apache Junction","AZ","US",2
+"Apopka","FL","US",2
+"Apple Valley","MN","US",2
+"Aptos","CA","US",2
+"Arden","NC","US",2
+"Arlington","MA","US",2
+"Ashland","OR","US",2
+"Ashorne","ENG","GB",2
+"Atascadero","CA","US",2
+"Auburn Hills","MI","US",2
+"Aurora","OH","US",2
+"Avon","IN","US",2
+"Aydin","09","TR",2
+"Balagtas","03","PH",2
+"Ballwin","MO","US",2
+"Bangkhen","10","TH",2
+"Bangkok Noi","10","TH",2
+"Bangor","ME","US",2
+"Bangphi","11","TH",2
+"Banning","CA","US",2
+"Banten","BT","ID",2
+"Bartlesville","OK","US",2
+"Barueri","SP","BR",2
+"Batam","RI","ID",2
+"Battle Creek","MI","US",2
+"Baxter","MN","US",2
+"Bayan Lepas","07","MY",2
+"Beachwood","OH","US",2
+"Beaumont","CA","US",2
+"Beckley","WV","US",2
+"Bedford","NH","US",2
+"Bedford","PA","US",2
+"Belfair","WA","US",2
+"Belleville","IL","US",2
+"Bellflower","CA","US",2
+"Belmont","MA","US",2
+"Belvidere","IL","US",2
+"Bentonville","AR","US",2
+"Berkshire","ENG","GB",2
+"Beverly","MA","US",2
+"Big Bear Lake","CA","US",2
+"Binan","PH","PH",2
+"Birmingham","MI","US",2
+"Bishop","CA","US",2
+"Blacksburg","VA","US",2
+"Bloomington","IL","US",2
+"Bloomsburg","PA","US",2
+"Blue Ash","OH","US",2
+"Blue Springs","MO","US",2
+"BOCHUM","NW","DE",2
+"Bodrum","48","TR",2
+"Bogor","JB","ID",2
+"Bonita","CA","US",2
+"Bourbonnais","IL","US",2
+"Bournemouth","ENG","GB",2
+"Bowling Green","KY","US",2
+"Braintree","MA","US",2
+"Brandon","ENG","GB",2
+"Brandon","MB","CA",2
+"Brandywine","MD","US",2
+"Branford","CT","US",2
+"Brentwood","MO","US",2
+"Bristol","VA","US",2
+"Bristow","VA","US",2
+"Broadview","IL","US",2
+"Broadview Heights","OH","US",2
+"Broken Arrow","OK","US",2
+"Broomall","PA","US",2
+"Bucheon","41","KR",2
+"Buckinghamshire","ENG","GB",2
+"Buffalo Grove","IL","US",2
+"Buford","GA","US",2
+"Bullhead City","AZ","US",2
+"Burbank","IL","US",2
+"Burlington","MA","US",2
+"Cagayan de Oro","41","PH",2
+"Cambridge","ON","CA",2
+"Camp Hill","PA","US",2
+"Camp Verde","AZ","US",2
+"Campbell River","BC","CA",2
+"Camrose","AB","CA",2
+"Canby","OR","US",2
+"Canmore","AB","CA",2
+"Carbondale","IL","US",2
+"Carlisle","PA","US",2
+"Carmel","CA","US",2
+"Cartersville","GA","US",2
+"Cedar Falls","IA","US",2
+"Cedar Hill","TX","US",2
+"Centereach","NY","US",2
+"Centerville","OH","US",2
+"Centerville","VA","US",2
+"Ceres","CA","US",2
+"Champaign","IL","US",2
+"Changhua City","CHA","TW",2
+"Changwon","48","KR",2
+"Chantilly","VA","US",2
+"Charleston","WV","US",2
+"Chehalis","WA","US",2
+"Cheney","WA","US",2
+"Chester","ENG","GB",2
+"Chester","VA","US",2
+"Chesterfield","MO","US",2
+"Chesterfield","VA","US",2
+"Chesterfield Township","MI","US",2
+"Chestermere","AB","CA",2
+"Chevy Chase","MD","US",2
+"Chorley","ENG","GB",2
+"Christiansburg","VA","US",2
+"Chungcheongbuk-do","43","KR",2
+"Chungju-si","43","KR",2
+"City of Commerce","CA","US",2
+"Clarkston","WA","US",2
+"Clayton","MO","US",2
+"Clemson","SC","US",2
+"Cleveland Heights","OH","US",2
+"Clifton","NJ","US",2
+"Clive","IA","US",2
+"Clyde","OH","US",2
+"Coacalco","MX","MX",2
+"Cochrane","AB","CA",2
+"Coconut Creek","FL","US",2
+"College Park","MD","US",2
+"Collingwood","ON","CA",2
+"Colma","CA","US",2
+"Colton","CA","US",2
+"Commerce City","CO","US",2
+"Conyers","GA","US",2
+"Cookeville","TN","US",2
+"Coon Rapids","MN","US",2
+"Cordoba","X","AR",2
+"Cornelius","NC","US",2
+"Council Bluffs","IA","US",2
+"Courbevoie","J","FR",2
+"Courtenay","BC","CA",2
+"Covina","CA","US",2
+"Covington","LA","US",2
+"Covington","WA","US",2
+"Cranbrook","BC","CA",2
+"Cranbury","NJ","US",2
+"Cuautitlan Izcalli","MX","MX",2
+"Culpeper","VA","US",2
+"Cyberjaya","10","MY",2
+"Cypress","CA","US",2
+"Dallas","OR","US",2
+"Dalton","GA","US",2
+"Danville","VA","US",2
+"Dasmarinas","40","PH",2
+"Davao","05","PH",2
+"Davie","FL","US",2
+"Daytona Beach","FL","US",2
+"Dearborn","MI","US",2
+"Dearborn Heights","MI","US",2
+"Decatur","AL","US",2
+"Decatur","GA","US",2
+"Decatur","IL","US",2
+"Deer Park","NY","US",2
+"Dekalb","IL","US",2
+"DeKalb","IL","US",2
+"Del Mar","CA","US",2
+"Del Rey Oaks","CA","US",2
+"Delafield","WI","US",2
+"Denham Springs","LA","US",2
+"Denville","NJ","US",2
+"Depew","NY","US",2
+"Derby","KS","US",2
+"Des Moines","WA","US",2
+"Des Plaines","IL","US",2
+"Detroit","MI","US",2
+"Diamond Bar","CA","US",2
+"Dieppe","NB","CA",2
+"Dillon","CO","US",2
+"Dixon","CA","US",2
+"Doha","DA","QA",2
+"Don Muang","10","TH",2
+"Doral","FL","US",2
+"DORTMUND","NW","DE",2
+"Downers Grove","IL","US",2
+"Dresden","SN","DE",2
+"Dubuque","IA","US",2
+"Dumfries","SCT","GB",2
+"Dumfries","VA","US",2
+"Dunkirk","MD","US",2
+"Durango","CO","US",2
+"Duvall","WA","US",2
+"Eagle","ID","US",2
+"Ealing","ENG","GB",2
+"East Boston","MA","US",2
+"East Lyme","CT","US",2
+"East Northport","NY","US",2
+"East Point","GA","US",2
+"East Rutherford","NJ","US",2
+"Easton","MD","US",2
+"Easton","PA","US",2
+"Ebina","14","JP",2
+"Edgewater","CO","US",2
+"Edgewater","MD","US",2
+"Edwardsville","IL","US",2
+"Eldersburg","MD","US",2
+"Elgin","IL","US",2
+"Elk Grove Village","IL","US",2
+"Elko","NV","US",2
+"Encino","CA","US",2
+"Ensenada","BCN","MX",2
+"Enumclaw","WA","US",2
+"Erie","CO","US",2
+"ESSEN","NW","DE",2
+"Estes Park","CO","US",2
+"Evergreen","CO","US",2
+"Ewa Beach","HI","US",2
+"Exton","PA","US",2
+"Fairport","NY","US",2
+"Fairview Heights","IL","US",2
+"Fairview Park","OH","US",2
+"Farmingdale","NY","US",2
+"Farragut","TN","US",2
+"Fayetteville","GA","US",2
+"Fenton","MI","US",2
+"Fitchburg","WI","US",2
+"Fleet","ENG","GB",2
+"Flint","MI","US",2
+"Florence","SC","US",2
+"Flowood","MS","US",2
+"Forestville","MD","US",2
+"Fort Belvoir","VA","US",2
+"Fort Bragg","NC","US",2
+"Fort Saskatchewan","AB","CA",2
+"Fort Walton Beach","FL","US",2
+"Foster City","CA","US",2
+"Franklin","WI","US",2
+"Freedom","CA","US",2
+"Friendswood","TX","US",2
+"Front Royal","VA","US",2
+"Ft Lauderdale","FL","US",2
+"Ft. Bliss","TX","US",2
+"Ft. Worth","TX","US",2
+"Fukui","18","JP",2
+"Fukuyama","34","JP",2
+"Gainesville","GA","US",2
+"Gallatin","TN","US",2
+"Gent","VLG","BE",2
+"Germantown","TN","US",2
+"Gifu","21","JP",2
+"Gillette","WY","US",2
+"Glen Cove","NY","US",2
+"Glen Mills","PA","US",2
+"Glendale","CO","US",2
+"Gloucester","VA","US",2
+"Goleta","CA","US",2
+"Grand Prairie","AB","CA",2
+"Granger","IN","US",2
+"Granite Bay","CA","US",2
+"Grass Valley","CA","US",2
+"Great Falls","MT","US",2
+"Greece","NY","US",2
+"Greenwich","CT","US",2
+"Grosse Pointe","MI","US",2
+"Guadalupe","NLE","MX",2
+"Guildford","ENG","GB",2
+"Gunpo","41","KR",2
+"Gyeonggi-do","41","KR",2
+"Hacienda Heights","CA","US",2
+"Hackettstown","NJ","US",2
+"Hamilton","N","NZ",2
+"Hanford","CA","US",2
+"Hannover","NI","DE",2
+"Hanover","MA","US",2
+"Hanover","PA","US",2
+"Harbor City","CA","US",2
+"Harker Heights","TX","US",2
+"Hartford","CT","US",2
+"Haverhill","MA","US",2
+"Haymarket","VA","US",2
+"Healdsburg","CA","US",2
+"HEIDELBERG","BW","DE",2
+"HEILBRONN","BW","DE",2
+"Helena","MT","US",2
+"Hendersonville","NC","US",2
+"Hercules","CA","US",2
+"Hermiston","OR","US",2
+"Hermitage","TN","US",2
+"Hermosillo","SON","MX",2
+"Hershey","PA","US",2
+"Hickory","NC","US",2
+"Hicksville","NY","US",2
+"Higashiura","23","JP",2
+"Himeji","28","JP",2
+"Hingham","MA","US",2
+"Hinode","13","JP",2
+"Hirakata","27","JP",2
+"Hiram","GA","US",2
+"Hixson","TN","US",2
+"Hollister","CA","US",2
+"Hood River","OR","US",2
+"Hounslow","ENG","GB",2
+"Hua Hin","77","TH",2
+"Hualien City","HUA","TW",2
+"Huay Kwang","10","TH",2
+"Hull","ENG","GB",2
+"Hungerford","ENG","GB",2
+"Huntingdon Valley","PA","US",2
+"Huntington","WV","US",2
+"Huntington Park","CA","US",2
+"Hwaseong","41","KR",2
+"Hyattsville","MD","US",2
+"Icheon","41","KR",2
+"Idaho Falls","ID","US",2
+"Inba-Gun","12","JP",2
+"Inverness","SCT","GB",2
+"Ipoh","08","MY",2
+"Itabashi","13","JP",2
+"Iwate","03","JP",2
+"Izumisano","27","JP",2
+"Jackson","CA","US",2
+"Jackson","MI","US",2
+"Jackson","MS","US",2
+"Jackson","TN","US",2
+"Jakarta","JW","ID",2
+"Jakarta Barat","JK","ID",2
+"Jakarta Selatan","JK","ID",2
+"Janesville","WI","US",2
+"Jeddah","02","SA",2
+"Jefferson City","MO","US",2
+"Jeffersontown","KY","US",2
+"Jeonju","45","KR",2
+"Johnson City","TN","US",2
+"Jonesboro","AR","US",2
+"Juneau","AK","US",2
+"Kailua","HI","US",2
+"Kailua-Kona","HI","US",2
+"Kaneohe","HI","US",2
+"KARLSRUHE","BW","DE",2
+"Kasama","08","JP",2
+"Kashiwa","12","JP",2
+"Katowice","SL","PL",2
+"Katsushika","13","JP",2
+"Kayseri","38","TR",2
+"Keelung City","KEE","TW",2
+"Keene","NH","US",2
+"Keller","TX","US",2
+"Kelso","WA","US",2
+"Kemah","TX","US",2
+"Kenmore","WA","US",2
+"Kernersville","NC","US",2
+"Killeen","TX","US",2
+"Kingman","AZ","US",2
+"Kingsport","TN","US",2
+"Kingston","NY","US",2
+"Kisarazu","12","JP",2
+"Klang","10","MY",2
+"Klong Toey","10","TH",2
+"Kochi","39","JP",2
+"Kokomo","IN","US",2
+"KÖLN","NW","DE",2
+"Koriyama","07","JP",2
+"Kotelniki","MOS","RU",2
+"Kraków","MA","PL",2
+"Kusatsu","25","JP",2
+"Kuwana","24","JP",2
+"Kyle","TX","US",2
+"La Canada","CA","US",2
+"La Crescenta","CA","US",2
+"La Grande","OR","US",2
+"La Mirada","CA","US",2
+"Lady Lake","FL","US",2
+"Lafayette","CO","US",2
+"Lake Charles","LA","US",2
+"Lake Geneva","WI","US",2
+"Lake Stevens","WA","US",2
+"Lancaster","OH","US",2
+"Lantau Island","91","CN",2
+"Laramie","WY","US",2
+"Largo","FL","US",2
+"Largo","MD","US",2
+"Las Pinas City","41","PH",2
+"Lathrop","CA","US",2
+"Laughlin","NV","US",2
+"Lausanne","VD","CH",2
+"Lawrenceville","NJ","US",2
+"Layton","UT","US",2
+"Leawood","KS","US",2
+"Lemon Grove","CA","US",2
+"Lemont","IL","US",2
+"Leominster","MA","US",2
+"Levittown","NY","US",2
+"Lexington","MA","US",2
+"Lexington","SC","US",2
+"Libertyville","IL","US",2
+"Lihue","HI","US",2
+"Lincoln","ENG","GB",2
+"Lincoln","RI","US",2
+"Lincoln City","OR","US",2
+"Liphook","ENG","GB",2
+"Litchfield Park","AZ","US",2
+"Lititz","PA","US",2
+"Little Elm","TX","US",2
+"Livonia","MI","US",2
+"Lockport","IL","US",2
+"Loganville","GA","US",2
+"Lompoc","CA","US",2
+"LONDON","ENG","GB",2
+"Lone Tree","CO","US",2
+"Long Beach","NY","US",2
+"Los Altos","CA","US",2
+"Louisville","CO","US",2
+"Lowell","MA","US",2
+"Lujhu Township","TAO","TW",2
+"Luton","ENG","GB",2
+"Luzern","LU","CH",2
+"Lyndhurst","OH","US",2
+"Lynwood","CA","US",2
+"Macomb","MI","US",2
+"Macon","GA","US",2
+"Madera","CA","US",2
+"Madison","AL","US",2
+"Maebashi","10","JP",2
+"Magnolia","TX","US",2
+"Malaga","AN","ES",2
+"Mammoth Lakes","CA","US",2
+"Manchester","NH","US",2
+"Mandeville","LA","US",2
+"Manhasset","NY","US",2
+"Mantua","OH","US",2
+"Marignane","U","FR",2
+"Marikina City","41","PH",2
+"Marilao","03","PH",2
+"Marina","CA","US",2
+"Marion","IL","US",2
+"Marion","OH","US",2
+"Martinez","B","AR",2
+"Mary Esther","FL","US",2
+"Mashpee","MA","US",2
+"Massapequa","NY","US",2
+"Massillon","OH","US",2
+"Matsuyama","38","JP",2
+"Mayfield Heights","OH","US",2
+"McMinnville","OR","US",2
+"McMurray","PA","US",2
+"Mecca","02","SA",2
+"Mechanicsville","VA","US",2
+"Medford","MA","US",2
+"Medina","OH","US",2
+"Mendoza","M","AR",2
+"Menifee","CA","US",2
+"Menomonee Falls","WI","US",2
+"Metairie","LA","US",2
+"Metepec","MX","MX",2
+"Methuen","MA","US",2
+"Midland","TX","US",2
+"Midwest City","OK","US",2
+"Milford","CT","US",2
+"Milford","OH","US",2
+"Mililani","HI","US",2
+"Milledgeville","GA","US",2
+"Minnetonka","MN","US",2
+"Miramar","FL","US",2
+"Miri","13","MY",2
+"Mission","BC","CA",2
+"Moline","IL","US",2
+"Monaca","PA","US",2
+"Mong Kok","91","CN",2
+"Monroe","LA","US",2
+"Monroe","NC","US",2
+"Montclair","CA","US",2
+"Monument","CO","US",2
+"Moore","OK","US",2
+"Moorhead","MN","US",2
+"Moraga","CA","US",2
+"Morelia","MIC","MX",2
+"Morgantown","WV","US",2
+"Morrisville","NC","US",2
+"Moscow","ID","US",2
+"Mount Airy","MD","US",2
+"Mt Pleasant","SC","US",2
+"Mt Vernon","WA","US",2
+"Muang","40","TH",2
+"Muang","41","TH",2
+"Muang","83","TH",2
+"Mundelein","IL","US",2
+"Muntinlupa City","00","PH",2
+"Muskegon","MI","US",2
+"Nacogdoches","TX","US",2
+"Nagaoka","15","JP",2
+"Nampa","ID","US",2
+"Natick","MA","US",2
+"National City","CA","US",2
+"Nerima","13","JP",2
+"New Albany","OH","US",2
+"New Bern","NC","US",2
+"New Haven","CT","US",2
+"New Hyde Park","NY","US",2
+"New Lenox","IL","US",2
+"New Rochelle","NY","US",2
+"Newburgh","NY","US",2
+"Newington","CT","US",2
+"Newport","OR","US",2
+"Newport Coast","CA","US",2
+"Neyagawa","27","JP",2
+"Nipomo","CA","US",2
+"Niteroi","RJ","BR",2
+"North Bend","WA","US",2
+"North Canton","OH","US",2
+"North Charleston","SC","US",2
+"North Haven","CT","US",2
+"North Highlands","CA","US",2
+"North Hills","CA","US",2
+"North Wales","PA","US",2
+"Northampton","MA","US",2
+"Northville","MI","US",2
+"Norwalk","CT","US",2
+"Norwich","ENG","GB",2
+"Nottinghamshire","ENG","GB",2
+"NUERNBERG","BY","DE",2
+"NÜRNBERG","BY","DE",2
+"O'Fallon","MO","US",2
+"Oakdale","CA","US",2
+"Oakhurst","CA","US",2
+"Odessa","TX","US",2
+"Okazaki","23","JP",2
+"Okemos","MI","US",2
+"Okotoks","AB","CA",2
+"Olive Branch","MS","US",2
+"Olongapo City","03","PH",2
+"Opelika","AL","US",2
+"Orange","CT","US",2
+"Oranjestad","AW","AW",2
+"Orinda","CA","US",2
+"Orly","J","FR",2
+"Ormond Beach","FL","US",2
+"Owasso","OK","US",2
+"Owensboro","KY","US",2
+"Oxford","AL","US",2
+"Pachuca","HID","MX",2
+"Pacific Palisades","CA","US",2
+"Paisley","SCT","GB",2
+"Palatine","IL","US",2
+"Palembang","SS","ID",2
+"Palm Beach","FL","US",2
+"Palm Coast","FL","US",2
+"Palm Harbor","FL","US",2
+"Palmer","AK","US",2
+"Paramount","CA","US",2
+"Park Ridge","IL","US",2
+"Parma","OH","US",2
+"Peabody","MA","US",2
+"Pendleton","OR","US",2
+"Penrith","ENG","GB",2
+"Peru","IL","US",2
+"Peterborough","ON","CA",2
+"Pico Rivera","CA","US",2
+"Pigeon Forge","TN","US",2
+"Pilar","B","AR",2
+"Pinecrest","FL","US",2
+"Pinellas Park","FL","US",2
+"Pingtung City","PIF","TW",2
+"Pinole","CA","US",2
+"Pleasant Prairie","WI","US",2
+"Plymouth","MA","US",2
+"Plymouth","MI","US",2
+"Pompano Beach","FL","US",2
+"Port Angeles","WA","US",2
+"Port Hope","ON","CA",2
+"Port Orange","FL","US",2
+"Port St. Lucie","FL","US",2
+"Port Washington","NY","US",2
+"Portage","IN","US",2
+"Portsmouth","ENG","GB",2
+"Portsmouth","NH","US",2
+"Portsmouth","VA","US",2
+"Potomac","MD","US",2
+"POTSDAM","BB","DE",2
+"Powell","OH","US",2
+"Powell","TN","US",2
+"Powell River","BC","CA",2
+"Prawet","10","TH",2
+"Prescott Valley","AZ","US",2
+"Preston","ENG","GB",2
+"Primm","NV","US",2
+"Prince Frederick","MD","US",2
+"Princeton","NJ","US",2
+"Princeton","WV","US",2
+"Pullman","WA","US",2
+"Puteaux","J","FR",2
+"Quakertown","PA","US",2
+"Queensbury","NY","US",2
+"Queretaro","QUE","MX",2
+"Quincy","IL","US",2
+"Quincy","MA","US",2
+"Racine","WI","US",2
+"Ramona","CA","US",2
+"Ramsey","NJ","US",2
+"Rancho Mirage","CA","US",2
+"Rancho Palos Verdes","CA","US",2
+"Ras Al Khaimah","RK","AE",2
+"Ratchathewi","10","TH",2
+"Reading","MA","US",2
+"Red Bluff","CA","US",2
+"Rehoboth Beach","DE","US",2
+"Reseda","CA","US",2
+"Rialto","CA","US",2
+"Richfield","MN","US",2
+"Richmond","CA","US",2
+"Richmond","TX","US",2
+"Ridgecrest","CA","US",2
+"Rockford","MI","US",2
+"Rogers","MN","US",2
+"Roissy-en-France","J","FR",2
+"Rolling Hills Estates","CA","US",2
+"Rome","GA","US",2
+"Romeoville","IL","US",2
+"Rosario","S","AR",2
+"Rosemead","CA","US",2
+"Roseville","MI","US",2
+"Roswell","NM","US",2
+"Royal Palm Beach","FL","US",2
+"Saarbruecken","SL","DE",2
+"Saginaw","MI","US",2
+"Sahagu","26","KR",2
+"Sahuarita","AZ","US",2
+"Sakai","27","JP",2
+"Sakura","12","JP",2
+"Salem","VA","US",2
+"Salina","KS","US",2
+"Salisbury","MD","US",2
+"San Fernando","03","PH",2
+"San Jacinto","CA","US",2
+"San Pablo","CA","US",2
+"San Pedro","PH","PH",2
+"San Pedro Garza Garcia","NLE","MX",2
+"Sand City","CA","US",2
+"Sandpoint","ID","US",2
+"Sandusky","OH","US",2
+"Sandy","OR","US",2
+"Sandy Springs","GA","US",2
+"Santa Cruz","CA","US",2
+"Santa Rosa City","PH","PH",2
+"Saugus","CA","US",2
+"Saugus","MA","US",2
+"Sausalito","CA","US",2
+"Savage","MN","US",2
+"Scarborough","ON","CA",2
+"Schiller Park","IL","US",2
+"Seaside","CA","US",2
+"Sebastopol","CA","US",2
+"Sedona","AZ","US",2
+"Selinsgrove","PA","US",2
+"Seogwipo","49","KR",2
+"Sequim","WA","US",2
+"Sevierville","TN","US",2
+"Sewell","NJ","US",2
+"Shawnee","KS","US",2
+"Shawnee Mission","KS","US",2
+"Sherman","TX","US",2
+"Simpsonville","SC","US",2
+"Sioux City","IA","US",2
+"Slidell","LA","US",2
+"Smithfield","RI","US",2
+"Smyrna","TN","US",2
+"Snellville","GA","US",2
+"Solana Beach","CA","US",2
+"Soldotna","AK","US",2
+"Solihull","ENG","GB",2
+"Sonoma","CA","US",2
+"Soquel","CA","US",2
+"South Burlington","VT","US",2
+"South Elgin","IL","US",2
+"South Portland","ME","US",2
+"Southgate","CA","US",2
+"Southington","CT","US",2
+"Spartanburg","SC","US",2
+"Spring Hill","FL","US",2
+"Springfield","PA","US",2
+"Squamish","BC","CA",2
+"Sriracha","20","TH",2
+"St John","IN","US",2
+"St. John's","NL","CA",2
+"St. Joseph","MO","US",2
+"St. Louis Park","MN","US",2
+"St. Peters","MO","US",2
+"Staines","ENG","GB",2
+"Stanwood","WA","US",2
+"Stateline","NV","US",2
+"Statesboro","GA","US",2
+"Steamboat Springs","CO","US",2
+"Stillwater","MN","US",2
+"Stillwater","OK","US",2
+"Stockholm - Arlanda","AB","SE",2
+"Stoney Creek","ON","CA",2
+"Stow","OH","US",2
+"Streamwood","IL","US",2
+"Sudbury","ON","CA",2
+"Suffolk","VA","US",2
+"Suginami","13","JP",2
+"Summerville","SC","US",2
+"Sumner","WA","US",2
+"Susanville","CA","US",2
+"Sutton","ENG","GB",2
+"Sylvania","OH","US",2
+"Szczecin","ZP","PL",2
+"Tachikawa","13","JP",2
+"Taguig City","00","PH",2
+"Tainan City","TNQ","TW",2
+"Takamatsu","37","JP",2
+"Takatsuki","27","JP",2
+"Tama","13","JP",2
+"Tarlac City","03","PH",2
+"Taunton","MA","US",2
+"Texas City","TX","US",2
+"The Dalles","OR","US",2
+"Thessaloniki","B","GR",2
+"Thiais","J","FR",2
+"Thornhill","ON","CA",2
+"Tillamook","OR","US",2
+"Timonium","MD","US",2
+"Tinley Park","IL","US",2
+"Tomball","TX","US",2
+"Toms River","NJ","US",2
+"Topsham","ME","US",2
+"TORONTO","ON","CA",2
+"Toyohashi","23","JP",2
+"Trujillo","LAL","PE",2
+"Tsawwassen","BC","CA",2
+"Tsuchiura","08","JP",2
+"Tulare","CA","US",2
+"Twin Falls","ID","US",2
+"Uenohara","19","JP",2
+"Uijeongbu","41","KR",2
+"University City","MO","US",2
+"Upper Arlington","OH","US",2
+"Utsunomiya","09","JP",2
+"Uxbridge","ENG","GB",2
+"Valdosta","GA","US",2
+"Vantaa","02","FI",2
+"Venice","FL","US",2
+"Veracruz","VER","MX",2
+"Veradale","WA","US",2
+"Vestavia Hills","AL","US",2
+"Victor","NY","US",2
+"Victoria","TX","US",2
+"Villa Park","IL","US",2
+"Vina del Mar","VS","CL",2
+"Wadsworth","OH","US",2
+"Walsall","ENG","GB",2
+"Wangtonglang","10","TH",2
+"Warner Robins","GA","US",2
+"Warren","MI","US",2
+"Warrenton","OR","US",2
+"Warrenville","IL","US",2
+"Washougal","WA","US",2
+"Watauga","TX","US",2
+"Waterloo","IA","US",2
+"Watertown","MA","US",2
+"Watertown","NY","US",2
+"Watsonville","CA","US",2
+"Waukegan","IL","US",2
+"Wausau","WI","US",2
+"Waxahachie","TX","US",2
+"Wayne","PA","US",2
+"Waynesboro","VA","US",2
+"Weatherford","TX","US",2
+"Webster","NY","US",2
+"Wellesley","MA","US",2
+"Wellington","N","NZ",2
+"Wentzville","MO","US",2
+"Wesley Chapel","FL","US",2
+"West Allis","WI","US",2
+"West Haven","CT","US",2
+"West Jordan","UT","US",2
+"West Los Angeles","CA","US",2
+"West Melbourne","FL","US",2
+"West Milwaukee","WI","US",2
+"West Nyack","NY","US",2
+"West Unity","OH","US",2
+"Westborough","MA","US",2
+"Westchester","OH","US",2
+"Westland","MI","US",2
+"Westminster","MD","US",2
+"Wheeling","IL","US",2
+"White Plains","NY","US",2
+"Whitehorse","YT","CA",2
+"Wichita Falls","TX","US",2
+"WIESBADEN","HE","DE",2
+"Williamsville","NY","US",2
+"Wilson","NC","US",2
+"Winchester","ENG","GB",2
+"Winchester","VA","US",2
+"Windsor","CA","US",2
+"Windsor","CO","US",2
+"Winter Garden","FL","US",2
+"Wirral","ENG","GB",2
+"Wonju","42","KR",2
+"Wood Village","OR","US",2
+"Woodbridge","NJ","US",2
+"Woodburn","OR","US",2
+"Woodhaven","MI","US",2
+"Woodland","CA","US",2
+"Worcester","MA","US",2
+"Wrexham","WLS","GB",2
+"Wylie","TX","US",2
+"Wyoming","MI","US",2
+"Yachiyo","12","JP",2
+"Yamaguchi","35","JP",2
+"Yardley","PA","US",2
+"Yelm","WA","US",2
+"Yilan City","ILA","TW",2
+"Yonkers","NY","US",2
+"Yorba Linda","CA","US",2
+"York","ENG","GB",2
+"Ypsilanti","MI","US",2
+"Yukon","OK","US",2
+"Yulee","FL","US",2
+"Zacatecas","ZAC","MX",2
+"Zanesville","OH","US",2
+"Zapopan","JAL","MX",2
+"Zaventem","VLG","BE",2
+"Zhubei City","HSQ","TW",2
+"Zug","ZG","CH",2
+"البحرين","13","BH",2
+"الدمام","04","SA",2
+"بيروت","BA","LB",2
+"울산","31","KR",2
+"","02","SA",1
+"","ALX","EG",1
+"保定市","13","CN",1
+"慈溪市","33","CN",1
+"奉化市","33","CN",1
+"海门市","32","CN",1
+"海宁市","33","CN",1
+"湖州市","33","CN",1
+"姜堰市","32","CN",1
+"金华市","33","CN",1
+"廊坊市","13","CN",1
+"上虞市","33","CN",1
+"台州市","33","CN",1
+"威海市","37","CN",1
+"吴江市","32","CN",1
+"湘潭市","43","CN",1
+"宜兴市","32","CN",1
+"镇江市","32","CN",1
+"Aachen","NW","DE",1
+"Aarau","AG","CH",1
+"Aberdeen","NC","US",1
+"Aberdeen","SD","US",1
+"Abington","MA","US",1
+"Absecon","NJ","US",1
+"Abu Hamour","DA","QA",1
+"Accokeek","MD","US",1
+"Acton","MA","US",1
+"Addison","IL","US",1
+"Adelanto","CA","US",1
+"Adrian","MI","US",1
+"Afyonkarahisar","03","TR",1
+"Agoura","CA","US",1
+"Agoura Hills","CA","US",1
+"Aichi","23","JP",1
+"Aiken","SC","US",1
+"Ajman","AJ","AE",1
+"Akashi","28","JP",1
+"Akishima","13","JP",1
+"Al Barsha","DU","AE",1
+"Al-Dammam","04","SA",1
+"Alamosa","CO","US",1
+"Albany","CA","US",1
+"Aldaia","AN","ES",1
+"Aldergrove","BC","CA",1
+"Aldie","VA","US",1
+"Alexandria","MN","US",1
+"ALHAMBRA","CA","US",1
+"Alicante","ZAB","ES",1
+"Allendale","MI","US",1
+"Allendale","NJ","US",1
+"Almada","11","PT",1
+"Almondsbury","ENG","GB",1
+"Alpine","CA","US",1
+"Altoona","IA","US",1
+"Altrincham","ENG","GB",1
+"Alvin","TX","US",1
+"Amadora","11","PT",1
+"Amherst","MA","US",1
+"Amityville","NY","US",1
+"Ampang","10","MY",1
+"Amsterdam","NY","US",1
+"Anderson","IN","US",1
+"Anderson","SC","US",1
+"Andover","KS","US",1
+"Andover","MA","US",1
+"Andover","MN","US",1
+"Andrews AFB","MD","US",1
+"Angels Camp","CA","US",1
+"Anjo","23","JP",1
+"Ann Arbor East","MI","US",1
+"Annaka","10","JP",1
+"Ansonia","CT","US",1
+"Antelope","CA","US",1
+"Antioch","TN","US",1
+"Antwerp","VLG","BE",1
+"Aomori","02","JP",1
+"Arcueil","J","FR",1
+"Ardmore","OK","US",1
+"Ardmore","PA","US",1
+"Ardsley","NY","US",1
+"Arnhem","GE","NL",1
+"Arnold","MD","US",1
+"Arnold","MO","US",1
+"Arroyo Grande","CA","US",1
+"Artesia","CA","US",1
+"Asahikawa","01","JP",1
+"Ashland","KY","US",1
+"Ashland","OH","US",1
+"Ashland","VA","US",1
+"Ashwaubenon","WI","US",1
+"Aspen","CO","US",1
+"Astoria","OR","US",1
+"Atascocita","TX","US",1
+"Athens","AL","US",1
+"Athens","OH","US",1
+"Athens","TN","US",1
+"Atizapan de Zaragoza","MX","MX",1
+"Auburn","AL","US",1
+"Auburn","IN","US",1
+"Auburn","MA","US",1
+"Auburn","ME","US",1
+"Augusta","ME","US",1
+"Aurora","MO","US",1
+"Austell","GA","US",1
+"austin","TX","US",1
+"Austintown","OH","US",1
+"Avellaneda","B","AR",1
+"Avon","CT","US",1
+"Avon","OH","US",1
+"Awaji","28","JP",1
+"Aztec","NM","US",1
+"Azumino","20","JP",1
+"Babylon","NY","US",1
+"Bacolod City","06","PH",1
+"Bacoor","40","PH",1
+"Baden","AG","CH",1
+"Baden-Baden","BW","DE",1
+"Bainbridge Island","WA","US",1
+"Baker City","OR","US",1
+"Bala Cynwyd","PA","US",1
+"Balakong","14","MY",1
+"Balcones Heights","TX","US",1
+"Baldock","ENG","GB",1
+"Baldwin Harbor","NY","US",1
+"Bali","NU","ID",1
+"Balikesir","10","TR",1
+"Balikpapan","SM","ID",1
+"Bang Kruai","12","TH",1
+"Bang Plea","11","TH",1
+"Bangkae","10","TH",1
+"Bangkhorlaem","10","TH",1
+"Bangkhuntien","10","TH",1
+"Banglamung","20","TH",1
+"Bangluck","10","TH",1
+"Bangna","10","TH",1
+"Barnes","ENG","GB",1
+"Barnet","ENG","GB",1
+"Barrington","IL","US",1
+"Barrington","RI","US",1
+"Bartlett","IL","US",1
+"Bartlett","TN","US",1
+"Basking  Ridge","NJ","US",1
+"Bastrop","TX","US",1
+"Batangas City","40","PH",1
+"Batavia","IL","US",1
+"Batavia","NY","US",1
+"Bath","ENG","GB",1
+"Bay Shore","NY","US",1
+"Bayonne","NJ","US",1
+"Bayport","NY","US",1
+"Bayside","NY","US",1
+"Beaconsfield","ENG","GB",1
+"Beaumont","AB","CA",1
+"Beaver","PA","US",1
+"Bedford","IN","US",1
+"Bedford","MA","US",1
+"Bedford","TX","US",1
+"Bedford Park","IL","US",1
+"Bedminster","NJ","US",1
+"Belfast","NIR","GB",1
+"Belgrade","MT","US",1
+"Bell","CA","US",1
+"Bell Gardens","CA","US",1
+"Bellaire","TX","US",1
+"Belle Isle","FL","US",1
+"Belle Vernon","PA","US",1
+"Bellerose","NY","US",1
+"Belleville","ON","CA",1
+"Bellevue","TN","US",1
+"Beloit","WI","US",1
+"Belton","MO","US",1
+"Belton","TX","US",1
+"Bemidji","MN","US",1
+"Benbrook","TX","US",1
+"Bennett","CO","US",1
+"Benson","AZ","US",1
+"Benton","AR","US",1
+"Berlin","BE","DE",1
+"Bernalillo","NM","US",1
+"Bernardsville","NJ","US",1
+"Bessemer","AL","US",1
+"Bethel","CT","US",1
+"Bethel Park","PA","US",1
+"Bethlehem","GA","US",1
+"Bethlehem","PA","US",1
+"Bethpage","NY","US",1
+"Bettendorf","IA","US",1
+"Bexley","OH","US",1
+"Bexleyheath","ENG","GB",1
+"Biddeford","ME","US",1
+"Biel","BE","CH",1
+"Bielany Wroclawskie","DS","PL",1
+"Bielefeld","NW","DE",1
+"Big Flats","NY","US",1
+"Big Rapids","MI","US",1
+"Billerica","MA","US",1
+"Binghamton","NY","US",1
+"Birch Run","MI","US",1
+"Bisbee","AZ","US",1
+"Bishops Storford","ENG","GB",1
+"Black Mountain","NC","US",1
+"Blackburn","ENG","GB",1
+"Blackhawk","CO","US",1
+"Blackpool","ENG","GB",1
+"Blaine","MN","US",1
+"Blasdell","NY","US",1
+"Bloomfield","CT","US",1
+"Bloomfield","MI","US",1
+"Bloomfield Township","MI","US",1
+"Blue Jay","CA","US",1
+"Blue Ridge","GA","US",1
+"Blythe","CA","US",1
+"BLYTHE","CA","US",1
+"Boerne","TX","US",1
+"Bolling AFB","DC","US",1
+"Bolton","ON","CA",1
+"Bonaire","GA","US",1
+"Bonners Ferry","ID","US",1
+"Boone","NC","US",1
+"Bordentown","NJ","US",1
+"Boulder City","NV","US",1
+"Boulogne","O","FR",1
+"Bourne","MA","US",1
+"Bracknell","ENG","GB",1
+"Braintree","ENG","GB",1
+"Branchburg","NJ","US",1
+"Brantford","ON","CA",1
+"Braunschweig","NI","DE",1
+"BRAUNSCHWEIG","NI","DE",1
+"Brawley","CA","US",1
+"Breckenridge","CO","US",1
+"Brecksville","OH","US",1
+"Breezewood","PA","US",1
+"Bremen","HB","DE",1
+"Brenham","TX","US",1
+"Brevard","NC","US",1
+"Briarcliff Manor","NY","US",1
+"Brick","NJ","US",1
+"Bridgehampton","NY","US",1
+"Bridgeton","MO","US",1
+"Bridgeville","PA","US",1
+"Bridgewater","NJ","US",1
+"BRIDGEWATER","NJ","US",1
+"Brierley Hill","ENG","GB",1
+"Brighton","NY","US",1
+"Bristol","CT","US",1
+"Broadlands","VA","US",1
+"Brockton","MA","US",1
+"Brockville","ON","CA",1
+"Bronxville","NY","US",1
+"Brookfield","NY","US",1
+"Brookings","OR","US",1
+"Brookings","SD","US",1
+"Brooklyn","OH","US",1
+"Brooklyn Center","MN","US",1
+"Brooklyn Park","MN","US",1
+"Brooks","AB","CA",1
+"Brooksville","FL","US",1
+"Brossard","QC","CA",1
+"Broussard","LA","US",1
+"Brownsburg","IN","US",1
+"Brugges","VLG","BE",1
+"Brunswick","ME","US",1
+"Brunswick","OH","US",1
+"Brussels","VLG","BE",1
+"Bryant","AR","US",1
+"Bryn Mawr","PA","US",1
+"Buckhead","GA","US",1
+"Buda","TX","US",1
+"Buffalo","MN","US",1
+"Bulverde","TX","US",1
+"Burgas","02","BG",1
+"Burlington","KY","US",1
+"Burlington","VT","US",1
+"Burnsville","MN","US",1
+"Burnsville","NC","US",1
+"Burnwell","WV","US",1
+"Burpham","ENG","GB",1
+"Burr Ridge","IL","US",1
+"Burtonsville","MD","US",1
+"Bury","ENG","GB",1
+"Busan","31","KR",1
+"Butte","MT","US",1
+"Buttonwillow","CA","US",1
+"Byron","CA","US",1
+"CABA","C","AR",1
+"Cabazon","CA","US",1
+"Cabo San Lucas","BCS","MX",1
+"Cainta","40","PH",1
+"Calamba City","PH","PH",1
+"Calexico","CA","US",1
+"Calhoun","GA","US",1
+"California","MD","US",1
+"Callaway","FL","US",1
+"Calumet City","IL","US",1
+"Camberley","ENG","GB",1
+"Camby","IN","US",1
+"Camden","NJ","US",1
+"Cameron Highlands","06","MY",1
+"Canal Winchester","OH","US",1
+"Canandaigua","NY","US",1
+"Canastota","NY","US",1
+"CANOGA PARK","CA","US",1
+"Canonsburg","PA","US",1
+"Canterbury","ENG","GB",1
+"Canton","MA","US",1
+"Canton","NC","US",1
+"Canyon Country","CA","US",1
+"Captiva","FL","US",1
+"Cardiff","CA","US",1
+"Carleton Place","ON","CA",1
+"Carlisle","ENG","GB",1
+"Carmel","NY","US",1
+"Carnation","WA","US",1
+"Carnaxide","11","PT",1
+"Carney","MD","US",1
+"Carol Stream","IL","US",1
+"Carpinteria","CA","US",1
+"Carrollton","GA","US",1
+"Casa Adobes","AZ","US",1
+"Cascais","11","PT",1
+"Cashiers","NC","US",1
+"Castaic","CA","US",1
+"Castle Rocks","CO","US",1
+"Castlegar","BC","CA",1
+"Catonsville","MD","US",1
+"Cave Creek","AZ","US",1
+"Cedar City","UT","US",1
+"Cedarburg","WI","US",1
+"Cedarhurst","NY","US",1
+"Celaya","GUA","MX",1
+"Celebration","FL","US",1
+"Centerville","UT","US",1
+"Central","91","CN",1
+"Central Islip","NY","US",1
+"Central Valley","NY","US",1
+"Chaiwan","91","CN",1
+"Chalandri","A1","GR",1
+"Chalfont","PA","US",1
+"Chambersburg","PA","US",1
+"Champlin","MN","US",1
+"Chappaqua","NY","US",1
+"Chargrin Falls","OH","US",1
+"Charleston","IL","US",1
+"Chaska","MN","US",1
+"Chatan","47","JP",1
+"Chatujak","10","TH",1
+"Cheadle","ENG","GB",1
+"Cheektowaga","NY","US",1
+"Chelan","WA","US",1
+"Chelmsford","ENG","GB",1
+"Chelmsford","MA","US",1
+"Chelsea","MA","US",1
+"Cheltenham","PA","US",1
+"Cheras","14","MY",1
+"Cheshire","ENG","GB",1
+"Chessy","J","FR",1
+"Chester","MD","US",1
+"Chester","NJ","US",1
+"Chichester","ENG","GB",1
+"Chiclayo","LAM","PE",1
+"Chicopee","MA","US",1
+"Chigasaki","14","JP",1
+"Chikushino","40","JP",1
+"Chillicothe","OH","US",1
+"Chimbote","LIM","PE",1
+"Chino Valley","AZ","US",1
+"Chiryu","23","JP",1
+"Chiswell Green","ENG","GB",1
+"Chiswick","ENG","GB",1
+"Chitose","01","JP",1
+"Chofu","13","JP",1
+"Chomthong","10","TH",1
+"Choonchun","42","KR",1
+"Chowchilla","CA","US",1
+"Christchurch","S","NZ",1
+"Cicero","IL","US",1
+"Cicero","NY","US",1
+"Cirencester","ENG","GB",1
+"Ciudad Obregon","SON","MX",1
+"Clarendon Hills","IL","US",1
+"Clarion","PA","US",1
+"Clark","NJ","US",1
+"Clark Summit","PA","US",1
+"Clarkesville","GA","US",1
+"Clarksburg","WV","US",1
+"Clarkston","MI","US",1
+"Clarksville","IN","US",1
+"Clarksville","MD","US",1
+"Clay","NY","US",1
+"Clayton","CA","US",1
+"Clayton","GA","US",1
+"Clayton","NC","US",1
+"Clearbrook","BC","CA",1
+"Cleburne","TX","US",1
+"Clementon","NJ","US",1
+"Clemmons","NC","US",1
+"Cleveland","GA","US",1
+"CLEVELAND","OH","US",1
+"Clifton","CO","US",1
+"Clifton","VA","US",1
+"Clifton Springs","NY","US",1
+"Clinton","MD","US",1
+"Clinton","MS","US",1
+"Clinton","UT","US",1
+"Clinton Pointe","MI","US",1
+"Clinton Township","MI","US",1
+"Closter","NJ","US",1
+"Cloverdale","BC","CA",1
+"Cloverdale","CA","US",1
+"Cluj-Napoca","CJ","RO",1
+"Coachella","CA","US",1
+"Coalinga","CA","US",1
+"Coatzacoalcos","VER","MX",1
+"Cockeysville","MD","US",1
+"Cocoa Beach","FL","US",1
+"Coconut Grove","FL","US",1
+"Cody","WY","US",1
+"Cohasset","MA","US",1
+"Colby","KS","US",1
+"Cold Spring","KY","US",1
+"Colfax","CA","US",1
+"Colima","COL","MX",1
+"Collegeville","PA","US",1
+"Colleyville","TX","US",1
+"Collinsville","IL","US",1
+"Colonial Heights","VA","US",1
+"Columbus","NE","US",1
+"Colville","WA","US",1
+"Commerce","CA","US",1
+"Commerce","GA","US",1
+"Commerce Township","MI","US",1
+"Concord","MA","US",1
+"Concord","NH","US",1
+"Conshohocken","PA","US",1
+"Converse","TX","US",1
+"Coolidge","AZ","US",1
+"Copenhagen","84","DK",1
+"Coppell","TX","US",1
+"Copperas Cove","TX","US",1
+"Coralville","IA","US",1
+"Corley","ENG","GB",1
+"Cornelia","GA","US",1
+"Cornelias","OR","US",1
+"Cornelius","OR","US",1
+"Corning","CA","US",1
+"Corona Del Mar","CA","US",1
+"Coronado","CA","US",1
+"Cos Cob","CT","US",1
+"Cotati","CA","US",1
+"Cottage Grove","MN","US",1
+"Cottage Grove","OR","US",1
+"Cottonwood","AZ","US",1
+"Council BLuffs","IA","US",1
+"Covingtion","WA","US",1
+"Covington","KY","US",1
+"Cozumel","ROO","MX",1
+"Cranston","RI","US",1
+"Crawley","ENG","GB",1
+"Crescent City","CA","US",1
+"Crestview","FL","US",1
+"Crestview Hills","KY","US",1
+"Crestwood","IL","US",1
+"Crestwood","KY","US",1
+"Crestwood","MO","US",1
+"Crete","M","GR",1
+"Creve Coeur","MO","US",1
+"Crosby","TX","US",1
+"Crown Point","IN","US",1
+"Cullman","AL","US",1
+"Cullowhee","NC","US",1
+"Cusco","CUS","PE",1
+"Cutler Bay","FL","US",1
+"D'Iberville","MS","US",1
+"Daegu Gwang`Yeogsi","27","KR",1
+"Dahlonega","GA","US",1
+"Daisen","05","JP",1
+"Dale City","VA","US",1
+"Dallas","GA","US",1
+"Damascus","MD","US",1
+"Damascus","OR","US",1
+"Daphne","AL","US",1
+"Dardenne","MO","US",1
+"Darien","CT","US",1
+"Darlington","ENG","GB",1
+"DARMSTADT","HE","DE",1
+"Darnestown","MD","US",1
+"Davao City","05","PH",1
+"Davenport","FL","US",1
+"Davidson","NC","US",1
+"Davison","MI","US",1
+"Dawson Creek","BC","CA",1
+"Dawsonville","GA","US",1
+"Dayton","NV","US",1
+"Dayuan Township","TAO","TW",1
+"Dayville","CT","US",1
+"De Meern","UT","NL",1
+"De Pere","WI","US",1
+"Decatur","TX","US",1
+"Dedham","MA","US",1
+"Deer Park","IL","US",1
+"Deer Park","TX","US",1
+"Deerfield","IL","US",1
+"Delano","CA","US",1
+"Delavan","WI","US",1
+"Delaware","OH","US",1
+"DELAWARE","OH","US",1
+"Delhi","JK","ID",1
+"Delran","NJ","US",1
+"Delson","QC","CA",1
+"Depok","JB","ID",1
+"Derby","CT","US",1
+"Des Peres","MO","US",1
+"Desert Hot Springs","CA","US",1
+"Desoto","TX","US",1
+"DeSoto","TX","US",1
+"Deventer","OV","NL",1
+"Devon","PA","US",1
+"Dickinson","TX","US",1
+"Dickson City","PA","US",1
+"Dillon","MT","US",1
+"Dinuba","CA","US",1
+"DKI Jakarta","JK","ID",1
+"Dobbs Ferry","NY","US",1
+"Dollard-des-ormeaux","QC","CA",1
+"Dongducheon","41","KR",1
+"Dortmund","NW","DE",1
+"Dorval","QC","CA",1
+"Doswell","VA","US",1
+"Dothan","AL","US",1
+"Douglasville","GA","US",1
+"Dover","DE","US",1
+"Dover","NH","US",1
+"Draper","UT","US",1
+"Dresher","PA","US",1
+"Dryden","ON","CA",1
+"Dublin","GA","US",1
+"Dudley","ENG","GB",1
+"Dukyang","41","KR",1
+"Dulles","VA","US",1
+"Dumont","CO","US",1
+"Duncanville","TX","US",1
+"Dundas","ON","CA",1
+"Dundee","SCT","GB",1
+"Dunedin","N","NZ",1
+"Dunfermline","SCT","GB",1
+"Dupont","WA","US",1
+"DuPont","WA","US",1
+"Dusit","10","TH",1
+"Dyer","IN","US",1
+"E Wenatchee","WA","US",1
+"Eagle","CO","US",1
+"East Amherst","NY","US",1
+"East Brunswick","NJ","US",1
+"East Grand Rapids","MI","US",1
+"East Greenwich","RI","US",1
+"East Hampton","NY","US",1
+"East Hanover","NJ","US",1
+"East Kilbride","SCT","GB",1
+"East Longmeadow","MA","US",1
+"East Norriton","PA","US",1
+"East Peoria","IL","US",1
+"East Ridgefield","NJ","US",1
+"East Setauket","NY","US",1
+"East Wenatchee","WA","US",1
+"Easton","MA","US",1
+"Ecatepec","MX","MX",1
+"Edgbaston","ENG","GB",1
+"Edgemont","PA","US",1
+"Edgewater","NJ","US",1
+"Edgewood","NM","US",1
+"Edingurgh","SCT","GB",1
+"Edwards","CA","US",1
+"Edwards","CO","US",1
+"Effingham","IL","US",1
+"Eglin AFB","FL","US",1
+"Eindhoven","NB","NL",1
+"El Jebel","CO","US",1
+"El Sobrante","CA","US",1
+"Elgin","SCT","GB",1
+"Elizabeth","CO","US",1
+"Elizabeth","NJ","US",1
+"Elizabeth City","NC","US",1
+"Elkridge","MD","US",1
+"Ellenton","FL","US",1
+"Ellijay","GA","US",1
+"Elstree","ENG","GB",1
+"Elyria","OH","US",1
+"Emmett","ID","US",1
+"Emporia","KS","US",1
+"Ena","21","JP",1
+"Enfield","CT","US",1
+"Enfield","NS","CA",1
+"Englewood","NJ","US",1
+"Englewood","OH","US",1
+"Enid","OK","US",1
+"Ephrata","WA","US",1
+"Epping","NH","US",1
+"Epsom","ENG","GB",1
+"Erlangen","BY","DE",1
+"Escalon","CA","US",1
+"Eskisehir","26","TR",1
+"Essen","NW","DE",1
+"Essex","ENG","GB",1
+"Esslingen","BW","DE",1
+"Etobicoke","ON","CA",1
+"Everett","MA","US",1
+"Evesham","NJ","US",1
+"Exmouth","ENG","GB",1
+"Ezeiza","B","AR",1
+"Fairborn","OH","US",1
+"Fairchild AFB","WA","US",1
+"Fairfield","OH","US",1
+"Fairview","TX","US",1
+"Falcon","CO","US",1
+"Fallbrook","CA","US",1
+"Fallon","NV","US",1
+"Falmouth","MA","US",1
+"Falmouth","ME","US",1
+"Farmington","CT","US",1
+"Farmington","MI","US",1
+"Farmington","UT","US",1
+"Farmington Hills","MI","US",1
+"Farnborough","ENG","GB",1
+"Farnham","ENG","GB",1
+"Fayetteville","NY","US",1
+"Feasterville","PA","US",1
+"Federal Heights","CO","US",1
+"Feltham","ENG","GB",1
+"Fenton","MO","US",1
+"Ferndale","WA","US",1
+"Fernley","NV","US",1
+"Fife","WA","US",1
+"Fillmore","CA","US",1
+"Fishkill","NY","US",1
+"Flat Rock","NC","US",1
+"Fletcher","NC","US",1
+"Florence","AZ","US",1
+"Florence","KY","US",1
+"Florence","OR","US",1
+"Florham Park","NJ","US",1
+"Florida City","FL","US",1
+"Florissant","MO","US",1
+"Flourtown","PA","US",1
+"Flowery Branch","GA","US",1
+"Foley","AL","US",1
+"Fond du Lac","WI","US",1
+"Fond Du Lac","WI","US",1
+"Foothill Ranch","CA","US",1
+"Forest City","NC","US",1
+"Forest Grove","OR","US",1
+"Forest Lake","MN","US",1
+"Forest Park","IL","US",1
+"Forest Park","OH","US",1
+"Forked River","NJ","US",1
+"Forney","TX","US",1
+"Fort Bragg","CA","US",1
+"Fort Campbell","KY","US",1
+"FORT CAMPBELL","KY","US",1
+"Fort Carson","CO","US",1
+"Fort Dodge","IA","US",1
+"Fort Eustis","VA","US",1
+"Fort Frances","ON","CA",1
+"Fort Gordon","GA","US",1
+"Fort Huachuca","AZ","US",1
+"Fort Irwin","CA","US",1
+"Fort Knox","KY","US",1
+"Fort Leavenworth","KS","US",1
+"Fort Lewis","WA","US",1
+"Fort Lupton","CO","US",1
+"Fort Mitchell","KY","US",1
+"Fort Mohave","AZ","US",1
+"Fort Richardson","AK","US",1
+"Fort Sam Houston","TX","US",1
+"Fort Smith","AR","US",1
+"Fort St John","BC","CA",1
+"Fort Union","UT","US",1
+"Fort Wainwright","AK","US",1
+"Fort Washington","MD","US",1
+"Fortress Hill","91","CN",1
+"Fortuna","CA","US",1
+"Fountain","CO","US",1
+"Fountain City","TN","US",1
+"Fowler","CA","US",1
+"Fox Point","WI","US",1
+"Frankfort","IL","US",1
+"Frankfurt","HE","DE",1
+"Franklin","IN","US",1
+"Franklin","NJ","US",1
+"Franklin","OH","US",1
+"Franklin","VA","US",1
+"Franklin Lakes","NJ","US",1
+"Franklin Square","NY","US",1
+"Franklin TWP","NJ","US",1
+"Fraser","CO","US",1
+"Frederick","CO","US",1
+"Frederickson","WA","US",1
+"Fredericton","NB","CA",1
+"Fredonia","NY","US",1
+"Freeport","ME","US",1
+"Fremont","NE","US",1
+"Fresh Meadows","NY","US",1
+"Fribourg","FR","CH",1
+"Frisco","CO","US",1
+"Ft Benning","GA","US",1
+"Ft Collins","CO","US",1
+"Ft Myers","FL","US",1
+"Ft Worth","TX","US",1
+"Ft. Benning","GA","US",1
+"Ft. Irwin","CA","US",1
+"Ft. Lauderdale","FL","US",1
+"Ft. Leonard Wood","MO","US",1
+"Ft. Mill","SC","US",1
+"Ft. Polk","LA","US",1
+"Ft. Riley","KS","US",1
+"Ft. Smith","AR","US",1
+"Ft. Wayne","IN","US",1
+"Fuchu","13","JP",1
+"Fujairah","FU","AE",1
+"Fujimino","11","JP",1
+"Fujinomiya","22","JP",1
+"Fukutsu","40","JP",1
+"Fultondale","AL","US",1
+"Fuquay-Varina","NC","US",1
+"Fuso","23","JP",1
+"Fussa","13","JP",1
+"Futtsu","12","JP",1
+"Gaffney","SC","US",1
+"Gahanna","OH","US",1
+"Gainesville","TX","US",1
+"Galloway","OH","US",1
+"Gallup","NM","US",1
+"Garden City","ID","US",1
+"Garden City","KS","US",1
+"Gardermoen","03","NO",1
+"Gardnerville","NV","US",1
+"Garfield Heights","OH","US",1
+"Garner","NC","US",1
+"Gas City","IN","US",1
+"Gastonia","NC","US",1
+"Gaylord","MI","US",1
+"Gdynia","PM","PL",1
+"General Santos","01","PH",1
+"Geneseo","NY","US",1
+"Genting Highland","06","MY",1
+"Genting Highland","07","MY",1
+"Georgetown","KY","US",1
+"Germantown","WI","US",1
+"Gettysburg","PA","US",1
+"Gibsonia","PA","US",1
+"Gillette","NJ","US",1
+"Gimhae","48","KR",1
+"Gimpo","41","KR",1
+"Gladstone","MO","US",1
+"Gladstone","OR","US",1
+"Glen Ridge","NJ","US",1
+"Glen Rock","NJ","US",1
+"Glencoe","IL","US",1
+"Glendale","NY","US",1
+"GLENDALE","CA","US",1
+"Glendale Heights","IL","US",1
+"Glenville","NY","US",1
+"Gloucester","ON","CA",1
+"Gold River","CA","US",1
+"Golden Valley","MN","US",1
+"Gonzales","LA","US",1
+"GOODYEAR","AZ","US",1
+"Goshen","IN","US",1
+"Goshogawara","02","JP",1
+"Gotemba","22","JP",1
+"Gothenburg","O","SE",1
+"Grafton","VA","US",1
+"Grafton","WI","US",1
+"Graham","WA","US",1
+"Granbury","TX","US",1
+"Granby","CO","US",1
+"Granby","CT","US",1
+"Grand Blanc","MI","US",1
+"Grand Chute","WI","US",1
+"Grand Island","NE","US",1
+"Grand Rapids","MN","US",1
+"Grandview","WA","US",1
+"Grants Pass","OR","US",1
+"Grayslake","IL","US",1
+"Great Falls","VA","US",1
+"Great Neck","NY","US",1
+"Great Yarmouth","ENG","GB",1
+"Green Valley","AZ","US",1
+"Greenacres","FL","US",1
+"Greenbrae","CA","US",1
+"Greencastle","IN","US",1
+"Greendale","WI","US",1
+"Greenfield","IN","US",1
+"Greenfield","WI","US",1
+"Greenhithe","ENG","GB",1
+"Greenhithie","ENG","GB",1
+"Greenland","NH","US",1
+"Greensburg","PA","US",1
+"Greenvale","NY","US",1
+"Greenville","TX","US",1
+"Greenwood","SC","US",1
+"Greer","SC","US",1
+"Gretna","LA","US",1
+"Gridley","CA","US",1
+"Griffin","GA","US",1
+"Groningen","GR","NL",1
+"Grosse Ile","MI","US",1
+"Grover Beach","CA","US",1
+"Guanajuato","GUA","MX",1
+"Guatemala City","GU","GT",1
+"Guerneville","CA","US",1
+"Guiguinto","03","PH",1
+"Gulf Breeze","FL","US",1
+"Gulf Shores","AL","US",1
+"Gulfport","MS","US",1
+"Gumi","47","KR",1
+"Gunnison","CO","US",1
+"Guri","41","KR",1
+"Gustine","CA","US",1
+"Gwacheon","41","KR",1
+"Gwangmyeong","41","KR",1
+"Gyeongju","47","KR",1
+"Hachinohe","02","JP",1
+"Hackensack","NJ","US",1
+"Hadano","14","JP",1
+"Haddonfield","NJ","US",1
+"Hagerstown","MD","US",1
+"Hailey","ID","US",1
+"Hailsham","ENG","GB",1
+"Hainesville","IL","US",1
+"Hakodate","01","JP",1
+"Hales Corners","WI","US",1
+"Half Moon Bay","CA","US",1
+"Hallandale Beach","FL","US",1
+"Haltom City","TX","US",1
+"Hamden","CT","US",1
+"Hamilton","NJ","US",1
+"Hamilton","OH","US",1
+"HAMMERSMITH","ENG","GB",1
+"Hammonton","NJ","US",1
+"Hampsire","ENG","GB",1
+"Hampton","ENG","GB",1
+"Hampton Bays","NY","US",1
+"Hanley, Stoke-on-Trent","ENG","GB",1
+"Hannacroix","NY","US",1
+"Hanover","NH","US",1
+"Hanover Park","IL","US",1
+"Hanyu","11","JP",1
+"Harahan","LA","US",1
+"Harper Woods","MI","US",1
+"Harriman","TN","US",1
+"Harrison","OH","US",1
+"Harrow","ENG","GB",1
+"Hartsdale","NY","US",1
+"Harvey","LA","US",1
+"Harwich","MA","US",1
+"Hasbrouck Heights","NJ","US",1
+"Hastings on Hudson","NY","US",1
+"Hasuda","11","JP",1
+"Hatsukaichi","34","JP",1
+"Hatyai","90","TH",1
+"Hauppauge","NY","US",1
+"Haverton","PA","US",1
+"Havertown","PA","US",1
+"Hayama","14","JP",1
+"Hayden","ID","US",1
+"Hayes","ENG","GB",1
+"Hays","KS","US",1
+"Hazelwood","MO","US",1
+"Hazmieh","BA","LB",1
+"Heathrow","ENG","GB",1
+"Heber City","UT","US",1
+"Hengchun Township","PIF","TW",1
+"Henrietta","NY","US",1
+"Hermitage","PA","US",1
+"Hertfordshire","ENG","GB",1
+"Hertforshire","ENG","GB",1
+"Hewlett","NY","US",1
+"Hghlands Ranch","CO","US",1
+"Hiawassee","GA","US",1
+"Higashimatsuyama","11","JP",1
+"Higashiosaka","27","JP",1
+"Highland","CA","US",1
+"Highland","IN","US",1
+"Highland Heights","KY","US",1
+"Highspire","PA","US",1
+"Highwood","IL","US",1
+"Higley","AZ","US",1
+"Hilliard","OH","US",1
+"Hillsboro","TX","US",1
+"Hillsborough","NJ","US",1
+"Hillsdale","NJ","US",1
+"Hillside","IL","US",1
+"Hilversum","NH","NL",1
+"Hinesville","GA","US",1
+"Hino","13","JP",1
+"Hinton","AB","CA",1
+"Hiratsuka","14","JP",1
+"Hisai","24","JP",1
+"Hitachinaka","08","JP",1
+"Holladay","UT","US",1
+"Holyoke","MA","US",1
+"Homer","AK","US",1
+"Homestead","FL","US",1
+"Homewood","AL","US",1
+"Hopewell","VA","US",1
+"Hopkins","MN","US",1
+"Hopkinsville","KY","US",1
+"Hopkinton","MA","US",1
+"Hot Springs","AR","US",1
+"Houma","LA","US",1
+"Howard Beach","NY","US",1
+"Howell","MI","US",1
+"Howell","NJ","US",1
+"Hudson","OH","US",1
+"Hudson","WI","US",1
+"Hudsonville","MI","US",1
+"Hull","GA","US",1
+"Huntington","NY","US",1
+"Huntington Station","NY","US",1
+"Huntley","IL","US",1
+"Hutchinson","KS","US",1
+"Hyannis","MA","US",1
+"Hyde","ENG","GB",1
+"Ibaraki","27","JP",1
+"Ichihara","12","JP",1
+"Idaho Springs","CO","US",1
+"Ikeda","27","JP",1
+"Iksan","45","KR",1
+"ILE PERROT","QC","CA",1
+"Iloilo","PH","PH",1
+"Imus","40","PH",1
+"Inazawa","23","JP",1
+"Incline Village","NV","US",1
+"Independence","OH","US",1
+"Indialantic","FL","US",1
+"Indian Harbor Beach","FL","US",1
+"Indian Trail","NC","US",1
+"Indiana","PA","US",1
+"Instanbul - Asya","34","TR",1
+"Inver Grove Heights","MN","US",1
+"Invercargill","N","NZ",1
+"Iowa City","IA","US",1
+"Ipswich","ENG","GB",1
+"Irapuato","GUA","MX",1
+"Irmo","SC","US",1
+"Irondequoit","NY","US",1
+"Irwin","PA","US",1
+"Irwindale","CA","US",1
+"Ise","24","JP",1
+"Isehara","17","JP",1
+"Iselin","NJ","US",1
+"Isezaki","10","JP",1
+"Ishigaki","47","JP",1
+"Ishinomaki","04","JP",1
+"Isla Vista","CA","US",1
+"Island Park","NY","US",1
+"Islip","NY","US",1
+"Istanbul - Asya","34","TR",1
+"Itami","28","JP",1
+"Itasca","IL","US",1
+"Iwata","22","JP",1
+"Izmit","41","TR",1
+"Jackson","MO","US",1
+"Jackson","WY","US",1
+"Jackson Heights","NY","US",1
+"Jacksonville","AR","US",1
+"Jacksonville","NC","US",1
+"Jacksonville Beach","FL","US",1
+"Jacksonville Mandarin","FL","US",1
+"Jakarta Pusat","JK","ID",1
+"jamaica","NY","US",1
+"Jamestown","NC","US",1
+"Jamestown","NY","US",1
+"Jamison","PA","US",1
+"Jasper","GA","US",1
+"Jefferson","GA","US",1
+"Jeiju","49","KR",1
+"Jenison","MI","US",1
+"Jenkintown","PA","US",1
+"Jennings","MO","US",1
+"Jericho","NY","US",1
+"Jessup","MD","US",1
+"Jim Thorpe","PA","US",1
+"Johns Island","SC","US",1
+"Johnston","IA","US",1
+"Johnstown","CO","US",1
+"Johnstown","PA","US",1
+"Jonesborough","TN","US",1
+"Junction City","KS","US",1
+"Junction City","OR","US",1
+"Kahoku","17","JP",1
+"Kahului Airport","HI","US",1
+"Kai","19","JP",1
+"Kalispell","MT","US",1
+"Kalithea","A1","GR",1
+"Kamagaya","12","JP",1
+"Kamuela","HI","US",1
+"Kanagawa","14","JP",1
+"Kannayao","10","TH",1
+"Kansas City","KS","US",1
+"Kapaa","HI","US",1
+"Karawang","JK","ID",1
+"Karlsruhe","BW","DE",1
+"Kashihara","29","JP",1
+"Kassel","HE","DE",1
+"Kasuga","40","JP",1
+"Kasukabe","11","JP",1
+"Katu","83","TH",1
+"KATY","TX","US",1
+"Kawai","29","JP",1
+"Kearney","NE","US",1
+"Keesler AFB","MS","US",1
+"Kendall","FL","US",1
+"Kenilworth","ENG","GB",1
+"Kenilworth","NJ","US",1
+"kennebunk","ME","US",1
+"Kennebunk","ME","US",1
+"Kennett Square","PA","US",1
+"Kenora","ON","CA",1
+"Kensington","MD","US",1
+"Kent","ENG","GB",1
+"Kent","OH","US",1
+"Kent,","WA","US",1
+"Kentwood","MI","US",1
+"Kerrville","TX","US",1
+"Ketchikan","AK","US",1
+"Ketchum","ID","US",1
+"Kettering","OH","US",1
+"Kettleman City","CA","US",1
+"Kew Gardens","NY","US",1
+"Key Biscayne","FL","US",1
+"Key Largo","FL","US",1
+"Key West","FL","US",1
+"Keystone","CO","US",1
+"Khannayao","10","TH",1
+"Kidderminster","ENG","GB",1
+"Kiel","SH","DE",1
+"Kikuchi","43","JP",1
+"KILBURN","ENG","GB",1
+"Kildare","L","IE",1
+"King City","CA","US",1
+"Kings Beach","CA","US",1
+"Kings Island","OH","US",1
+"Kingsburg","CA","US",1
+"Kingston","WA","US",1
+"Kingston Upon Thames","ENG","GB",1
+"Kingstowne","VA","US",1
+"Kingsville","TX","US",1
+"Kingwood","TX","US",1
+"Kirkland","QC","CA",1
+"Kirkwood","MO","US",1
+"Kishiwada","27","JP",1
+"Kitahiroshima","01","JP",1
+"Kitakyushu","40","JP",1
+"Kittery","ME","US",1
+"Kitty Hawk","NC","US",1
+"Kiyose","13","JP",1
+"Kleinburg","ON","CA",1
+"Klong-toey Nua","10","TH",1
+"Klongklum","10","TH",1
+"Klongsan","10","TH",1
+"Klongtey","10","TH",1
+"klongtoey","10","TH",1
+"Knightdale","NC","US",1
+"Koblenz","RP","DE",1
+"Kocaeli","41","TR",1
+"Kocaeli (Izmit)","41","TR",1
+"Kodiak","AK","US",1
+"Kofu","19","JP",1
+"Koh Samui","84","TH",1
+"Kokubunji","13","JP",1
+"Koloa","HI","US",1
+"Komtar","07","MY",1
+"Kona","HI","US",1
+"Konan","23","JP",1
+"Konan-ku","15","JP",1
+"Konya","42","TR",1
+"Kowloon Bay","91","CN",1
+"Kowloon Tong","91","CN",1
+"Kratoo","83","TH",1
+"Kuantan","06","MY",1
+"Kuki","11","JP",1
+"Kulaijaya","01","MY",1
+"Kumiyama","26","JP",1
+"Kunitachi","13","JP",1
+"Kure","34","JP",1
+"Kuta","BA","ID",1
+"Kyotanabe","26","JP",1
+"La Cresenta","CA","US",1
+"La Grange","GA","US",1
+"La Grange","IL","US",1
+"La Libertad","LI","SV",1
+"La Paz","BCS","MX",1
+"LA VERNE","CA","US",1
+"LACEY","WA","US",1
+"Lacy Lakeview","TX","US",1
+"Ladera Ranch","CA","US",1
+"Ladprao","10","TH",1
+"Ladue","MO","US",1
+"Ladysmith","BC","CA",1
+"Laguna Woods","CA","US",1
+"Lake City","FL","US",1
+"Lake Delton","WI","US",1
+"Lake Forest","WA","US",1
+"Lake Grove","NY","US",1
+"Lake In The Hills","IL","US",1
+"Lake Isabella","CA","US",1
+"Lake Orion","MI","US",1
+"Lake Park","FL","US",1
+"Lake Placid","NY","US",1
+"Lake Ridge","VA","US",1
+"Lake St. Louis","MO","US",1
+"Lake Wales","FL","US",1
+"Lake Worth","FL","US",1
+"Lake Worth","TX","US",1
+"Lakeport","CA","US",1
+"Lakeshore","ON","CA",1
+"Lakeside","AZ","US",1
+"Lakeside","CA","US",1
+"Lakeway","TX","US",1
+"Lakewood","NJ","US",1
+"Lambertville","MI","US",1
+"Lanarkshire","ENG","GB",1
+"Lancashire","ENG","GB",1
+"Land O Lake","FL","US",1
+"Landrum","SC","US",1
+"Lanesboro","MA","US",1
+"Langely","BC","CA",1
+"Langley Park","MD","US",1
+"Lanham","MD","US",1
+"Lanksi","12","TH",1
+"Lansdale","PA","US",1
+"Lansing","MI","US",1
+"Lapeer","MI","US",1
+"LaPorte","TX","US",1
+"Lapu Lapu","07","PH",1
+"Larbert","SCT","GB",1
+"Larchmont","NY","US",1
+"Lardprao","10","TH",1
+"Larkfield","CA","US",1
+"Larkspur","CA","US",1
+"Larnaca","03","CY",1
+"Las Pinas City","00","PH",1
+"Laval","QC","CA",1
+"Lawndale","CA","US",1
+"Lawrence","IN","US",1
+"Lawton","OK","US",1
+"Leamington Spa","ENG","GB",1
+"Leander","TX","US",1
+"Leavenworth","KS","US",1
+"Leavenworth","WA","US",1
+"Lebanon","IN","US",1
+"Lebanon","MO","US",1
+"Lebanon","OH","US",1
+"Lebanon","OR","US",1
+"Lebec","CA","US",1
+"Leduc","AB","CA",1
+"Lee's Summit","MO","US",1
+"Lehigh Valley","PA","US",1
+"Leiden","ZH","NL",1
+"Leipzig","SN","DE",1
+"LEIPZIG","SN","DE",1
+"Lemoore","CA","US",1
+"Lenexa","KS","US",1
+"LEONBERG","BW","DE",1
+"Leverkusen","NW","DE",1
+"Levis","QC","CA",1
+"Lewis","OH","US",1
+"Lewis Center","OH","US",1
+"Lewiston","ID","US",1
+"Liberty","MO","US",1
+"Liberty","OH","US",1
+"Liberty Lake","WA","US",1
+"Liberty Township","OH","US",1
+"Lilburn","GA","US",1
+"Lima","OH","US",1
+"Limassol","02","CY",1
+"Limerick","PA","US",1
+"Lincoln Park","MI","US",1
+"Lincolnwood","IL","US",1
+"Linden","NJ","US",1
+"Lindsay","CA","US",1
+"Lino Lakes","MN","US",1
+"Linthicum Heights","MD","US",1
+"Lionville","PA","US",1
+"Lipa City","40","PH",1
+"Lisbon","CT","US",1
+"Lisle","IL","US",1
+"Little falls","NY","US",1
+"Little Ferry","NJ","US",1
+"Little Neck","NY","US",1
+"Little Rock,","AR","US",1
+"Liverpool","NY","US",1
+"Livingston","CA","US",1
+"Livingston","NJ","US",1
+"Livingston","SCT","GB",1
+"Lloydminster","AB","CA",1
+"Lock Haven","PA","US",1
+"Logan","UT","US",1
+"Logansport","IN","US",1
+"Loma Linda","CA","US",1
+"London","KY","US",1
+"London Colney","ENG","GB",1
+"Longmeadow","MA","US",1
+"Longwood","FL","US",1
+"Lookout Mountain","GA","US",1
+"Loomis","CA","US",1
+"Lorton","VA","US",1
+"Los Alamitos","CA","US",1
+"Los Alamos","NM","US",1
+"Los Lunas","NM","US",1
+"Los Mochis","SIN","MX",1
+"Loveland","OH","US",1
+"Lower Paxton","PA","US",1
+"Ludwigsburg","BW","DE",1
+"Lufkin","TX","US",1
+"Luodong Township","ILA","TW",1
+"Lusby","MD","US",1
+"Lutz","FL","US",1
+"Lynbrook","NY","US",1
+"Lynden","WA","US",1
+"LYNDEN","WA","US",1
+"Lynn Haven","FL","US",1
+"Lyons","IL","US",1
+"MacClenny","FL","US",1
+"Machesney Park","IL","US",1
+"Mackinac Island","MI","US",1
+"Madeira","OH","US",1
+"Madison","CT","US",1
+"Madison","NJ","US",1
+"Madison","TN","US",1
+"Madison Heights","MI","US",1
+"Madras","OR","US",1
+"Mahwah","NJ","US",1
+"Maidstone","ENG","GB",1
+"Maineville","OH","US",1
+"Mainz","RP","DE",1
+"Maitland","FL","US",1
+"Majadahonda","MD","ES",1
+"Malahide","L","IE",1
+"Malay","06","PH",1
+"Malmo","M","SE",1
+"Malvern","PA","US",1
+"Mamaroneck","NY","US",1
+"Manahawkin","NJ","US",1
+"Manalapan","NJ","US",1
+"Manchester","MO","US",1
+"Manchester","TN","US",1
+"Mandaluyong City","00","PH",1
+"Mandaue City","10","PH",1
+"Manises","AN","ES",1
+"Manitowoc","WI","US",1
+"Mankato","MN","US",1
+"MANNHEIM","BW","DE",1
+"Manorville","NY","US",1
+"Manzanillo","COL","MX",1
+"Maple","ON","CA",1
+"Marble Falls","TX","US",1
+"Marblehead","MA","US",1
+"Margate City","NJ","US",1
+"Maricopa","AZ","US",1
+"Marina del Rey","CA","US",1
+"Marion","IA","US",1
+"Marion","IN","US",1
+"Marrero","LA","US",1
+"Marseille","U","FR",1
+"MARSEILLE","U","FR",1
+"Marshalltown","IA","US",1
+"Marshfield","MA","US",1
+"Marshfield","WI","US",1
+"Martinez","GA","US",1
+"Martinsburg","WV","US",1
+"Martinsville","IN","US",1
+"Maryland Heights","MO","US",1
+"Marysville","CA","US",1
+"Marysville","MI","US",1
+"Marysville","OH","US",1
+"MARYSVILLE","WA","US",1
+"Maryville","TN","US",1
+"Masaki","38","JP",1
+"Mason City","IA","US",1
+"Matawan","NJ","US",1
+"Matsudo","12","JP",1
+"Matsue","32","JP",1
+"Matsumoto","20","JP",1
+"Matteson","IL","US",1
+"Mattituck","NY","US",1
+"Matto","17","JP",1
+"Maumelle","AR","US",1
+"Mays Landing","NJ","US",1
+"Mazatlan","SIN","MX",1
+"McChord AFB","WA","US",1
+"McKinleyville","CA","US",1
+"Mecca","CA","US",1
+"Mechanicsburg","PA","US",1
+"Medepec","MX","MX",1
+"Medford","NJ","US",1
+"Media","PA","US",1
+"Medina","MN","US",1
+"Medway","MA","US",1
+"Meerkerk","ZH","NL",1
+"Meiwa","24","JP",1
+"Melbourne Village","FL","US",1
+"Melrose","MA","US",1
+"Melrose Park","IL","US",1
+"Melville","NY","US",1
+"Mequon","WI","US",1
+"Mercedes","TX","US",1
+"Meriden","CT","US",1
+"Merriam","KS","US",1
+"Merrick","NY","US",1
+"Merrimack","NH","US",1
+"Merritt","BC","CA",1
+"Merritt Island","FL","US",1
+"Mersin","33","TR",1
+"Mersin Icel","33","TR",1
+"Mesquite","NV","US",1
+"Mexico","DIF","MX",1
+"Mexico City","MX","MX",1
+"Miami Gardens","FL","US",1
+"Miami Lakes","FL","US",1
+"Miami Shores","FL","US",1
+"Miami Springs","FL","US",1
+"Miamisburg","OH","US",1
+"Michigan City","IN","US",1
+"Middlesbrough","ENG","GB",1
+"Middleton","WI","US",1
+"Middletown","DE","US",1
+"Middletown","KY","US",1
+"Middletown","MD","US",1
+"Middletown","NJ","US",1
+"Middletown","NY","US",1
+"Middletown","PA","US",1
+"Middletown","RI","US",1
+"Middlewich","ENG","GB",1
+"Midland","MI","US",1
+"Midland Park","NJ","US",1
+"Midlothian","TX","US",1
+"Miki","28","JP",1
+"Milford","MI","US",1
+"Millbrae","CA","US",1
+"Millburn","NJ","US",1
+"Miller Place","NY","US",1
+"Millington","TN","US",1
+"Mills River","NC","US",1
+"Milltown","NJ","US",1
+"Millville","DE","US",1
+"Millville","NJ","US",1
+"Milton","GA","US",1
+"Milton","MA","US",1
+"Milton","WA","US",1
+"Milton Keynes","ENG","GB",1
+"Minden","NV","US",1
+"Minoh","27","JP",1
+"Minot","ND","US",1
+"Mira Loma","CA","US",1
+"Mission","KS","US",1
+"Mission","TX","US",1
+"Mission Hills","CA","US",1
+"Mississippi State","MS","US",1
+"MIssouri City","TX","US",1
+"Mitaka","13","JP",1
+"Mizuho","13","JP",1
+"Moab","UT","US",1
+"Molalla","OR","US",1
+"Moncton","NB","CA",1
+"Monona","WI","US",1
+"Monroe","CT","US",1
+"Monroe","NY","US",1
+"Monroeville","PA","US",1
+"Mont Tremblant","QC","CA",1
+"Montclair","NJ","US",1
+"Monterey Park","CA","US",1
+"Montgomery","IL","US",1
+"Montgomery","TX","US",1
+"Montgomeryville","PA","US",1
+"Monticello","MN","US",1
+"Montrose","CA","US",1
+"Montvale","NJ","US",1
+"Montville","CT","US",1
+"Moon Township","PA","US",1
+"Moorestown","NJ","US",1
+"Moose Jaw","SK","CA",1
+"Moosic","PA","US",1
+"Moravia","SJ","CR",1
+"Morehead","KY","US",1
+"Morehead City","NC","US",1
+"Morganton","NC","US",1
+"Morganville","NJ","US",1
+"Moriguchi","27","JP",1
+"Morioka","03","JP",1
+"Moriya","08","JP",1
+"Morris Plains","NJ","US",1
+"Morristown","NJ","US",1
+"Morristown","TN","US",1
+"Morro Bay","CA","US",1
+"Morton Grove","IL","US",1
+"Motosu","21","JP",1
+"Mount Dora","FL","US",1
+"Mount Juliet","TN","US",1
+"Mount Kisco","NY","US",1
+"Mount Pocono","PA","US",1
+"Mount Prospect","IL","US",1
+"Mount Vernon","NY","US",1
+"Mount Vernon","WA","US",1
+"Mountain Brook","AL","US",1
+"Mt Kisco","NY","US",1
+"Mt Orab","OH","US",1
+"Mt Vernon","OH","US",1
+"Muang","11","TH",1
+"Muang","12","TH",1
+"Muang","20","TH",1
+"Muang","52","TH",1
+"Muang","74","TH",1
+"Muang","84","TH",1
+"Muang Chiangmai","50","TH",1
+"Muang Chiangrai","57","TH",1
+"Muang Krabi","81","TH",1
+"Muang Nakhonratchasima","30","TH",1
+"Muang Phitsanulok","65","TH",1
+"Muang Rayong","21","TH",1
+"Muang Ubon Ratchathani","34","TH",1
+"Muang Udon Thani","41","TH",1
+"Muang,","43","TH",1
+"MUELHEIM","NW","DE",1
+"Mugla","48","TR",1
+"Muharraq","15","BH",1
+"Muncy","PA","US",1
+"Munster","IN","US",1
+"MÜNSTER","NW","DE",1
+"Murphy","TX","US",1
+"Murrietta","CA","US",1
+"Musashimurayama","13","JP",1
+"Muscatine","IA","US",1
+"Mykonos","L","GR",1
+"Mystic","CT","US",1
+"N Kingstown","RI","US",1
+"Naga City","10","PH",1
+"Nagoya","12","JP",1
+"Naha","47","JP",1
+"Nakano","13","JP",1
+"Namegawa","11","JP",1
+"Namur","WAL","BE",1
+"Namyangju-si","41","KR",1
+"Nantou City","NAN","TW",1
+"Nanuet","NY","US",1
+"Napier","N","NZ",1
+"Nappanee","IN","US",1
+"NAS Lemoore","CA","US",1
+"Nassau Bay","TX","US",1
+"Natori","04","JP",1
+"Naval Station Pensacola","FL","US",1
+"Nederland","TX","US",1
+"Needham","MA","US",1
+"Neenah","WI","US",1
+"Nellis AFB","NV","US",1
+"Nelson","BC","CA",1
+"Nelson","N","NZ",1
+"Neptune Beach","FL","US",1
+"Nesconset","NY","US",1
+"Neumunster","SH","DE",1
+"New Albany","IN","US",1
+"New Braunfels","TX","US",1
+"NEW BRAUNFELS","TX","US",1
+"New Brunswick","NJ","US",1
+"New Canaan","CT","US",1
+"New Carrollton","MD","US",1
+"New City","NY","US",1
+"New Fairfield","CT","US",1
+"New Hope","PA","US",1
+"New Hudson","MI","US",1
+"New Iberia","LA","US",1
+"New Kensington","PA","US",1
+"New Milford","CT","US",1
+"New Paltz","NY","US",1
+"New Stanton","PA","US",1
+"New Taipei City","TPE","TW",1
+"Newark","ENG","GB",1
+"Newark","OH","US",1
+"Newberg","OR","US",1
+"Newberry","FL","US",1
+"Newbridge","L","IE",1
+"Newburg","PA","US",1
+"Newburgh","IN","US",1
+"Newbury Park","CA","US",1
+"Newburyport","MA","US",1
+"Newcastle on Tyne","ENG","GB",1
+"Newcastle upon Tyne","ENG","GB",1
+"Newcastle Upon Tyne","ENG","GB",1
+"Newmarket","ENG","GB",1
+"Newport","RI","US",1
+"Newport","VA","US",1
+"NEWPORT","WA","US",1
+"Newport City","41","PH",1
+"Newton","IA","US",1
+"Newton Centre","MA","US",1
+"Newtonville","MA","US",1
+"Newtown","CT","US",1
+"Newtown","PA","US",1
+"Newtown Square","PA","US",1
+"Niagara Falls","NY","US",1
+"Niagara on the Lake","ON","CA",1
+"Nicholasville","KY","US",1
+"Niihama","38","JP",1
+"Nijmegen","GE","NL",1
+"Niles","MI","US",1
+"Niles","OH","US",1
+"Nishinomiya","28","JP",1
+"Nisshin","23","JP",1
+"Nixa","MO","US",1
+"Noblesville","IN","US",1
+"Nogales","AZ","US",1
+"Noord","AW","AW",1
+"Norfolk","NE","US",1
+"Normal","IL","US",1
+"Normandy Park","WA","US",1
+"Norristown","PA","US",1
+"North Andover","MA","US",1
+"North Augusta","SC","US",1
+"North Bend","OR","US",1
+"North Bergen","NJ","US",1
+"North Bethesda","MD","US",1
+"North Brunswick","NJ","US",1
+"North Charlotte","NC","US",1
+"North Cheam","ENG","GB",1
+"North Conway","NH","US",1
+"North Dartmouth","MA","US",1
+"North Huntingdon","PA","US",1
+"North LIttle Rock","AR","US",1
+"North Merrick","NY","US",1
+"North Miami Beach","FL","US",1
+"North Myrtle Beach","SC","US",1
+"North Platte","NE","US",1
+"North Riverside","IL","US",1
+"North York","ON","CA",1
+"Northampton","ENG","GB",1
+"Northborough","MA","US",1
+"Northfield","IL","US",1
+"Northfield","MN","US",1
+"Northfield","OH","US",1
+"Northglenn","CO","US",1
+"Northport","NY","US",1
+"Northvale","NJ","US",1
+"NORWICH","ENG","GB",1
+"Norwood","MA","US",1
+"Notre Dame","IN","US",1
+"Nottingham","MD","US",1
+"Nr Filey","ENG","GB",1
+"Nutley","NJ","US",1
+"Nyack","NY","US",1
+"Oak Park","IL","US",1
+"Oak Park","MI","US",1
+"Oak Park Heights","MN","US",1
+"Oak Ridge","TN","US",1
+"Oakdale","NY","US",1
+"Oakhurst","NJ","US",1
+"Oakland","MI","US",1
+"Oakland","NJ","US",1
+"Oakley","CA","US",1
+"Oakton","VA","US",1
+"Oakwood","GA","US",1
+"Oakwood","OH","US",1
+"Obu","23","JP",1
+"Ocean City","MD","US",1
+"Oceanside","NY","US",1
+"Ocoee","FL","US",1
+"Oconomowoc","WI","US",1
+"Odessa","FL","US",1
+"OFallon","IL","US",1
+"Offenbach am Main","HE","DE",1
+"Ogaki","21","JP",1
+"Ojai","CA","US",1
+"Old Bridge","NJ","US",1
+"Old Saybrook","CT","US",1
+"Old Tappan","NJ","US",1
+"Oldsmar","FL","US",1
+"Olivette","MO","US",1
+"Olympic Valley","CA","US",1
+"Omak","WA","US",1
+"Ome","13","JP",1
+"Omura City","42","JP",1
+"Onalaska","WI","US",1
+"Oneonta","NY","US",1
+"Orange City","FL","US",1
+"Orangeville","ON","CA",1
+"Orchard Lake","MI","US",1
+"Orchard Park","NY","US",1
+"Orcutt","CA","US",1
+"Oregon","OH","US",1
+"Orem","UT","US",1
+"Orleans","MA","US",1
+"Orleans","ON","CA",1
+"Orting","WA","US",1
+"Oslo","03","NO",1
+"Osmangazi","16","TR",1
+"OSNABRUECK","NI","DE",1
+"Ossining","NY","US",1
+"Ostrava","MO","CZ",1
+"Oswego","IL","US",1
+"Ota","10","JP",1
+"Otsego","MN","US",1
+"Oumihachiman","25","JP",1
+"Oviedo","FL","US",1
+"Owatonna","MN","US",1
+"Oxford","MS","US",1
+"Oxford","OH","US",1
+"OXNARD","CA","US",1
+"Oyama","09","JP",1
+"Ozark","MO","US",1
+"Pace","FL","US",1
+"Pacific Beach","CA","US",1
+"Pacific Grove","CA","US",1
+"Paducah","KY","US",1
+"Page","AZ","US",1
+"Pahrump","NV","US",1
+"Paju","41","KR",1
+"Pakchong","30","TH",1
+"Pakkred","10","TH",1
+"Palm Bay","FL","US",1
+"Palma","GA","ES",1
+"Palmetto Bay","FL","US",1
+"Palos Heights","IL","US",1
+"Panama City","FL","US",1
+"Panorama City","CA","US",1
+"Paphos","05","CY",1
+"Paranaque City","00","PH",1
+"PARIS","J","FR",1
+"Parker","AZ","US",1
+"Parkland","FL","US",1
+"Parksville","BC","CA",1
+"Parry Sound","ON","CA",1
+"Pasco","WA","US",1
+"Pataskala","OH","US",1
+"Patchogue","NY","US",1
+"Patterson","CA","US",1
+"Pattersonville","NY","US",1
+"Pawleys Island","SC","US",1
+"Payson","AZ","US",1
+"Peachtree Corners","GA","US",1
+"Pearl City","HI","US",1
+"Pekin","IL","US",1
+"Pembroke","NC","US",1
+"Penang","06","MY",1
+"Penfield","NY","US",1
+"Pennington","NJ","US",1
+"Penns Grove","NJ","US",1
+"Pennsgrove","NJ","US",1
+"Perai","07","MY",1
+"Perry Hall","MD","US",1
+"Perrysburg","OH","US",1
+"Peterborough","ENG","GB",1
+"Peterson AFB","CO","US",1
+"Petoskey","MI","US",1
+"Pewaukee","WI","US",1
+"Phasi Charoen","10","TH",1
+"Phayathai","10","TH",1
+"Phillipsburg","NJ","US",1
+"Phoenix","MD","US",1
+"Pickering","ON","CA",1
+"Pickerington","OH","US",1
+"Pineville","NC","US",1
+"Piraeus","A1","GR",1
+"Piscataway","NJ","US",1
+"Pismo Beach","CA","US",1
+"Pitt Meadows","BC","CA",1
+"Pittsburg","KS","US",1
+"Pittsburg","PA","US",1
+"Pittsfield","MA","US",1
+"Pittsfield","MI","US",1
+"Pittsford","NY","US",1
+"Piura","PIU","PE",1
+"Plainfield","IL","US",1
+"Plainfield","IN","US",1
+"Plainfield","PA","US",1
+"Plainview","NY","US",1
+"Plainville","CT","US",1
+"Plainville","MA","US",1
+"Plant City","FL","US",1
+"Plattekill","NY","US",1
+"Plattsburg","NY","US",1
+"Plattsburgh","NY","US",1
+"Pleasantville","NY","US",1
+"Plover","WI","US",1
+"Plymouth","IN","US",1
+"Plymouth Meeting","PA","US",1
+"Pohang","47","KR",1
+"Point Claire","QC","CA",1
+"Point Richmond","CA","US",1
+"Pointe Claire","QC","CA",1
+"Poland","OH","US",1
+"Pollock Pines","CA","US",1
+"Polson","MT","US",1
+"Pomprabsutrupai","10","TH",1
+"Pompton Lakes","NJ","US",1
+"Ponca City","OK","US",1
+"Ponte Vedra","FL","US",1
+"Ponte Vedra Beach","FL","US",1
+"Pontyclun","WLS","GB",1
+"Port Alberni","BC","CA",1
+"Port Arthur","TX","US",1
+"Port Chester","NY","US",1
+"Port Credit","ON","CA",1
+"Port Hadlock","WA","US",1
+"Port Hueneme","CA","US",1
+"Port Jefferson","NY","US",1
+"Port Richey","FL","US",1
+"Port Townsend","WA","US",1
+"Portage","MI","US",1
+"Portland","TX","US",1
+"Portsmouth","OH","US",1
+"Post Falls","ID","US",1
+"Pottstown","PA","US",1
+"Poulsbo","WA","US",1
+"Prakanong","10","TH",1
+"Pranakorn","10","TH",1
+"Prattville","AL","US",1
+"Prestwick","SCT","GB",1
+"Prince Albert","SK","CA",1
+"Prince Rupert","BC","CA",1
+"Prineville","OR","US",1
+"Prosser","WA","US",1
+"Prunedale","CA","US",1
+"Puchong","10","MY",1
+"Pueblo West","CO","US",1
+"Pukalani","HI","US",1
+"Puncak","JB","ID",1
+"Purcellville","VA","US",1
+"Purchase","NY","US",1
+"PUYALLUP","WA","US",1
+"Pwllheli Gwynedd","WLS","GB",1
+"Pyeongtek-si","41","KR",1
+"Quantico","VA","US",1
+"Quebec City","QC","CA",1
+"Quesnel","BC","CA",1
+"Quilmes","B","AR",1
+"Quintana Roo","ROO","MX",1
+"Quinton","ENG","GB",1
+"Radford","VA","US",1
+"Rajthewi","10","TH",1
+"Randolph AFB","TX","US",1
+"Rapperswil","SG","CH",1
+"Rawang","10","MY",1
+"Reading","PA","US",1
+"Red Bank","NJ","US",1
+"Redford","MI","US",1
+"Reedley","CA","US",1
+"Rehoboth","DE","US",1
+"Reigate and Banstead","ENG","GB",1
+"Rensselaer","NY","US",1
+"Republic","MO","US",1
+"Revere","MA","US",1
+"Rhodes","L","GR",1
+"Richmond","ENG","GB",1
+"Richmond","IN","US",1
+"RICHMOND","VA","US",1
+"Richmond Hill","GA","US",1
+"Richmond,","VA","US",1
+"Ridgefield","CT","US",1
+"Ridgewood","NJ","US",1
+"Rifle","CO","US",1
+"Rio Grande","NJ","US",1
+"Ripon","CA","US",1
+"Ritzville","WA","US",1
+"River Forest","IL","US",1
+"River Ridge","LA","US",1
+"Riverdale","NJ","US",1
+"Riverdale","UT","US",1
+"Riverhead","NY","US",1
+"Riverside","CT","US",1
+"Riverside","NJ","US",1
+"Riverton","UT","US",1
+"Riyadh","01","SA",1
+"Roanoke Rapids","NC","US",1
+"Rochdale","ENG","GB",1
+"Rochester","MI","US",1
+"Rock Springs","WY","US",1
+"Rockledge","FL","US",1
+"Rockville Center","NY","US",1
+"Rocky Hill","CT","US",1
+"Rocky Mount","NC","US",1
+"Rocky River","OH","US",1
+"Rocky View","AB","CA",1
+"Rolling Hills","CA","US",1
+"Rolling Meadows","IL","US",1
+"Ronkonkoma","NY","US",1
+"Rosamond","CA","US",1
+"Rosario","40","PH",1
+"Roseland","NJ","US",1
+"Roselle","IL","US",1
+"Rosemount","MN","US",1
+"Roslyn","PA","US",1
+"Roslyn","VA","US",1
+"Roslyn Heights","NY","US",1
+"Ross on Wye","ENG","GB",1
+"Rotorua","N","NZ",1
+"Rotterdam","ZH","NL",1
+"Round Lake Beach","IL","US",1
+"Royersford","PA","US",1
+"Ruby","NY","US",1
+"Ruidoso","NM","US",1
+"Runcorn","ENG","GB",1
+"Russellville","AR","US",1
+"Ruston","LA","US",1
+"Rye","NY","US",1
+"Ryugasaki","08","JP",1
+"Saanich","BC","CA",1
+"Saco","ME","US",1
+"Safety Harbor","FL","US",1
+"Saint Laurent Du Var","U","FR",1
+"Saint Paul","MN","US",1
+"Saint Quentin en Yvelines","J","FR",1
+"SAINT-BRUNO","QC","CA",1
+"Salem","MA","US",1
+"Salem","NH","US",1
+"Salida","CO","US",1
+"Salisbury","ENG","GB",1
+"Salisbury","NC","US",1
+"Salmon Arm","BC","CA",1
+"Salmon Creek","WA","US",1
+"Saltillo","COA","MX",1
+"Samsun","55","TR",1
+"San Angelo","TX","US",1
+"San Anselmo","CA","US",1
+"san antonio","TX","US",1
+"SAN BERNARDINO","CA","US",1
+"San Fernando","CA","US",1
+"SAN FRANCISCO","CA","US",1
+"San Isidro","B","AR",1
+"San Joaquin","RM","CL",1
+"San Jose","SJ","CR",1
+"San Jose Pinula","GU","GT",1
+"San Juan","00","PH",1
+"San Juan","41","PH",1
+"San Lorenzo","CA","US",1
+"San Marino","CA","US",1
+"San Miguel de Allende","GUA","MX",1
+"San Salvador","SS","SV",1
+"San Sebastian de los Reyes","MD","ES",1
+"San Ysidro","CA","US",1
+"Sanford","FL","US",1
+"Sanger","CA","US",1
+"Santa Paula","CA","US",1
+"Santo Andre","SP","BR",1
+"Sao Bernardo do Campo","SP","BR",1
+"Sao Caetano","SP","BR",1
+"Saphansung","10","TH",1
+"Saratoga Springs","NY","US",1
+"Sarnia","ON","CA",1
+"Sault Ste. Marie","ON","CA",1
+"Saunlaung","10","TH",1
+"Sayville","NY","US",1
+"Schaerbeek","VLG","BE",1
+"Schenectady","NY","US",1
+"Schereville","IN","US",1
+"Schertz","TX","US",1
+"Schofield Barracks","HI","US",1
+"Scotrun","PA","US",1
+"Scranton","PA","US",1
+"Scranton,","PA","US",1
+"Sea Girt","NJ","US",1
+"Seabrook","NH","US",1
+"Searcy","AR","US",1
+"Seaside","OR","US",1
+"Seattlle","WA","US",1
+"Sebring","FL","US",1
+"Secaucus","NJ","US",1
+"Sechelt","BC","CA",1
+"Sedalia","MO","US",1
+"Seekonk","MA","US",1
+"Seki","21","JP",1
+"Selangor","10","MY",1
+"Selbyville","DE","US",1
+"Selden","NY","US",1
+"Selkirk","MB","CA",1
+"Selma","TX","US",1
+"Semarang","JT","ID",1
+"Seminole","FL","US",1
+"Seneca","SC","US",1
+"Sennan","27","JP",1
+"Sentosa Island","05","SG",1
+"Seokjeon","47","KR",1
+"Seoul","41","KR",1
+"Sepang","10","MY",1
+"Seremban","05","MY",1
+"Seri Kembangan","10","MY",1
+"Seri Manjung","08","MY",1
+"Serris","J","FR",1
+"Setauket","NY","US",1
+"Seville","OH","US",1
+"Seward","AK","US",1
+"Sewickley","PA","US",1
+"Seymour","CT","US",1
+"Shantin","91","CN",1
+"Sharonville","OH","US",1
+"Shawnee","OK","US",1
+"Shelbyville","IN","US",1
+"Shelton","CT","US",1
+"Shelton","WA","US",1
+"Sheridan","CO","US",1
+"Sheridian","WY","US",1
+"Shibata","15","JP",1
+"Shimogyo-ku","26","JP",1
+"Shimokyo-ku","26","JP",1
+"Shimotsuma","08","JP",1
+"Shippensburg","PA","US",1
+"Shoreham By Sea","ENG","GB",1
+"Shoreview","MN","US",1
+"Shorewood","IL","US",1
+"Short Pump","VA","US",1
+"Shorthills","NJ","US",1
+"Show Low","AZ","US",1
+"Shrewsbury","NJ","US",1
+"Shrewsbury","PA","US",1
+"Shropshire","ENG","GB",1
+"Sicklerville","NJ","US",1
+"Sierra Madre","CA","US",1
+"Siga","25","JP",1
+"Signal Hill","CA","US",1
+"Siheung","41","KR",1
+"Silverton","OR","US",1
+"Simsbury","CT","US",1
+"singapore","04","SG",1
+"Slingerlands","NY","US",1
+"Slippery Rock","PA","US",1
+"Sloatsburg","NY","US",1
+"Smithers","BC","CA",1
+"Smithfield","VA","US",1
+"Smithtown","NY","US",1
+"Snoqualmie","WA","US",1
+"Snowmass Village","CO","US",1
+"Snowshoe","WV","US",1
+"Soledad","CA","US",1
+"Solon","OH","US",1
+"Soltau","NI","DE",1
+"Somers","NY","US",1
+"Somers Point","NJ","US",1
+"Somerset","NJ","US",1
+"Somersworth","NH","US",1
+"South Amboy","NJ","US",1
+"South Beach","FL","US",1
+"SOUTH BEND","IN","US",1
+"South Brookline","MA","US",1
+"South Brunswick","NJ","US",1
+"South Charleston","WV","US",1
+"SOUTH CORONA","CA","US",1
+"South Dennis","MA","US",1
+"South Euclid","OH","US",1
+"South Gate","CA","US",1
+"South Holland","IL","US",1
+"South Jordan","UT","US",1
+"South Lebanon","OH","US",1
+"South Ogden","UT","US",1
+"South Orange","NJ","US",1
+"South Plainfield","NJ","US",1
+"South Riding","VA","US",1
+"South Salt Lake City","UT","US",1
+"South Surrey","BC","CA",1
+"Southborough","MA","US",1
+"Southbury","CT","US",1
+"Southeastern","PA","US",1
+"Southhaven","MS","US",1
+"Southland","N","NZ",1
+"Southwark","ENG","GB",1
+"Spangdahlem","RP","DE",1
+"Spanish Fork","UT","US",1
+"Spanish Fort","AL","US",1
+"Spearfish","SD","US",1
+"Spokane Valley","WA","US",1
+"SPRING","TX","US",1
+"Spring Hill","TN","US",1
+"SPRING HILL","TN","US",1
+"Spring Valley","CA","US",1
+"Spring Valley","TX","US",1
+"Springdale","OH","US",1
+"Springfield","MA","US",1
+"Springhouse","PA","US",1
+"St Albans","ENG","GB",1
+"St Andrews","SCT","GB",1
+"St Cloud","MN","US",1
+"St Helens","OR","US",1
+"St Johns","NL","CA",1
+"St Joseph","MI","US",1
+"St Joseph","MO","US",1
+"St Laurent","QC","CA",1
+"St Louis Park","MN","US",1
+"St Matthews","KY","US",1
+"St Petersburg","FL","US",1
+"St Simon's Island","GA","US",1
+"St. Albans","ENG","GB",1
+"St. Charles","MO","US",1
+"St. Clairsville","OH","US",1
+"St. Helens","ENG","GB",1
+"St. Helens","OR","US",1
+"St. Petersburg","FL","US",1
+"STAFFORD","ENG","GB",1
+"Stanford","CA","US",1
+"Stanley","91","CN",1
+"Stanton","CA","US",1
+"Statesville","NC","US",1
+"Staunton","VA","US",1
+"Stayton","OR","US",1
+"Stephenville","TX","US",1
+"Sterling Park","VA","US",1
+"Stevens Point","WI","US",1
+"Stevenson Ranch","CA","US",1
+"Stockbridge","GA","US",1
+"Stockbridge","SCT","GB",1
+"Stolkholm - Arlanda","AB","SE",1
+"Stone Mountain","GA","US",1
+"Stony Creek","VA","US",1
+"Stony Plain","AB","CA",1
+"Storrs","CT","US",1
+"Stoughton","MA","US",1
+"Stowe","PA","US",1
+"Stratford","CT","US",1
+"Stratford","ENG","GB",1
+"Streetsboro","OH","US",1
+"Stroudsburg","PA","US",1
+"Stuttgart","BW","DE",1
+"Sudbury","MA","US",1
+"Suffern","NY","US",1
+"Suffolk","ENG","GB",1
+"Sugar Hill","GA","US",1
+"Suisun City","CA","US",1
+"Sulzbach","HE","DE",1
+"Summit","NJ","US",1
+"Sun City","AZ","US",1
+"Sun City West","AZ","US",1
+"Sun Prairie","WI","US",1
+"Sunbury","OH","US",1
+"Suncheon","46","KR",1
+"Sunderland","ENG","GB",1
+"Sungai Petani","02","MY",1
+"Sungnam","41","KR",1
+"Sunny Isles Beach","FL","US",1
+"Sunnyside","NY","US",1
+"Sunnyside","WA","US",1
+"Surakarta","JT","ID",1
+"Surbiton","ENG","GB",1
+"Surco","LIM","PE",1
+"Sussex","WI","US",1
+"Susurluk","10","TR",1
+"Sutton Coldfield","ENG","GB",1
+"Suwa","20","JP",1
+"Suzuka","24","JP",1
+"Swampscott","MA","US",1
+"Swansea","MA","US",1
+"Swansea","WLS","GB",1
+"Sweet Home","OR","US",1
+"Swords","L","IE",1
+"Syosset","NY","US",1
+"Taft","CA","US",1
+"Tagaytay","40","PH",1
+"Tagaytay City","40","PH",1
+"Tai Koo Shing","91","CN",1
+"Taibao City","CYQ","TW",1
+"Taiping","08","MY",1
+"Taitung City","TTT","TW",1
+"Takeo","41","JP",1
+"Talingchan","10","TH",1
+"Talisay","06","PH",1
+"Tameside","ENG","GB",1
+"Tampico","TAM","MX",1
+"Tamworth","ENG","GB",1
+"Taoyuan","TAO","TW",1
+"Taoyuan County","TAO","TW",1
+"Taranaki","N","NZ",1
+"Tarentum","PA","US",1
+"Tarpon Springs","FL","US",1
+"Tauranga","N","NZ",1
+"Taylor","MI","US",1
+"Taylors","SC","US",1
+"Taylorsville","UT","US",1
+"Taytay","40","PH",1
+"Tehachapi","CA","US",1
+"Telde","CL","ES",1
+"Temple","PA","US",1
+"Temple City","CA","US",1
+"Tepic","NAY","MX",1
+"Terrace","BC","CA",1
+"Terrell","TX","US",1
+"Texarkana","TX","US",1
+"Thalwil","ZH","CH",1
+"Thành Phố Hồ Chí Minh","SG","VN",1
+"Thatcher","AZ","US",1
+"The Colony","TX","US",1
+"The Villages","FL","US",1
+"Thetford","ENG","GB",1
+"Thibodaux","LA","US",1
+"Thompson","MB","CA",1
+"Thompsons Station","TN","US",1
+"Thonburi","10","TH",1
+"Thunburi","13","TH",1
+"Thurrock","ENG","GB",1
+"Tifton","GA","US",1
+"Tigre","B","AR",1
+"Tilton","NH","US",1
+"Timisoara","TM","RO",1
+"Tin Hau","91","CN",1
+"Titusville","FL","US",1
+"Tlajomulco","JAL","MX",1
+"Tlalnepantla de Baz","MX","MX",1
+"Tlaquepaque","JAL","MX",1
+"Tokorozawa","11","JP",1
+"Tokyo","13","JP",1
+"Tolleson","AZ","US",1
+"Tomakomai","01","JP",1
+"Tomigusuku","47","JP",1
+"Tomiya","04","JP",1
+"Tongyeong","48","KR",1
+"Toppenish","WA","US",1
+"Toride","08","JP",1
+"Torrelodones","MD","ES",1
+"Torrington","CT","US",1
+"Tortuguitas","B","AR",1
+"Town and Country","MO","US",1
+"Town of Southwest Ranches","FL","US",1
+"Traverse City","MI","US",1
+"Travis AFB","CA","US",1
+"Trenton","NJ","US",1
+"Trevose","PA","US",1
+"Trinidad","CO","US",1
+"Trophy Club","TX","US",1
+"Trussville","AL","US",1
+"Tsu","24","JP",1
+"Tsuen Wan","91","CN",1
+"Tsurugashima","11","JP",1
+"Tuckahoe","NY","US",1
+"Tuen Mum","91","CN",1
+"Tujunga","CA","US",1
+"Tulalip","WA","US",1
+"Tunica","MS","US",1
+"Tupelo","MS","US",1
+"Turnersville","NJ","US",1
+"Tuxtla Gutierrez","CHP","MX",1
+"Twentynine Palms","CA","US",1
+"Twickenham","ENG","GB",1
+"Twinsburg","OH","US",1
+"Ueda","20","JP",1
+"Ulu Langat","10","MY",1
+"Uncasville","CT","US",1
+"Union","KY","US",1
+"Uniondale","NY","US",1
+"Uniontown","PA","US",1
+"Unionville","ON","CA",1
+"Universal City","CA","US",1
+"University Park","PA","US",1
+"University Place","WA","US",1
+"Upper Darby","PA","US",1
+"Upper Montclair","NJ","US",1
+"Upper Southampton Township","PA","US",1
+"Urasoe","47","JP",1
+"Urbana","IL","US",1
+"Uruapan","MIC","MX",1
+"Ushiku","08","JP",1
+"Utica","MI","US",1
+"Utrecht","UT","NL",1
+"VA Beach","VA","US",1
+"Valaparaiso","IN","US",1
+"Valley Grove","WV","US",1
+"Valley Park","MO","US",1
+"Valley Springs","CA","US",1
+"Valley Stream","NY","US",1
+"Valley Village","CA","US",1
+"Valparaiso","IN","US",1
+"Valrico","FL","US",1
+"vancouver","BC","CA",1
+"Vandalia","OH","US",1
+"Velizy-Villacoublay","J","FR",1
+"Vernon","NJ","US",1
+"Verona","PA","US",1
+"Versailles","J","FR",1
+"Versailles","KY","US",1
+"Vevey","VD","CH",1
+"Viera","FL","US",1
+"VIERNHEIM","HE","DE",1
+"Ville Mont-Royal","QC","CA",1
+"Villeurbanne","V","FR",1
+"Vineland","NJ","US",1
+"Virginia","MN","US",1
+"Volo","IL","US",1
+"W. Hempstead","NY","US",1
+"W. Richland","WA","US",1
+"Waban","MA","US",1
+"Waconia","MN","US",1
+"Waianae","HI","US",1
+"Waikoloa","HI","US",1
+"Wailea","HI","US",1
+"Waite Park","MN","US",1
+"Wake Forest","NC","US",1
+"Wakefield","ENG","GB",1
+"Wakefield","RI","US",1
+"Walker","MI","US",1
+"WALLA WALLA","WA","US",1
+"Wallasey","ENG","GB",1
+"Walled Lake","MI","US",1
+"Wallisellen","ZH","CH",1
+"Walnut","CA","US",1
+"Walpole","MA","US",1
+"Walton","KY","US",1
+"Walton on Thames","ENG","GB",1
+"Wangthonglang","10","TH",1
+"Wantagh","NY","US",1
+"Wareham","MA","US",1
+"Warminster","ENG","GB",1
+"Warminster","PA","US",1
+"Warr Acres","OK","US",1
+"Warren","NJ","US",1
+"Warren","OH","US",1
+"Warrington","ENG","GB",1
+"Warsaw","IN","US",1
+"Warwick","ENG","GB",1
+"WARWICK","RI","US",1
+"Washington","MO","US",1
+"Washington","PA","US",1
+"Washington Township","PA","US",1
+"Waterbury","CT","US",1
+"Waterdown","ON","CA",1
+"Waterfall","PA","US",1
+"Waterford","MI","US",1
+"Watertown","CT","US",1
+"Watertown","SD","US",1
+"Waterville","ME","US",1
+"Waterville","OH","US",1
+"Watford","ENG","GB",1
+"Waxhaw","NC","US",1
+"Waycross","GA","US",1
+"Wayland","MA","US",1
+"Waynesville","MO","US",1
+"Waynesville","NC","US",1
+"Wayzata","MN","US",1
+"Weaverville","CA","US",1
+"Weaverville","NC","US",1
+"Webb City","MO","US",1
+"Webster","MA","US",1
+"Webster Groves","MO","US",1
+"Wednesbury","ENG","GB",1
+"Weirton","WV","US",1
+"WEITERSTADT","HE","DE",1
+"Welwyn Garden Centre","ENG","GB",1
+"Wendover","NV","US",1
+"Weslaco","TX","US",1
+"Wesley Chapel","NC","US",1
+"West Babylon","NY","US",1
+"West Bend","WI","US",1
+"West Bloomfield","MI","US",1
+"West Burlington","IA","US",1
+"West Caldwell","NJ","US",1
+"West Chicago","IL","US",1
+"West covina","CA","US",1
+"West Dundee","IL","US",1
+"West Gardiner","ME","US",1
+"West Grove","PA","US",1
+"West Homestead","PA","US",1
+"West Kelowna","BC","CA",1
+"West New York","NJ","US",1
+"West Roxbury","MA","US",1
+"West St. Paul","MN","US",1
+"West Sussex","ENG","GB",1
+"Westbank","BC","CA",1
+"Westboro","MA","US",1
+"Westchester","CA","US",1
+"Westchester","IL","US",1
+"Westchester","PA","US",1
+"Western Springs","IL","US",1
+"Westfield","IN","US",1
+"Westfield","MA","US",1
+"Westfield","NJ","US",1
+"Westford","MA","US",1
+"Westlake","CA","US",1
+"Westlake","OH","US",1
+"westmoreland","NY","US",1
+"Weston Super Mare","ENG","GB",1
+"Westwood","CA","US",1
+"Westwood","MA","US",1
+"Westwood","NJ","US",1
+"Wetaskiwin","AB","CA",1
+"Wethersfield","CT","US",1
+"Wexford","PA","US",1
+"Weymouth","ENG","GB",1
+"Weymouth","MA","US",1
+"Wheaton","MD","US",1
+"Wheeling","WV","US",1
+"White Bear Lake","MN","US",1
+"White Lake","MI","US",1
+"White Marsh","MD","US",1
+"Whitefish","MT","US",1
+"Whitefish Bay","WI","US",1
+"Whitehall","OH","US",1
+"Whitehall","PA","US",1
+"Whitehouse Station","NJ","US",1
+"Whiteley","ENG","GB",1
+"Whitestone","NY","US",1
+"Whitestown","IN","US",1
+"Wickenburg","AZ","US",1
+"Wigan","ENG","GB",1
+"Wildwood","MO","US",1
+"Wilkes-Barre","PA","US",1
+"WILLCOX","AZ","US",1
+"Willemstad","ANT","CW",1
+"Willemstad","CW","CW",1
+"Williams","AZ","US",1
+"Williams Lake","BC","CA",1
+"Williamsport","PA","US",1
+"Williamston","MI","US",1
+"Willis","TX","US",1
+"Williston","VT","US",1
+"Willits","CA","US",1
+"Willoughby","OH","US",1
+"Willow Grove","PA","US",1
+"Willowbrook","IL","US",1
+"Willows","CA","US",1
+"Wilmington","MA","US",1
+"Wilton","CT","US",1
+"Wilton Manors","FL","US",1
+"Wiltshire","ENG","GB",1
+"Winchester","CA","US",1
+"Winchester","KY","US",1
+"Winchester","MA","US",1
+"Windsor","CT","US",1
+"Winnetka","IL","US",1
+"Winona","MN","US",1
+"Winter Haven","FL","US",1
+"Winter Park","CO","US",1
+"Winter Springs","FL","US",1
+"Wisbech","ENG","GB",1
+"Wisconsin Dells","WI","US",1
+"Wolverhampton","ENG","GB",1
+"Woodbridge","CT","US",1
+"Woodbury","NY","US",1
+"Woodcliff Lake","NJ","US",1
+"Woodland","WA","US",1
+"Woodland Park","CO","US",1
+"Woodside","NY","US",1
+"Woodstock","IL","US",1
+"Woodstock","ON","CA",1
+"Woodstock","OR","US",1
+"Woodway","TX","US",1
+"Woolwich","ENG","GB",1
+"Wooster","OH","US",1
+"Worthington","OH","US",1
+"Wright-Patterson AFB","OH","US",1
+"Wujie Township","ILA","TW",1
+"WUPPERTAL","NW","DE",1
+"Wyckoff","NJ","US",1
+"Wynnewood","PA","US",1
+"Wyomissing","PA","US",1
+"Wytheville","VA","US",1
+"Xalapa","VER","MX",1
+"Xiluo Township","YUN","TW",1
+"Yamato","14","JP",1
+"Yangsan","48","KR",1
+"Yankton","SD","US",1
+"Yao","27","JP",1
+"Yardville","NJ","US",1
+"Yeosu","46","KR",1
+"Yilan County","ILA","TW",1
+"Yodogawa","27","JP",1
+"Yogyakarta","YO","ID",1
+"York","NE","US",1
+"Yorktown","VA","US",1
+"Yorktown Heights","NY","US",1
+"Yorkville","IL","US",1
+"Yoshioka","10","JP",1
+"Yotsukaido","12","JP",1
+"Yuanlin Township","CHA","TW",1
+"Yucaipa","CA","US",1
+"YUCAIPA","CA","US",1
+"Yucca Valley","CA","US",1
+"Yuen Long","91","CN",1
+"Zeeland","MI","US",1
+"Zephyr Cove","NV","US",1
+"Zhubei City","HSZ","TW",1
+"Zionsville","IN","US",1
+"Zushi","14","JP",1
+"اشرفية","BA","LB",1
+"الخرج","01","SA",1
+"الزينج","13","BH",1
+"الطائف","03","SA",1
+"الظهران","04","SA",1
+"المدينة المنورة","02","SA",1
+"المنامة","15","BH",1
+"الهفوف","03","SA",1
+"بيروت- وسط المدينة","BA","LB",1
+"جال الديب","BA","LB",1
+"جناح","BA","LB",1
+"جية","BA","LB",1
+"زلقة","BA","LB",1
+"سند","14","BH",1
+"عين مريسة","BA","LB",1
+"غزير","BA","LB",1
+"قريطم","BA","LB",1
+"متن الشمالى","BA","LB",1
+"مدينة الكويت","JA","KW",1
+"경북","47","KR",1
+"충청남도","44","KR",1
