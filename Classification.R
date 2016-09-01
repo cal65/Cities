@@ -33,3 +33,6 @@ pc<-prcomp(Scaled)
 E<-cbind(E, pc=pc$x[,1:2])
 
 ggplot() + geom_point(data=E, aes(x=pc.PC1, y=pc.PC2)) + geom_text_repel(data=E, aes(x=pc.PC1, y=pc.PC2, label = City, size=0.23), color='purple', segment.color='white', box.padding = unit(0.5, "lines")) +scale_size_continuous(range=c(0,3), guide=FALSE)
+
+
+E$Continent<-indices$REGION
