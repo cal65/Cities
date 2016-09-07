@@ -1,16 +1,19 @@
 library(ggmap)
 library(ggrepel)
-
+library(dbscan)
+#Given dataframe B4, an output of the Merger file, explore different classifications
 
 City_Imputed<-B4
 for(i in 2:ncol(B4)){
 	City_Imputed[is.na(City_Imputed[,i]), i] <- mean(City_Imputed[,i], na.rm = TRUE)
 }
+#replace missing data with parameter means
 
-
-Scaled<-scale(City_Imputed[, !colnames(City_Imputed) %in% c('City', 'Country')])
+Scaled<-scale(City_Imputed[, !colnames(City_Imputed) %in% c('City', 'Country')]) 
+#Scale all values to z scores
 wss<- (nrow(Scaled)-1)*sum(apply(Scaled, 2, var))
 for (i in 2:15) wss[i] <- sum(kmeans(Scaled, centers=i)$withinss)
+#Examine within square
 
 E$cluster <- kmeans(Scaled, 6)$cluster
 library(ggmap)
