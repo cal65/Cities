@@ -3,7 +3,7 @@ library(plyr)
 library(maps)
 library(rapportools)
 Sys.setlocale(category = "LC_ALL", locale = "es_ES.UTF-8")
-setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/')
+setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/Data/')
 A1<-read.csv("Average_daily_no._of_visits_to_top_5_Art_exhibitions.csv", TRUE, sep=",",dec=".", na.strings="NA", stringsAsFactors=FALSE, encoding='UTF-8')
 colnames(A1)[2]<-'Art_exhibitions_visits'
 A2<-read.csv("Cinema_Screens2.csv", TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE )
