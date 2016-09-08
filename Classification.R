@@ -1,6 +1,7 @@
 library(ggmap)
 library(ggrepel)
 library(dbscan)
+setwd("Documents/CAL/Real_Life/Cities/Data")
 #Given dataframe B4, an output of the Merger file, explore different classifications
 
 City_Imputed<-B4
@@ -37,5 +38,13 @@ E<-cbind(E, pc=pc$x[,1:2])
 
 ggplot() + geom_point(data=E, aes(x=pc.PC1, y=pc.PC2)) + geom_text_repel(data=E, aes(x=pc.PC1, y=pc.PC2, label = City, size=0.23), color='purple', segment.color='white', box.padding = unit(0.5, "lines")) +scale_size_continuous(range=c(0,3), guide=FALSE)
 
+#source('coords2continent.R')
+#E$Continent<-coords2continent(subset(E, select=c('long', 'lat')))
 
-E$Continent<-indices$REGION
+colPerms <- combn(ncol(Scaled), 4)
+dbscanResults<-vector("list", ncol(colPerms))
+for (i in 1:ncol(colPerms)){
+	dbscanResults[[i]] <- dbscan(Scaled[, colPerms[,i]], eps=1, minPts = 3)
+}
+sapply(dbscanResults, function(x) length(unique(x$cluster)))
+which(sapply(dbscanResults, function(x) nrow(count(x$cluster)[-1,]))>3)
