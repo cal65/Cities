@@ -121,10 +121,13 @@ data(world.cities)
 world.cities$name<- mapvalues(world.cities$name, from=c("Xianggangdao", "Soul", "Bombay"), to = c("Hong Kong", "Seoul", "Mumbai"))
 E<-merge(B3, world.cities, by.x="City", by.y="name")
 E<-E[which(E$pop %in% ddply(E, .(City), summarize, pop=max(pop))$pop),]
-E[which(E$City=="Hong Kong"),]$pop
+E[which(E$City=="Hong Kong"),]$pop<-sum(subset(world.cities, name %in% c('Hong Kong', 'Jiulong', "Shatian", "Quanwan", "Xigong", "Yuanlong", "Daipo", "Shiongshui"), select="pop"))
 
 B3[,-c(which(apply(B3, 2, max, na.rm=T) < 1), grep('per', colnames(B3)) )] ->Raw
-Raw<-sweep(Raw[, which(!colnames(Raw) %in% c('City', 'Country', 'Country.Subdivision', 'iso_region'))], 1, E$pop, "/")
+#Isolate columns which are not ratios, or already on a per resident basis
+Raw<-sweep(Raw[, which(!colnames(Raw) %in% c('City', 'Country', 'Country.Subdivision', 'iso_region'))], 1, E$pop, "/") 
+#Sweep of all remaining data, transforming everything into per capita figures
 B4<-data.frame(City=E$City, Country=E$Country, B[,c(which(apply(B, 2, max, na.rm=T) < 1), grep('per', colnames(B)) )], Raw)
+#Combine isolated per resident data with the swept raw data 
 
-cbind(B3$City, apply(apply(B3, 2, is.na), 1, sum))
+cbind(B3$City, apply(apply(B3, 2, is.na), 1, sum)) #how much data am I missing per city?
