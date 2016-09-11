@@ -40,8 +40,8 @@ def main():
             session.add(citystat)
             session.commit()
             #### ADD FLAT STATS HERE OF WHICH COLUMN HERE ###
-            flatstat1 = FlatStat(stat_id=citystat.id, value=parse_float(line[3]))
-            flatstat2 = FlatStat(stat_id=citystat.id, value=parse_float(line[6]))
+            flatstat1 = FlatStat(stat_id=cinemastat.id, city_id=city.id, value=parse_float(line[3]))
+            flatstat2 = FlatStat(stat_id=educatedpct.id, city_id=city.id, value=parse_float(line[6]))
             session.add(flatstat1)
             session.add(flatstat2)
             session.commit()
