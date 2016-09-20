@@ -52,5 +52,5 @@ which(sapply(dbscanResults, function(x) nrow(count(x$cluster)[-1,]))>3)->candida
 #the results that produced at least 3 clusters
 which((sapply(dbscanResults, function(x) length(which(x$cluster==0)))) < 6) ->candidates2
 #the results that produced less than 6 unclustered cities
-E$dbscan 11498 <- dbscanResults[[11498]]$cluster
+E$dbscan11498 <- dbscanResults[[11498]]$cluster
 map + geom_point(data=E, aes(x = long, y = lat, colour=factor(dbscan11498)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
