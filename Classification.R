@@ -36,7 +36,7 @@ map + geom_point(data=E, aes(x = long, y = lat, colour=factor(cluster5)),alpha=0
 pc<-prcomp(Scaled)
 E<-cbind(E, pc=pc$x[,1:2])
 
-ggplot() + geom_point(data=E, aes(x=pc.PC1, y=pc.PC2)) + geom_text_repel(data=E, aes(x=pc.PC1, y=pc.PC2, label = City, size=0.23), color='purple', segment.color='white', box.padding = unit(0.5, "lines")) +scale_size_continuous(range=c(0,3), guide=FALSE)
+ggplot() + geom_point(data=E, aes(x=pc.PC1, y=pc.PC2), color='orange') + geom_text_repel(data=E, aes(x=pc.PC1, y=pc.PC2, label = City, size=0.23), color='purple', segment.color='white', box.padding = unit(0.5, "lines")) +scale_size_continuous(range=c(0,3), guide=FALSE)
 
 #source('coords2continent.R')
 #E$Continent<-coords2continent(subset(E, select=c('long', 'lat')))
@@ -58,3 +58,5 @@ best <- intersect(candidates2,candidates)
 for (i in 1:3){
 	map + geom_point(data=E, aes(x = long, y = lat, colour=factor(dbscanResults[[best[i]]]$cluster)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
 }
+
+
