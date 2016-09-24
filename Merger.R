@@ -111,7 +111,7 @@ runways_sum<-ddply(B3, .(City), summarize, runways=sum(total_runways))
 B3<-B3[!duplicated(B3$City),]
 B3$total_runways<-runways_sum$runways
 C40<-read.csv('C40_GHG_Emissions_2014.csv')
-C40<-C40[,colnames(C40) %in% c('City.Short.Name','Country', 'Total.City.wide.Emissions..metric.tonnes.CO2e.')]
+C40<-C40[,colnames(C40) %in% c('City.Short.Name','Country', 'Total.City.wide.CO2e.')]
 C40$City.Short.Name<-as.character(C40$City.Short.Name)
 C40$Country<-as.character(C40$Country)
 C40[C40$City.Short.Name=='Hong Kong',]$Country<-'Hong Kong S.A.R.'
@@ -119,10 +119,23 @@ C40$City.Short.Name<-mapvalues(C40$City.Short.Name, from=c('Bogotá', 'São Paul
 B3<-merge(B3, C40, by.x=c('City', 'Country'), by.y=c('City.Short.Name', 'Country'), all.x=T)
 data(world.cities)
 world.cities$name<- mapvalues(world.cities$name, from=c("Xianggangdao", "Soul", "Bombay"), to = c("Hong Kong", "Seoul", "Mumbai"))
+
+GDP<-read.csv('GDP_wikipedia.csv')
+GDP<-GDP[,c(1,5)]
+GDP$City<-as.character(GDP$City)
+GDP$Brookings_GDP<-gsub('\\[.*]', '', GDP$Brookings_GDP) #cleaning data removing references
+GDP$Brookings_GDP<-gsub('\\(.*)', '', GDP$Brookings_GDP) #removing year paranthesis
+GDP$Brookings_GDP<-gsub(',', '', GDP$Brookings_GDP) #cleaning thousand marker
+GDP$Brookings_GDP<-as.numeric(GDP$Brookings_GDP)
+GDP$City[184]<-"Osaka" #Crude manual rewriting of city names, can't get iconv to work
+GDP$City[31]<-"Bogota"
+GDP$City<-mapvalues(GDP$City, from="New York City", to="New York")
+GDP$City[243]<-"Sao Paulo"
+
+B3<-merge(B3, GDP, by="City", all.x=T)
 E<-merge(B3, world.cities, by.x="City", by.y="name")
 E<-E[which(E$pop %in% ddply(E, .(City), summarize, pop=max(pop))$pop),]
 E[which(E$City=="Hong Kong"),]$pop<-sum(subset(world.cities, name %in% c('Hong Kong', 'Jiulong', "Shatian", "Quanwan", "Xigong", "Yuanlong", "Daipo", "Shiongshui"), select="pop"))
-
 B3[,-c(which(apply(B3, 2, max, na.rm=T) < 1), grep('per', colnames(B3)) )] ->Raw
 #Isolate columns which are not ratios, or already on a per resident basis
 Raw<-sweep(Raw[, which(!colnames(Raw) %in% c('City', 'Country', 'Country.Subdivision', 'iso_region'))], 1, E$pop, "/") 

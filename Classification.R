@@ -41,16 +41,20 @@ ggplot() + geom_point(data=E, aes(x=pc.PC1, y=pc.PC2)) + geom_text_repel(data=E,
 #source('coords2continent.R')
 #E$Continent<-coords2continent(subset(E, select=c('long', 'lat')))
 
-colPerms <- combn(ncol(Scaled), 5)
+colPerms <- combn(ncol(Scaled), 6)
+#create all city metric permutations of size 6
 dbscanResults<-vector("list", ncol(colPerms))
 for (i in 1:ncol(colPerms)){
-	dbscanResults[[i]] <- dbscan(Scaled[, colPerms[,i]], eps=1.1, minPts = 3)
+	dbscanResults[[i]] <- dbscan(Scaled[, colPerms[,i]], eps=1.2, minPts = 3)
 }
-sapply(dbscanResults, function(x) length(unique(x$cluster)))
+#store dbscan results in list dbscanResults
 
-which(sapply(dbscanResults, function(x) nrow(count(x$cluster)[-1,]))>3)->candidates 
-#the results that produced at least 3 clusters
+which(sapply(dbscanResults, function(x) nrow(count(x$cluster)[-1,]))>3)->candidates
+#the dbscan results that produced at least 3 clusters
 which((sapply(dbscanResults, function(x) length(which(x$cluster==0)))) < 6) ->candidates2
-#the results that produced less than 6 unclustered cities
-E$dbscan11498 <- dbscanResults[[11498]]$cluster
-map + geom_point(data=E, aes(x = long, y = lat, colour=factor(dbscan11498)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
+#the dbscan results that produced less than 6 unclustered cities
+best <- intersect(candidates2,candidates)
+#the dbscan results with at least 3 clusters and less than 6 unclustered cities
+for (i in 1:3){
+	map + geom_point(data=E, aes(x = long, y = lat, colour=factor(dbscanResults[[best[i]]]$cluster)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
+}
