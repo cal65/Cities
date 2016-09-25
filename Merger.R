@@ -34,7 +34,10 @@ A14<-read.csv("Number_of_restaurants.csv", TRUE, sep=",",dec=".", na.strings="NA
 colnames(A14)[2]<-"Number_of_restaurants"
 A15<-read.csv('Public_Libraries.csv', TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE)
 colnames(A15)[2]<-'Public_libraries'
+#A16<-read.csv('Working_age_population_(20-65yrs).csv', TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE)
+#colnames(A16)[2]<-'Working_age'
 t<-15 #total spreadsheets
+#length(grep('A', ls()))
 N<-list()
 for (i in 1:t) {
 	N[[i]]<-get(paste('A',i, sep=''))
@@ -133,12 +136,24 @@ GDP$City<-mapvalues(GDP$City, from="New York City", to="New York")
 GDP$City[243]<-"Sao Paulo"
 
 B3<-merge(B3, GDP, by="City", all.x=T)
+service <- read.csv('da11_servicefirms.csv')
+service<-service[,colnames(service) %in% c('X', 'Total')]
+service$X<-tocamel(tolower((service$X)), upper=TRUE, sep=" ")
+colnames(service)<-c('City', 'service.firms')
+service$City<- mapvalues(from = c('Shenzen', 'Rio De Janeiro'), to=c('Shenzhen', 'Rio de Janeiro'))
+B3<-merge(B3, service, by="City", all.x=T)
+
+
 E<-merge(B3, world.cities, by.x="City", by.y="name")
-E<-E[which(E$pop %in% ddply(E, .(City), summarize, pop=max(pop))$pop),]
-E[which(E$City=="Hong Kong"),]$pop<-sum(subset(world.cities, name %in% c('Hong Kong', 'Jiulong', "Shatian", "Quanwan", "Xigong", "Yuanlong", "Daipo", "Shiongshui"), select="pop"))
+E<-E[which(E$pop %in% ddply(E, .(City), summarize, pop=max(pop))$pop),] #remove duplicates
+#The below is formerly code used to merge population data from MaxMind database (world.cities). However data was found to be extremely problematic and ultimately a separate set was created from UN data
+
+#E[which(E$City=="Hong Kong"),]$pop<-sum(subset(world.cities, name %in% c('Hong Kong', 'Jiulong', "Shatian", "Quanwan", "Xigong", "Yuanlong", "Daipo", "Shiongshui"), select="pop"))
+Population<-read.csv("Population.csv")
+E<-merge(E, Population, by="City")
 B3[,-c(which(apply(B3, 2, max, na.rm=T) < 1), grep('per', colnames(B3)) )] ->Raw
 #Isolate columns which are not ratios, or already on a per resident basis
-Raw<-sweep(Raw[, which(!colnames(Raw) %in% c('City', 'Country', 'Country.Subdivision', 'iso_region'))], 1, E$pop, "/") 
+Raw<-sweep(Raw[, which(!colnames(Raw) %in% c('City', 'Country', 'Country.Subdivision', 'iso_region'))], 1, E$Population, "/") 
 #Sweep of all remaining data, transforming everything into per capita figures
 B4<-data.frame(City=E$City, Country=E$Country, B[,c(which(apply(B, 2, max, na.rm=T) < 1), grep('per', colnames(B)) )], Raw)
 #Combine isolated per resident data with the swept raw data 
