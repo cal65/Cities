@@ -25,7 +25,6 @@ mapPoints
 
 E$cluster2<- kmeans(Scaled[, c(2, 3, 4, 12, 13, 15, 18, 19)], 5)$cluster
 map + geom_point(data=E, aes(x = long, y = lat, colour=factor(cluster2)),alpha=0.7, size=0.8) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F)+ scale_color_discrete("Cluster")
-map + geom_point(data=E, aes(x = long, y = lat, colour=factor(cluster4)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
 
 E$cluster5<-kmeans(Scaled[, c(2, 3, 4, 7, 14, 19, 20)], 4)$cluster
 map + geom_point(data=E, aes(x = long, y = lat, colour=factor(cluster5)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
@@ -42,7 +41,7 @@ colPerms <- combn(ncol(Scaled), 6)
 #create all city metric permutations of size 6
 dbscanResults<-vector("list", ncol(colPerms))
 for (i in 1:ncol(colPerms)){
-	dbscanResults[[i]] <- dbscan(Scaled[-19, colPerms[,i]], eps=1.2, minPts = 3)
+	dbscanResults[[i]] <- dbscan(Scaled[,colPerms[,i]], eps=1.5, minPts = 3)
 }
 #store dbscan results in list dbscanResults
 
@@ -53,7 +52,19 @@ which((sapply(dbscanResults, function(x) length(which(x$cluster==0)))) < 6) ->ca
 best <- intersect(candidates2,candidates)
 #the dbscan results with at least 3 clusters and less than 6 unclustered cities
 for (i in 1:length(best)){
-	map + geom_point(data=subset(E, City != "Milan"), aes(x = long, y = lat, colour=factor(dbscanResults[[best[i]]]$cluster)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
+	map + geom_point(data=E, aes(x = long, y = lat, colour=factor(dbscanResults[[best[i]]]$cluster)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
+}
+
+kmeansResults<-vector("list", ncol(colPerms))
+for (i in 1:ncol(colPerms)){
+	kmeansResults[[i]] <- kmeans(Scaled[,colPerms[,i]], 5)
 }
 
 matrix(colnames(B3)[colPerms[,best]+2], nrow=6)
+
+library(WeightedCluster)
+
+
+
+continents <- read.delim(pipe("pbpaste"))
+conts <- continents$Continent
