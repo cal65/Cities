@@ -4,6 +4,8 @@ library(maps)
 library(rapportools)
 Sys.setlocale(category = "LC_ALL", locale = "es_ES.UTF-8")
 setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/Data/')
+
+#Following dataframes beginning with A come from worldcitiescultureforum ,or WCCF
 A1<-read.csv("Average_daily_no._of_visits_to_top_5_Art_exhibitions.csv", TRUE, sep=",",dec=".", na.strings="NA", stringsAsFactors=FALSE, encoding='UTF-8')
 colnames(A1)[2]<-'Art_exhibitions_visits'
 A2<-read.csv("Cinema_Screens2.csv", TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE )
@@ -34,10 +36,12 @@ A14<-read.csv("Number_of_restaurants.csv", TRUE, sep=",",dec=".", na.strings="NA
 colnames(A14)[2]<-"Number_of_restaurants"
 A15<-read.csv('Public_Libraries.csv', TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE)
 colnames(A15)[2]<-'Public_libraries'
-#A16<-read.csv('Working_age_population_(20-65yrs).csv', TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE)
-#colnames(A16)[2]<-'Working_age'
-t<-15 #total spreadsheets
-#length(grep('A', ls()))
+A16<-read.csv('Working_age_population_(20-65yrs).csv', TRUE, sep=",",dec=".", na.strings="NA", encoding='UTF-8', stringsAsFactors=FALSE)
+colnames(A16)[2]<-'Working_age'
+A17<-read.csv('National_Museums.csv')
+colnames(A17)[2]<-'Museums'
+
+t<-length(grep('A', ls())) #total spreadsheets based on this count
 N<-list()
 for (i in 1:t) {
 	N[[i]]<-get(paste('A',i, sep=''))
@@ -64,7 +68,7 @@ for (i in 3:t) {
 }
 A$Educated<-as.numeric(sub('%', '', A$Educated))
 A$Educated<-A$Educated/100
-B<-A[,c(1,c(0:(t-1)*5+2))]
+B<-A[,c(1,c(0:(t-1)*5+2))] #remove excess columns from WCCF csv files
 for (i in 1:ncol(B)) {
 	if (any(grepl('%',B[,i]))) {
 		B[,i]<-as.numeric(gsub('%','', B[,i]))
@@ -140,7 +144,7 @@ service <- read.csv('da11_servicefirms.csv')
 service<-service[,colnames(service) %in% c('X', 'Total')]
 service$X<-tocamel(tolower((service$X)), upper=TRUE, sep=" ")
 colnames(service)<-c('City', 'service.firms')
-service$City<- mapvalues(from = c('Shenzen', 'Rio De Janeiro'), to=c('Shenzhen', 'Rio de Janeiro'))
+service$City<- mapvalues(service$City, from = c('Shenzen', 'Rio De Janeiro'), to=c('Shenzhen', 'Rio de Janeiro'))
 B3<-merge(B3, service, by="City", all.x=T)
 
 
