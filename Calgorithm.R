@@ -2,7 +2,7 @@
  # n<-120
  # x= as.factor(sample(c('a', 'b', 'c', 'd'), n, replace=T))
  # y= sample(1:4, n, replace=T)
- # library(combinat)
+ library(combinat)
  # scores=numeric(fact(4))
 
  # for (i in 1:fact(4)){

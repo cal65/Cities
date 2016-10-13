@@ -55,16 +55,28 @@ for (i in 1:length(best)){
 	map + geom_point(data=E, aes(x = long, y = lat, colour=factor(dbscanResults[[best[i]]]$cluster)),alpha=0.8, size=1) + theme(legend.position='right') + ggtitle('Cities Clustering') + scale_radius(range=c(.4,1), guide=F) + scale_color_discrete("Cluster")
 }
 
+#working on evaluating clusters
+
+continents <- read.delim(pipe("pbpaste"))
+conts <- continents$Continent
+source('../Calgorithm.r')
 kmeansResults<-vector("list", ncol(colPerms))
+calgResults<-vector("list", ncol(colPerms))
 for (i in 1:ncol(colPerms)){
-	kmeansResults[[i]] <- kmeans(Scaled[,colPerms[,i]], 5)
+	kmeansResults[[i]] <- kmeans(Scaled[,colPerms[,i]], 4)
+	calgResults[[i]] <- calgorithm(kmeansResults[[i]]$cluster, conts)
 }
+proc.time() - ptm
 
 matrix(colnames(B3)[colPerms[,best]+2], nrow=6)
 
 library(WeightedCluster)
 
+ptm <- proc.time()
+for (i in 1:100){
+	kmeansResults[[i]] <- kmeans(Scaled[,colPerms[,i]], 6)
+	calgResults[[i]] <- calgorithm(conts, kmeansResults[[i]]$cluster)
+}
 
+proc.time() - ptm
 
-continents <- read.delim(pipe("pbpaste"))
-conts <- continents$Continent
