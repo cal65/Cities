@@ -61,10 +61,10 @@ continents <- read.delim(pipe("pbpaste"))
 conts <- continents$Continent
 source('../Calgorithm.r')
 kmeansResults<-vector("list", ncol(colPerms))
-calgResults<-vector("list", ncol(colPerms))
+calgResults<-vector(ncol(colPerms))
 for (i in 1:ncol(colPerms)){
 	kmeansResults[[i]] <- kmeans(Scaled[,colPerms[,i]], 4)
-	calgResults[[i]] <- calgorithm(kmeansResults[[i]]$cluster, conts)
+	calgResults[i] <- calgorithm(kmeansResults[[i]]$cluster, conts)
 }
 proc.time() - ptm
 
@@ -79,4 +79,3 @@ for (i in 1:100){
 }
 
 proc.time() - ptm
-
