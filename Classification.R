@@ -57,11 +57,12 @@ for (i in 1:length(best)){
 
 #working on evaluating clusters
 
-continents <- read.delim(pipe("pbpaste"))
-conts <- continents$Continent
+continents <- read.csv('Combos.csv')
+conts <- continents$Combo1
 source('../Calgorithm.r')
 kmeansResults<-vector("list", ncol(colPerms))
-calgResults<-vector(ncol(colPerms))
+calgResults<-numeric(ncol(colPerms))
+ptm<-proc.time()
 for (i in 1:ncol(colPerms)){
 	kmeansResults[[i]] <- kmeans(Scaled[,colPerms[,i]], 4)
 	calgResults[i] <- calgorithm(kmeansResults[[i]]$cluster, conts)
