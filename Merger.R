@@ -1,4 +1,4 @@
-options(stringsasfactors=F)
+options(stringsAsFactors=F)
 library(plyr)
 library(maps)
 library(rapportools)
@@ -49,9 +49,9 @@ for (i in 1:t) {
 
 #crude for loop to remove all the text formatting errors from city names
 for (i in 1:t) {
-	grep('Bogot', N[[i]]$City)->b #Does this dataframe have Bogota?
-	grep('Mont', N[[i]]$City)->c #Does this dataframe have Montreal?
-	grep('Paulo', N[[i]]$City)->d #Does this dataframe have Sao Paulo?
+	grep('Bogot', N[[i]]$City)->b #Does this dataframe have Bogota? Return index
+	grep('Mont', N[[i]]$City)->c #Does this dataframe have Montreal? Return index
+	grep('Paulo', N[[i]]$City)->d #Does this dataframe have Sao Paulo? Return index
 	if (length(b) != 0) {
 		N[[i]]$City[b]<-'Bogota'
 		}
@@ -98,12 +98,14 @@ Starbucks$Country<-mapvalues(Starbucks$Country, from=c("United States", "Korea  
 Starbucks$City<-mapvalues(Starbucks$City, from=c('Warszawa', 'Wien', 'Stockholm - Arlanda', 'Taipei City'), to=c('Warsaw', 'Vienna', 'Stockholm', 'Taipei'))
 Starbucks[which(Starbucks$City=="Hong Kong"),]$Country<-'Hong Kong S.A.R.'
 B$Country<-as.character(B$Country)
-B2<-merge(B, Starbucks, by=c("City", "Country"), all.x=T)
-Starbucks_sum<-ddply(B2, .(City), summarize, Starbucks=sum(Starbucks))
-Starbucks_sum[is.na(Starbucks_sum$Starbucks),]$Starbucks<-0
-B2<-B2[!duplicated(B2$City),]
-B2$Starbucks<-Starbucks_sum$Starbucks
+B2<-merge(B, Starbucks, by=c("City", "Country"), all.x=T) #combine existing dataset with Starbucks data in new set
+Starbucks_sum<-ddply(B2, .(City), summarize, Starbucks=sum(Starbucks)) #some cities have duplicate entries in Starbucks set
+Starbucks_sum[is.na(Starbucks_sum$Starbucks),]$Starbucks<-0 #Replace NAs with 0
+B2<-B2[!duplicated(B2$City),] #get rid of duplicate entries, keep the original entry
+B2$Starbucks<-Starbucks_sum$Starbucks #replace all starbucks counts with sum count
 #Still need to solve cities in Starbucks database duplicated because of differenet country subdivision
+B2[which(B2$City=="Tokyo"), which(colnames(B2) == "Starbucks")] <- sum(subset(Starbucks, Country=="Japan" & Country.Subdivision==13)$Starbucks)
+#Because Tokyo is considered in the rest of the study as the sum of many subdivisions, but here the starbucks locations are counted by subdivision, sum the results for Tokyo 
 Sys.setlocale("LC_ALL", "fr_FR.UTF-8")
 runways<-read.csv('cities_runways.csv', encoding="UTF-8")
 runways$municipality<-gsub("'|~", "", iconv(runways$municipality, to='ASCII//TRANSLIT'))

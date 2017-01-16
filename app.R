@@ -14,15 +14,23 @@ ui <- fluidPage(
 	fixedRow(
 	column(12,
 		titlePanel(h1("Urban Clustering", align = "center")),
+		  tags$head(
+      tags$style(type='text/css', 
+                 ".nav-tabs {font-size: 5px} ")),
+
 		fixedRow(
-			column(3,
-				sliderInput(inputId = "size", label = "Choose a size", value = 5, min = 1, max = 10, width='200px'),
+			column(3.5,
+				sliderInput(inputId = "size", label = "Choose a size", value = 5, min = 1, max = 10, width='250px'),
 				#place slider on side panel to adjust size of cities
-				selectInput(inputId = 'city', label = 'City', choices=E$City, width='200px', selected='Mumbai'),
-				plotOutput('dens', height = "400px")
+				selectInput(inputId = 'city', label = 'City', choices=E$City, width='250px', selected='Mumbai'),
+				tabsetPanel(
+					tabPanel("Education", plotOutput('dens', height = "360px", width="250px")),
+					tabPanel("Metro Usage", size='5', plotOutput('metro', height="360px", width="250px")),
+					tabPanel("Number of Cinemas", plotOutput('cinema', height="360px", width="250px")),  
+					style='width: 300px')
 				), 
-			column(9,
-				leafletOutput("map", width = "80%", height = "550px") 
+			column(8.5,
+				leafletOutput("map", width = "80%", height = "500px") 
 				)
 			)
 		)
@@ -45,12 +53,13 @@ server <- function(input, output, session) {
 	observe({
 		proxy <- leafletProxy("map", data=E)
 		#Remove any existing legend
-		proxy %>% clearControls() %>% addLegend("topright", colors=pal, title= "Urban Clusters", labels=c('Asian', 'European', 'American', 'Other'), opacity=1)
+		proxy %>% clearControls() %>% addLegend("topright", colors=pal, title= "Urban Clusters", labels=c('Asian', 'European', 'Other', 'American'), opacity=1)
+		#addLegend("topright", pal=colorFactor(pal, domain=E$Cluster), values= ~Cluster, title= "Urban Clusters", labels=c('Asian', 'European', 'American', 'Other'), opacity=1)
 	})
 	
 	# density_data <- reactiveValues(clickedMarker=NULL)
-	observeEvent(input$Map_marker_click,{ 
-		p <- input$map_marker_click
+	observeEvent(input$map_shape_click,{ 
+		p <- input$map_shape_click
 		if(!is.null(p$id)){
 			if(is.null(input$city)) updateSelectInput(session, "city", selected=p$id)
 			if(!is.null(input$city) && input$city!=p$id) updateSelectInput(session, "city", selected=p$id)
@@ -59,10 +68,37 @@ server <- function(input, output, session) {
 
 	observe({
 		output$dens <- renderPlot({
-			event <- input$map_shape_click		
-			ggplot(combo) + geom_density(aes(Educated), fill='darkslateblue') + xlim(0,1) + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - '))
+			event <- input$map_shape_click
+			clicked_subset <- subset(combo, City==input$city)
+			#xplot is helpful to find value in density plot
+			xplot = ifelse(!is.na(clicked_subset$Educated),clicked_subset$Educated, 0)
+			ggplot(combo) + geom_density(aes(Educated), fill='darkslateblue') + xlim(0,1) + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + 
+			#add an orange line that shows the data of the selected city
+			geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot, y=0,
+			#call density function to determine the y-value 
+			yend = density(subset(combo, cluster == clicked_subset$cluster)$Educated, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})
 	})
+	
+	observe({
+		output$metro <- renderPlot({
+			event <- input$map_shape_click
+			clicked_subset <- subset(combo, City==input$city)
+			xplot = ifelse(!is.na(clicked_subset$Usage),clicked_subset$Usage, 0)
+			ggplot(combo) + geom_density(aes(Usage), fill='darkslateblue') + xlim(0,1) + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Usage, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+		})		
+	})
+	observe({
+		output$cinema <- renderPlot({
+			event <- input$map_shape_click
+			clicked_subset <- subset(combo, City==input$city)
+			xplot = ifelse(!is.na(clicked_subset$Cinemas),clicked_subset$Cinemas, 0)
+			ggplot(combo) + geom_density(aes(Cinemas), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Cinemas, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+		})		
+	})
+	
 }
 shinyApp(ui = ui, server = server)
 
