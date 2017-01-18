@@ -19,7 +19,7 @@ ui <- fluidPage(
                  ".nav-tabs {font-size: 5px} ")),
 
 		fixedRow(
-			column(3.5,
+			column(3,
 				sliderInput(inputId = "size", label = "Choose a size", value = 5, min = 1, max = 10, width='250px'),
 				#place slider on side panel to adjust size of cities
 				selectInput(inputId = 'city', label = 'City', choices=E$City, width='250px', selected='Mumbai'),
@@ -27,9 +27,12 @@ ui <- fluidPage(
 					tabPanel("Education", plotOutput('dens', height = "360px", width="250px")),
 					tabPanel("Metro Usage", size='5', plotOutput('metro', height="360px", width="250px")),
 					tabPanel("Number of Cinemas", plotOutput('cinema', height="360px", width="250px")),  
+					tabPanel("Number of Restaurants", plotOutput('restaurants', height="360px", width="250px")),  
+					tabPanel("Working Age Proportion", plotOutput('working', height="360px", width="250px")),  
+					tabPanel("Service Firms/Capita", plotOutput('service', height="360px", width="250px")),
 					style='width: 300px')
 				), 
-			column(8.5,
+			column(9,
 				leafletOutput("map", width = "80%", height = "500px") 
 				)
 			)
@@ -84,11 +87,13 @@ server <- function(input, output, session) {
 		output$metro <- renderPlot({
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
+			#avoid missing data crashing the plot
 			xplot = ifelse(!is.na(clicked_subset$Usage),clicked_subset$Usage, 0)
 			ggplot(combo) + geom_density(aes(Usage), fill='darkslateblue') + xlim(0,1) + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Usage, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})
+	#density plot for cinema
 	observe({
 		output$cinema <- renderPlot({
 			event <- input$map_shape_click
@@ -99,6 +104,36 @@ server <- function(input, output, session) {
 		})		
 	})
 	
+	#density plot for restaurants
+	observe({
+		output$restaurants <- renderPlot({
+			event <- input$map_shape_click
+			clicked_subset <- subset(combo, City==input$city)
+			xplot = ifelse(!is.na(clicked_subset$Number_of_restaurants),clicked_subset$Number_of_restaurants, 0)
+			ggplot(combo) + geom_density(aes(Number_of_restaurants), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Number_of_restaurants, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+		})		
+	})	
+	#density plot for working age pop
+		observe({
+		output$working <- renderPlot({
+			event <- input$map_shape_click
+			clicked_subset <- subset(combo, City==input$city)
+			xplot = ifelse(!is.na(clicked_subset$Working_age),clicked_subset$Working_age, 0)
+			ggplot(combo) + geom_density(aes(Working_age), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Working_age, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+		})		
+	})	
+	#density plot for service firms
+		observe({
+		output$service <- renderPlot({
+			event <- input$map_shape_click
+			clicked_subset <- subset(combo, City==input$city)
+			xplot = ifelse(!is.na(clicked_subset$service.firms),clicked_subset$service.firms, 0)
+			ggplot(combo) + geom_density(aes(service.firms), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$service.firms, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+		})		
+	})
 }
 shinyApp(ui = ui, server = server)
 
