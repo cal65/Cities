@@ -13,10 +13,10 @@ ui <- fluidPage(
 	title = "Urban Clustering",
 	fixedRow(
 	column(12,
-		titlePanel(h1("Urban Clustering", align = "center")),
+		
 		  tags$head(
       tags$style(type='text/css', 
-                 ".nav-tabs {font-size: 5px} ")),
+                 ".nav-tabs {font-size: 6px} ")),
 
 		fixedRow(
 			column(3,
@@ -33,7 +33,8 @@ ui <- fluidPage(
 					style='width: 300px')
 				), 
 			column(9,
-				leafletOutput("map", width = "80%", height = "500px") 
+				titlePanel(h1("Urban Clustering", align = "center")),
+				leafletOutput("map", width = "80%", height = "480px") 
 				)
 			)
 		)
@@ -75,11 +76,11 @@ server <- function(input, output, session) {
 			clicked_subset <- subset(combo, City==input$city)
 			#xplot is helpful to find value in density plot
 			xplot = ifelse(!is.na(clicked_subset$Educated),clicked_subset$Educated, 0)
-			ggplot(combo) + geom_density(aes(Educated), fill='darkslateblue') + xlim(0,1) + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + 
+			ggplot(combo) + geom_density(aes(Educated), fill='darkslateblue') + xlim(0,1) + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + 
 			#add an orange line that shows the data of the selected city
 			geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot, y=0,
 			#call density function to determine the y-value 
-			yend = density(subset(combo, cluster == clicked_subset$cluster)$Educated, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+			yend = density(subset(combo, conts == clicked_subset$conts)$Educated, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})
 	})
 	
@@ -89,7 +90,7 @@ server <- function(input, output, session) {
 			clicked_subset <- subset(combo, City==input$city)
 			#avoid missing data crashing the plot
 			xplot = ifelse(!is.na(clicked_subset$Usage),clicked_subset$Usage, 0)
-			ggplot(combo) + geom_density(aes(Usage), fill='darkslateblue') + xlim(0,1) + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			ggplot(combo) + geom_density(aes(Usage), fill='darkslateblue') + xlim(0,1) + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Usage, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})
@@ -99,8 +100,8 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$Cinemas),clicked_subset$Cinemas, 0)
-			ggplot(combo) + geom_density(aes(Cinemas), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
-			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Cinemas, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+			ggplot(combo) + geom_density(aes(Cinemas), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, conts == clicked_subset$conts)$Cinemas, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})
 	
@@ -110,8 +111,8 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$Number_of_restaurants),clicked_subset$Number_of_restaurants, 0)
-			ggplot(combo) + geom_density(aes(Number_of_restaurants), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
-			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Number_of_restaurants, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+			ggplot(combo) + geom_density(aes(Number_of_restaurants), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, conts == clicked_subset$conts)$Number_of_restaurants, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})	
 	#density plot for working age pop
@@ -120,8 +121,8 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$Working_age),clicked_subset$Working_age, 0)
-			ggplot(combo) + geom_density(aes(Working_age), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
-			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Working_age, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+			ggplot(combo) + geom_density(aes(Working_age), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			y=0, yend = density(subset(combo, conts == clicked_subset$conts)$Working_age, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})	
 	#density plot for service firms
@@ -130,7 +131,7 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$service.firms),clicked_subset$service.firms, 0)
-			ggplot(combo) + geom_density(aes(service.firms), fill='darkslateblue') + facet_grid(cluster ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			ggplot(combo) + geom_density(aes(service.firms), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$service.firms, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})
