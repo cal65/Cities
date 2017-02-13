@@ -16,25 +16,27 @@ ui <- fluidPage(
 		
 		  tags$head(
       tags$style(type='text/css', 
-                 ".nav-tabs {font-size: 6px} ")),
+                 ".nav-tabs {font-size: 5.7px;
+                 	background-color: #002;
+				border-radius: 1px} ")),
 
 		fixedRow(
 			column(3,
-				sliderInput(inputId = "size", label = "Choose a size", value = 5, min = 1, max = 10, width='250px'),
+				sliderInput(inputId = "size", label = "Choose a size", value = 5, min = 1, max = 10, width='200px'),
 				#place slider on side panel to adjust size of cities
-				selectInput(inputId = 'city', label = 'City', choices=E$City, width='250px', selected='Mumbai'),
+				selectInput(inputId = 'city', label = 'City', choices=E$City, width='300px', selected='Edinburgh'),
 				tabsetPanel(
-					tabPanel("Education", plotOutput('dens', height = "360px", width="250px")),
-					tabPanel("Metro Usage", size='5', plotOutput('metro', height="360px", width="250px")),
-					tabPanel("Number of Cinemas", plotOutput('cinema', height="360px", width="250px")),  
-					tabPanel("Number of Restaurants", plotOutput('restaurants', height="360px", width="250px")),  
-					tabPanel("Working Age Proportion", plotOutput('working', height="360px", width="250px")),  
-					tabPanel("Service Firms/Capita", plotOutput('service', height="360px", width="250px")),
+					tabPanel("Education", plotOutput('dens', height = "360px", width="300px")),
+					tabPanel("Number of Cinemas", plotOutput('cinema', height="360px", width="300px")),  				
+					tabPanel("Metro Usage", size='5', plotOutput('metro', height="360px", width="300px")),
+					tabPanel("Number of Restaurants", plotOutput('restaurants', height="360px", width="300px")),  
+					tabPanel("Working Age Proportion", plotOutput('working', height="360px", width="300px")),  
+					tabPanel("Service Firms/Capita", plotOutput('service', height="360px", width="300px")),
 					style='width: 300px')
 				), 
 			column(9,
 				titlePanel(h1("Urban Clustering", align = "center")),
-				leafletOutput("map", width = "80%", height = "480px") 
+				leafletOutput("map", width = "90%", height = "480px") 
 				)
 			)
 		)
