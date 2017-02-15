@@ -1,4 +1,4 @@
-setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/')
+#setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/')
 library(shiny)
 library(ggplot2)
 library(leaflet)
@@ -53,7 +53,7 @@ server <- function(input, output, session) {
 	observe({	
 		cluster_text_options = list(c("University Attainment %", "Foreign Born %", "Metro Usage %", "Number of Comedy Clubs", "Number of Restaurants", "Number of Starbucks"), c("University Attainment %", "Foreign Born %", "Metro Usage %", "GDP", "Number of Restaurants", "Working Age %"))
 		proxy <- leafletProxy("map", data=E)
-		proxy %>% clearShapes() %>% addCircles(lng = ~long, lat = ~lat, radius = ~(65*as.numeric(input$size))^2, color=~pal[Cluster], weight=1,  fillOpacity=0.7, layerId = ~City, popup = ~paste(City,  paste("University Attainment %", sprintf("%.2f", Educated), sep=': '), paste("Foreign Born %", sprintf("%.2f", Foreign_born), sep=': '), paste("Metro Usage %", Usage, sep=': '),  paste("Number of Comedy Clubs", Number_of_comedy, sep=': '), paste("Number of Restaurants", Number_of_restaurants, sep=': '), paste("Number of Starbucks", Starbucks, sep=': '), sep='<br/>')) 
+		proxy %>% clearShapes() %>% addCircles(lng = ~long, lat = ~lat, radius = ~(65*as.numeric(input$size))^2, color=~pal[Cluster], weight=1,  fillOpacity=0.7, layerId = ~City, popup = ~paste(City,  paste("University Attainment %", sprintf("%.2f", Educated), sep=': '), paste("Number of Cinemas", Cinemas, sep=': '), paste("Metro Usage %", Usage, sep=': '), paste("Number of Restaurants", Number_of_restaurants, sep=': '), paste("Working Age %", sprintf("%.2f", Working_age), sep=':'), paste("Number of International Service Firms", service.firms, sep=': '), sep='<br/>')) 
 	})	
 	
 	observe({
