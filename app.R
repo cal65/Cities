@@ -1,4 +1,4 @@
-#setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/')
+setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/')
 library(shiny)
 library(ggplot2)
 library(leaflet)
@@ -26,7 +26,7 @@ ui <- fluidPage(
 				#place slider on side panel to adjust size of cities
 				selectInput(inputId = 'city', label = 'City', choices=E$City, width='300px', selected='Edinburgh'),
 				tabsetPanel(
-					tabPanel("Education", plotOutput('dens', height = "360px", width="300px")),
+					tabPanel("Foreign Born %", plotOutput('dens', height = "360px", width="300px")),
 					tabPanel("Number of Cinemas", plotOutput('cinema', height="360px", width="300px")),  				
 					tabPanel("Metro Usage", size='5', plotOutput('metro', height="360px", width="300px")),
 					tabPanel("Number of Restaurants", plotOutput('restaurants', height="360px", width="300px")),  
@@ -51,9 +51,9 @@ server <- function(input, output, session) {
 		})
 					
 	observe({	
-		cluster_text_options = list(c("University Attainment %", "Foreign Born %", "Metro Usage %", "Number of Comedy Clubs", "Number of Restaurants", "Number of Starbucks"), c("University Attainment %", "Foreign Born %", "Metro Usage %", "GDP", "Number of Restaurants", "Working Age %"))
+		cluster_text_options = list(c("University Education", "Foreign Born %", "Metro Usage %", "Number of Comedy Clubs", "Number of Restaurants", "Number of Starbucks"), c("University Education", "Foreign Born %", "Metro Usage %", "GDP", "Number of Restaurants", "Working Age %"))
 		proxy <- leafletProxy("map", data=E)
-		proxy %>% clearShapes() %>% addCircles(lng = ~long, lat = ~lat, radius = ~(65*as.numeric(input$size))^2, color=~pal[Cluster], weight=1,  fillOpacity=0.7, layerId = ~City, popup = ~paste(City,  paste("University Attainment %", sprintf("%.2f", Educated), sep=': '), paste("Number of Cinemas", Cinemas, sep=': '), paste("Metro Usage %", Usage, sep=': '), paste("Number of Restaurants", Number_of_restaurants, sep=': '), paste("Working Age %", sprintf("%.2f", Working_age), sep=':'), paste("Number of International Service Firms", service.firms, sep=': '), sep='<br/>')) 
+		proxy %>% clearShapes() %>% addCircles(lng = ~long, lat = ~lat, radius = ~(65*as.numeric(input$size))^2, color=~pal[Cluster], weight=1,  fillOpacity=0.7, layerId = ~City, popup = ~paste(City,  paste("Foreign Born %", sprintf("%.2f", Foreign_born), sep=': '), paste("Number of Cinemas", Cinemas, sep=': '), paste("Metro Usage %", Usage, sep=': '), paste("Number of Restaurants", Number_of_restaurants, sep=': '), paste("Working Age %", sprintf("%.2f", Working_age), sep=':'), paste("Number of International Service Firms", service.firms, sep=': '), sep='<br/>')) 
 	})	
 	
 	observe({
@@ -77,12 +77,12 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			#xplot is helpful to find value in density plot
-			xplot = ifelse(!is.na(clicked_subset$Educated),clicked_subset$Educated, 0)
-			ggplot(combo) + geom_density(aes(Educated), fill='darkslateblue') + xlim(0,1) + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + 
+			xplot = ifelse(!is.na(clicked_subset$Foreign_born),clicked_subset$Foreign_born, 0)
+			ggplot(combo) + geom_density(aes(Foreign_born), fill='darkslateblue') + xlim(0,1) + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + xlab('Foreign Born %') +
 			#add an orange line that shows the data of the selected city
 			geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot, y=0,
 			#call density function to determine the y-value 
-			yend = density(subset(combo, conts == clicked_subset$conts)$Educated, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
+			yend = density(subset(combo, conts == clicked_subset$conts)$Foreign_born, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})
 	})
 	
@@ -92,7 +92,7 @@ server <- function(input, output, session) {
 			clicked_subset <- subset(combo, City==input$city)
 			#avoid missing data crashing the plot
 			xplot = ifelse(!is.na(clicked_subset$Usage),clicked_subset$Usage, 0)
-			ggplot(combo) + geom_density(aes(Usage), fill='darkslateblue') + xlim(0,1) + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			ggplot(combo) + geom_density(aes(Usage), fill='darkslateblue') + xlim(0,1) + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + xlab('Metro Usage %') +geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$Usage, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})
@@ -113,7 +113,7 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$Number_of_restaurants),clicked_subset$Number_of_restaurants, 0)
-			ggplot(combo) + geom_density(aes(Number_of_restaurants), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			ggplot(combo) + geom_density(aes(Number_of_restaurants), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + xlab('Number of Restaurants') + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, conts == clicked_subset$conts)$Number_of_restaurants, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})	
@@ -123,7 +123,7 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$Working_age),clicked_subset$Working_age, 0)
-			ggplot(combo) + geom_density(aes(Working_age), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			ggplot(combo) + geom_density(aes(Working_age), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + xlab('Working Age %') + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, conts == clicked_subset$conts)$Working_age, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})	
@@ -133,7 +133,7 @@ server <- function(input, output, session) {
 			event <- input$map_shape_click
 			clicked_subset <- subset(combo, City==input$city)
 			xplot = ifelse(!is.na(clicked_subset$service.firms),clicked_subset$service.firms, 0)
-			ggplot(combo) + geom_density(aes(service.firms), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
+			ggplot(combo) + geom_density(aes(service.firms), fill='darkslateblue') + facet_grid(conts ~ .) + ggtitle(paste('Data', input$city, sep=' - ')) + xlab('International Service Firms/Capita') + geom_segment(data= clicked_subset, aes(x= xplot, xend= xplot,
 			y=0, yend = density(subset(combo, cluster == clicked_subset$cluster)$service.firms, na.rm=T, from = xplot, to = xplot, n=1)$y), color='orange')
 		})		
 	})
