@@ -17,7 +17,7 @@ def parse_float(data):
 def main():
     engine = create_engine('sqlite:///cities.db')
     session = Session(bind=engine)
-    with open('CitySet_python.csv') as f:
+    with open('CitySet_python.csv', 'rb') as f:
         reader = csv.reader(f)
         firstline = True
         for line in reader:
