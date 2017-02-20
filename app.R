@@ -1,4 +1,4 @@
-setwd('/Users/christopherlee/Documents/CAL/Real_Life/Cities/')
+#setwd('~/Documents/CAL/Real_Life/Cities/')
 library(shiny)
 library(ggplot2)
 library(leaflet)
@@ -59,7 +59,7 @@ server <- function(input, output, session) {
 	observe({
 		proxy <- leafletProxy("map", data=E)
 		#Remove any existing legend
-		proxy %>% clearControls() %>% addLegend("topright", colors=pal, title= "Urban Clusters", labels=c('Asian', 'European', 'Other', 'American'), opacity=1)
+		proxy %>% clearControls() %>% addLegend("topright", colors=pal, title= "Urban Clusters", labels=c('European', 'Asian', 'Other', 'American'), opacity=1)
 		#addLegend("topright", pal=colorFactor(pal, domain=E$Cluster), values= ~Cluster, title= "Urban Clusters", labels=c('Asian', 'European', 'American', 'Other'), opacity=1)
 	})
 	
